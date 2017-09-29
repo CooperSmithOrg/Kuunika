@@ -1,0 +1,79 @@
+,POSTNATAL REGISTER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,MOTHER  ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BABY ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PMTCT Management,,,,,,
+,"Registration Cohort:                                    
+
+Year
+
+Month",,Only Enter Scheduled checks,Mother Status,,Postnatal Check Details : Is the Check within ,,,,,,Breasfeeding,,Embolism,,Episiotomy,,Lochia                                            ,,,,Postnatal Complications                                              (Circle applicable complication(s)),,,,,,Vitamin A Supplementation?,,Counseling on Family Planning,,PostPartum Family Planning Method Given,,,,Condition at birth,,Rescuscitation attempted,,Baby Status,,Postnatal Visit Details : Is the visit within ,,,,,,,Immunization ,,"Danger Signs and Complications at Visit
+(Circle all applicable)",,,,,,,,,,Cord Care(Chlorohexidine used),,Tetracycline Eye Ointment Given,,KMC,,Nevirapine,,,Cotrimoxazole Prophylaxis Therapy,,,Comments
+q,Mother's details,,Postnatal check date,Alive,Died,Up to 48 hours (or before discharge),,2-7 days,,8-42 days,,1. Initiated                   ,2. Not initiated,1.Tender       ,2.Non-tender,1. Intact,2. infected ,1. Normal   ,2. Offensive ,3. Bright Red   ,4. Heavy,None,Sepsis,Anaemia,Postpartum Haemorhage,Pregnancy Induced Hypertension,Breast Engorgement, Yes,No, Yes,No,BTL,IUCD,Comment,Baby's Details,Well,Asphyxia,Yes,No,Alive,Died,Up to 48 hours (or before discharge),,2-7 days,,8-42 days,,Weight (Kg), BCG,Polio 0,None,not able to feed,Fever (37.5C),Hypothermia (35.4 C),Convulsions,Movement on stimulation,Chest in-drawing,Fast breathing (> 60 breaths/min),Local Infection,Jaundice, Yes,No, Yes,No, Yes,No, Yes,No,N/A, Yes,No,N/A,
+,Maternity Admission number:,Name of Mother:,1___________________,Alive,Died,Y,N,Y,N,Y,N,1,2,1,2,1,2,1,2,3,4,None,Sep,Anae,PPH,PIH,BE,Y,N,Y,N,BTL,IUCD,,Name of baby/REG No.:,Well,Asph,Y,N,Alive,Died,Y,N,Y,N,Y,N,,BCG,Polio 0,None,No feed,Fvr,HypoT,Convul,Move on stim,inDraw,FB,Local Inf,Jaun,Y,N,Y,N,Y,N,Y,N,N/A,Y,N,N/A,
+,Home Address,Date of Delivery:     ,2___________________,Alive,Died,Y,N,Y,N,Y,N,1,2,1,2,1,2,1,2,3,4,None,Sep,Anae,PPH,PIH,BE,Y,N,Y,N,BTL,IUCD,,Sex:                                                M          F,Well,Asph,Y,N,Alive,Died,Y,N,Y,N,Y,N,,BCG,Polio 0,None,No feed,Fvr,HypoT,Convul,Move on stim,inDraw,FB,Local Inf,Jaun,Y,N,Y,N,Y,N,Y,N,N/A,Y,N,N/A,
+,"Mode of delivery:
+SVD       VE          BR       CS","Place of delivery: 
+Here         TR         OthF      Home",3___________________,Alive,Died,Y,N,Y,N,Y,N,1,2,1,2,1,2,1,2,3,4,None,Sep,Anae,PPH,PIH,BE,Y,N,Y,N,BTL,IUCD,,"Birthweight (Kg): 
+",Well,Asph,Y,N,Alive,Died,Y,N,Y,N,Y,N,,BCG,,None,No feed,Fvr,HypoT,Convul,Move on stim,inDraw,FB,Local Inf,Jaun,Y,N,Y,N,Y,N,Y,N,N/A,Y,N,N/A,
+,"Place of next postnatal checks:
+Here       OtherF",,4___________________,Alive,Died,Y,N,Y,N,Y,N,1,2,1,2,1,2,1,2,3,4,None,Sep,Anae,PPH,PIH,BE,Y,N,Y,N,BTL,IUCD,,Name of baby/REG No.:,Well,Asph,Y,N,Alive,Died,Y,N,Y,N,Y,N,,BCG,,None,No feed,Fvr,HypoT,Convul,Move on stim,inDraw,FB,Local Inf,Jaun,Y,N,Y,N,Y,N,Y,N,N/A,Y,N,N/A,
+,,"Case summary
+
+Checked twice in 7days?",Total checks,Final Status of Mother,,Checked within 48 hours (or before discharge),,Checked within 2-7 days,,Checked at 8-42 days,,Breasfeeding,,Embolism,,Episiotomy,,Ever had ,,,,Circle all complications which the woman had during the postnatal period,,,,,,Given at least 1 dose Vit A,,Counselled on FP,,Method of Family Planning given,,,"Case summary
+
+Checked Twice in 7 days",,,,,Final Status of baby,,Up to 48 hours (or before discharge),,2-7 days,,8-42 days,,,BCG and Polio 0 given,,Circle all complications which the baby had during the postnatal period,,,,,,,,,,Chlorohexidine used,,TEO ever given,,Was Baby on KMC?,,Baby on NVP,,,Baby on CPT,,,
+,,Y                 N,1                    2                 3,Alive,Died,Y,N,Y,N,Y,N,1,2,1,2,1,2,1,2,3,4,None,Sep,Anae,PPH,PIH,BE,Y,N,Y,N,BTL,IUCD,,Y          N,,,,,Alive,Died,Y,N,Y,N,Y,N,,Y,N,None,not able to feed,Fever,Hypothermia,Convulsions,Movement on stimulation,Chest in-drawing,Fast breathing,Local Infection,Jaundice,Y,N,Y,N,Y,N,Y,N,N/A,Y,N,N/A,
+,Maternity Admission number:,Name of Mother:,1___________________,Alive,Died,Y,N,Y,N,Y,N,1,2,1,2,1,2,1,2,3,4,None,Sep,Anae,PPH,PIH,BE,Y,N,Y,N,BTL,IUCD,,Name of baby/REG No.:,Well,Asph,Y,N,Alive,Died,Y,N,Y,N,Y,N,,BCG,Polio 0,None,No feed,Fvr,HypoT,Convul,Move on stim,inDraw,FB,Local Inf,Jaun,Y,N,Y,N,Y,N,Y,N,N/A,Y,N,N/A,
+,Home Address,Date of Delivery:     ,2___________________,Alive,Died,Y,N,Y,N,Y,N,1,2,1,2,1,2,1,2,3,4,None,Sep,Anae,PPH,PIH,BE,Y,N,Y,N,BTL,IUCD,,Sex:                                                M          F,Well,Asph,Y,N,Alive,Died,Y,N,Y,N,Y,N,,BCG,Polio 0,None,No feed,Fvr,HypoT,Convul,Move on stim,inDraw,FB,Local Inf,Jaun,Y,N,Y,N,Y,N,Y,N,N/A,Y,N,N/A,
+,"Mode of delivery:
+SVD       VE          BR       CS","Place of delivery: 
+Here         TR         OthF      Home",3___________________,Alive,Died,Y,N,Y,N,Y,N,1,2,1,2,1,2,1,2,3,4,None,Sep,Anae,PPH,PIH,BE,Y,N,Y,N,BTL,IUCD,,"Birthweight (Kg): 
+",Well,Asph,Y,N,Alive,Died,Y,N,Y,N,Y,N,,BCG,,None,No feed,Fvr,HypoT,Convul,Move on stim,inDraw,FB,Local Inf,Jaun,Y,N,Y,N,Y,N,Y,N,N/A,Y,N,N/A,
+,"Place of next postnatal checks:
+Here       OtherF",,4___________________,Alive,Died,Y,N,Y,N,Y,N,1,2,1,2,1,2,1,2,3,4,None,Sep,Anae,PPH,PIH,BE,Y,N,Y,N,BTL,IUCD,,Name of baby/REG No.:,Well,Asph,Y,N,Alive,Died,Y,N,Y,N,Y,N,,BCG,,None,No feed,Fvr,HypoT,Convul,Move on stim,inDraw,FB,Local Inf,Jaun,Y,N,Y,N,Y,N,Y,N,N/A,Y,N,N/A,
+,,"Case summary
+
+Checked twice in 7days?",Total checks,Final Status of Mother,,Checked within 48 hours (or before discharge),,Checked within 2-7 days,,Checked at 8-42 days,,Breasfeeding,,Embolism,,Episiotomy,,Ever had ,,,,Circle all complications which the woman had during the postnatal period,,,,,,Given at least 1 dose Vit A,,Counselled on FP,,Method of Family Planning given,,,"Case summary
+
+Checked Twice in 7 days",,,,,Final Status of baby,,Up to 48 hours (or before discharge),,2-7 days,,8-42 days,,,BCG and Polio 0 given,,,Circle all complications which the baby had during the postnatal period,,,,,,,,,Chlorohexidine used,,TEO ever given,,Was Baby on KMC?,,Baby on NVP,,,Baby on CPT,,,
+,,Y                 N,1                    2                 3,Alive,Died,Y,N,Y,N,Y,N,1,2,1,2,1,2,1,2,3,4,None,Sep,Anae,PPH,PIH,BE,Y,N,Y,N,BTL,IUCD,,Y          N,,,,,Alive,Died,Y,N,Y,N,Y,N,,Y,N,None,not able to feed,Fever,Hypothermia,Convulsions,Movement on stimulation,Chest in-drawing,Fast breathing,Local Infection,Jaundice,Y,N,Y,N,Y,N,Y,N,N/A,Y,N,N/A,
+,Maternity Admission number:,Name of Mother:,1___________________,Alive,Died,Y,N,Y,N,Y,N,1,2,1,2,1,2,1,2,3,4,None,Sep,Anae,PPH,PIH,BE,Y,N,Y,N,BTL,IUCD,,Name of baby/REG No.:,Well,Asph,Y,N,Alive,Died,Y,N,Y,N,Y,N,,BCG,Polio 0,None,No feed,Fvr,HypoT,Convul,Move on stim,inDraw,FB,Local Inf,Jaun,Y,N,Y,N,Y,N,Y,N,N/A,Y,N,N/A,
+,Home Address,Date of Delivery:     ,2___________________,Alive,Died,Y,N,Y,N,Y,N,1,2,1,2,1,2,1,2,3,4,None,Sep,Anae,PPH,PIH,BE,Y,N,Y,N,BTL,IUCD,,Sex:                                                M          F,Well,Asph,Y,N,Alive,Died,Y,N,Y,N,Y,N,,BCG,Polio 0,None,No feed,Fvr,HypoT,Convul,Move on stim,inDraw,FB,Local Inf,Jaun,Y,N,Y,N,Y,N,Y,N,N/A,Y,N,N/A,
+,"Mode of delivery:
+SVD       VE          BR       CS","Place of delivery: 
+Here         TR         OthF      Home",3___________________,Alive,Died,Y,N,Y,N,Y,N,1,2,1,2,1,2,1,2,3,4,None,Sep,Anae,PPH,PIH,BE,Y,N,Y,N,BTL,IUCD,,"Birthweight (Kg): 
+",Well,Asph,Y,N,Alive,Died,Y,N,Y,N,Y,N,,BCG,,None,No feed,Fvr,HypoT,Convul,Move on stim,inDraw,FB,Local Inf,Jaun,Y,N,Y,N,Y,N,Y,N,N/A,Y,N,N/A,
+,"Place of next postnatal checks:
+Here       OtherF",,4___________________,Alive,Died,Y,N,Y,N,Y,N,1,2,1,2,1,2,1,2,3,4,None,Sep,Anae,PPH,PIH,BE,Y,N,Y,N,BTL,IUCD,,Name of baby/REG No.:,Well,Asph,Y,N,Alive,Died,Y,N,Y,N,Y,N,,BCG,,None,No feed,Fvr,HypoT,Convul,Move on stim,inDraw,FB,Local Inf,Jaun,Y,N,Y,N,Y,N,Y,N,N/A,Y,N,N/A,
+,,"Case summary
+
+Checked twice in 7days?",Total checks,Final Status of Mother,,Checked within 48 hours (or before discharge),,Checked within 2-7 days,,Checked at 8-42 days,,Breasfeeding,,Embolism,,Episiotomy,,Ever had ,,,,Circle all complications which the woman had during the postnatal period,,,,,,Given at least 1 dose Vit A,,Counselled on FP,,Method of Family Planning given,,,"Case summary
+
+Checked Twice in 7 days",,,,,Final Status of baby,,Up to 48 hours (or before discharge),,2-7 days,,8-42 days,,,BCG and Polio 0 given,,Circle all complications which the baby had during the postnatal period,,,,,,,,,,Chlorohexidine used,,TEO ever given,,Was Baby on KMC?,,Baby on NVP,,,Baby on CPT,,,
+,,Y                 N,1                    2                 3,Alive,Died,Y,N,Y,N,Y,N,1,2,1,2,1,2,1,2,3,4,None,Sep,Anae,PPH,PIH,BE,Y,N,Y,N,BTL,IUCD,,Y          N,,,,,Alive,Died,Y,N,Y,N,Y,N,,Y,N,None,not able to feed,Fever,Hypothermia,Convulsions,Movement on stimulation,Chest in-drawing,Fast breathing,Local Infection,Jaundice,Y,N,Y,N,Y,N,Y,N,N/A,Y,N,N/A,
+,Maternity Admission number:,Name of Mother:,1___________________,Alive,Died,Y,N,Y,N,Y,N,1,2,1,2,1,2,1,2,3,4,None,Sep,Anae,PPH,PIH,BE,Y,N,Y,N,BTL,IUCD,,Name of baby/REG No.:,Well,Asph,Y,N,Alive,Died,Y,N,Y,N,Y,N,,BCG,Polio 0,None,No feed,Fvr,HypoT,Convul,Move on stim,inDraw,FB,Local Inf,Jaun,Y,N,Y,N,Y,N,Y,N,N/A,Y,N,N/A,
+,Home Address,Date of Delivery:     ,2___________________,Alive,Died,Y,N,Y,N,Y,N,1,2,1,2,1,2,1,2,3,4,None,Sep,Anae,PPH,PIH,BE,Y,N,Y,N,BTL,IUCD,,Sex:                                                M          F,Well,Asph,Y,N,Alive,Died,Y,N,Y,N,Y,N,,BCG,Polio 0,None,No feed,Fvr,HypoT,Convul,Move on stim,inDraw,FB,Local Inf,Jaun,Y,N,Y,N,Y,N,Y,N,N/A,Y,N,N/A,
+,"Mode of delivery:
+SVD       VE          BR       CS","Place of delivery: 
+Here         TR         OthF      Home",3___________________,Alive,Died,Y,N,Y,N,Y,N,1,2,1,2,1,2,1,2,3,4,None,Sep,Anae,PPH,PIH,BE,Y,N,Y,N,BTL,IUCD,,"Birthweight (Kg): 
+",Well,Asph,Y,N,Alive,Died,Y,N,Y,N,Y,N,,BCG,,None,No feed,Fvr,HypoT,Convul,Move on stim,inDraw,FB,Local Inf,Jaun,Y,N,Y,N,Y,N,Y,N,N/A,Y,N,N/A,
+,"Place of next postnatal checks:
+Here       OtherF",,4___________________,Alive,Died,Y,N,Y,N,Y,N,1,2,1,2,1,2,1,2,3,4,None,Sep,Anae,PPH,PIH,BE,Y,N,Y,N,BTL,IUCD,,Name of baby/REG No.:,Well,Asph,Y,N,Alive,Died,Y,N,Y,N,Y,N,,BCG,,None,No feed,Fvr,HypoT,Convul,Move on stim,inDraw,FB,Local Inf,Jaun,Y,N,Y,N,Y,N,Y,N,N/A,Y,N,N/A,
+,,"Case summary
+
+Checked twice in 7days?",Total checks,Final Status of Mother,,Checked within 48 hours (or before discharge),,Checked within 2-7 days,,Checked at 8-42 days,,Breasfeeding,,Embolism,,Episiotomy,,Ever had ,,,,Circle all complications which the woman had during the postnatal period,,,,,,Given at least 1 dose Vit A,,Counselled on FP,,Method of Family Planning given,,,"Case summary
+
+Checked Twice in 7 days",,,,,Final Status of baby,,Up to 48 hours (or before discharge),,2-7 days,,8-42 days,,,BCG and Polio 0 given,,Circle all complications which the baby had during the postnatal period,,,,,,,,,,Chlorohexidine used,,TEO ever given,,Was Baby on KMC?,,Baby on NVP,,,Baby on CPT,,,
+,,Y                 N,1                    2                 3,Alive,Died,Y,N,Y,N,Y,N,1,2,1,2,1,2,1,2,3,4,None,Sep,Anae,PPH,PIH,BE,Y,N,Y,N,BTL,IUCD,,Y          N,,,,,Alive,Died,Y,N,Y,N,Y,N,,Y,N,None,not able to feed,Fever,Hypothermia,Convulsions,Movement on stimulation,Chest in-drawing,Fast breathing,Local Infection,Jaundice,Y,N,Y,N,Y,N,Y,N,N/A,Y,N,N/A,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,For second twin,Name of baby/REG No.:,Well,Asph,Y,N,Alive,Died,Y,N,Y,N,Y,N,,BCG,Polio 0,None,No feed,Fvr,HypoT,Convul,Move on stim,inDraw,FB,Local Inf,Jaun,Y,N,Y,N,Y,N,Y,N,N/A,Y,N,N/A,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Mothers maternity registration number,Sex:                                                M          F,Well,Asph,Y,N,Alive,Died,Y,N,Y,N,Y,N,,BCG,Polio 0,None,No feed,Fvr,HypoT,Convul,Move on stim,inDraw,FB,Local Inf,Jaun,Y,N,Y,N,Y,N,Y,N,N/A,Y,N,N/A,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Birthweight (Kg): 
+",Well,Asph,Y,N,Alive,Died,Y,N,Y,N,Y,N,,BCG,,None,No feed,Fvr,HypoT,Convul,Move on stim,inDraw,FB,Local Inf,Jaun,Y,N,Y,N,Y,N,Y,N,N/A,Y,N,N/A,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Name of baby/REG No.:,Well,Asph,Y,N,Alive,Died,Y,N,Y,N,Y,N,,BCG,,None,No feed,Fvr,HypoT,Convul,Move on stim,inDraw,FB,Local Inf,Jaun,Y,N,Y,N,Y,N,Y,N,N/A,Y,N,N/A,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Case summary
+
+Checked Twice in 7 days",,,,,Final Status of baby,,Up to 48 hours (or before discharge),,2-7 days,,8-42 days,,,BCG and Polio 0 given,,Circle all complications which the baby had during the postnatal period,,,,,,,,,,Chlorohexidine used,,TEO ever given,,Was Baby on KMC?,,Baby on NVP,,,Baby on CPT,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Y          N,,,,,Alive,Died,Y,N,Y,N,Y,N,,Y,N,None,not able to feed,Fever,Hypothermia,Convulsions,Movement on stimulation,Chest in-drawing,Fast breathing,Local Infection,Jaundice,Y,N,Y,N,Y,N,Y,N,N/A,Y,N,N/A,
+,,,,,,,,,,,,,,,,,,,,,,Summary of postnatal complications,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Number of Babies who had any of these conditions,,,,,,,,,,,,,,,,,,,,,
+,"Total number of women who delivered
+
+Here         TR         OthF      Home",Checked Twice in 7 days,Number of women with 2 or more checks,Total mothers Alive,Total mothers Died,Checked within 48 hours (or before discharge),,Checked within 2-7 days,,Checked at 8-42 days,,Breasfeeding,,Tender Embolism,,Infected Episiotomy,,Offensive Lochia,,Bright red  Lochia,Heavy Lochia,None,Sepsis,Anaemia,PPH,PIH,Breast Engorgement,Given atleast 1 dose Vit A Supple ntation,,Counselled on Family Planning,,BTL,IUCD,,,,,,,Total babies Alive,Total babies Died,Up to 48 hours (or before discharge),,2-7 days,,8-42 days,,,BCG and Polio 0 given,,None,not able to feed,Fever,Hypothermia,Convulsions,Movement on stimulation,Chest in-drawing,Fast breathing,Local Infection,Jaundice,Chlorohexidine used,,TEO ever given,,Babies on KMC?,,On NVP,,,On CPT,,,

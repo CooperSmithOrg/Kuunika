@@ -1,0 +1,104 @@
+﻿Pertains To,VARIABLE,DATA TYPE,NULL,OPTIONS,Condition,Condition Status
+Details of Child,SURNAME,TEXT,0,NULL,NULL,NULL
+Details of Child,FIRST NAME,TEXT,0,NULL,NULL,NULL
+Details of Child,OTHER,TEXT,1,NULL,NULL,NULL
+Details of Child,DATE OF BIRTH,DATE,0,NULL,"Less or equal today
+Not less than 42 ago",passed
+Details of Child,SEX,TEXT,0,"MALE
+FEMALE",NULL,NULL
+Details of Child,BIRTH WEIGHT,NUMERIC,1,NULL,"Greater than 0.7 Kg
+Less than 6.0. Kg",passed
+Details of Child,Type of birth,TEXT,NULL,"SINGLE
+TWIN
+SECOND TWIN
+TRIPLET
+SECOND TRIPLET
+THIRD TRIPLET
+OTHER",NULL,NULL
+Details of Child,Specify Other type of Birth,TEXT,1,NULL,IF Type of birth  = Other,NULL
+Details of Child,"Are the parents married to
+Each other",TEXT,0,"YES
+NO",NULL,NULL
+Details of Child,"If yes, date of marriage",DATE,1,NULL,"IF 11 IS YES
+Date not greater than today",NULL
+Details of Mother,Maiden Surname,TEXT,0,NULL,NULL,NULL
+Details of Mother,FIRST NAME,TEXT,0,NULL,NULL,NULL
+Details of Mother,Other name,TEXT,1,NULL,NULL,NULL
+Details of Mother,ID Number,disable,NULL,disable,disable,NULL
+Details of Mother,DATE OF BIRTH,DATE,1,NULL,"Should be 8 years greater that age child
+Less than 100 years",NULL
+Details of Mother,Nationality,TEXT,0,LIST OF ALL NATIONALITIES,NULL,NULL
+Details of Mother,Country of Residence,TEXT,0,LIST OF COUNTRIES,NULL,NULL
+Details of Mother,District,TEXT,0,LIST OF DISTRICTS,NULL,NULL
+Details of Mother,T/A or Area of Residence,TEXT,1,LIST OF TA FOR DISTRICT,NULL,NULL
+Details of Mother,VILLAGE/TOWN,TEXT,1,LIST OF VILLAGES FOR TA,NULL,NULL
+Details of Mother,Home address same as the physical address,TEXT,0,"YES
+NO",Not recorded,NULL
+Details of Mother,District,TEXT,0,LIST OF DISTRICTS,NULL,NULL
+Details of Mother,T/A or Area of Residence,TEXT,1,LIST OF TA FOR DISTRICT,NULL,NULL
+Details of Mother,VILLAGE/TOWN,TEXT,1,LIST OF VILLAGES FOR TA,NULL,NULL
+Details of Mother,Gestation age at birth in weeks,NUMERIC,1,NULL,"greater that 22
+Less than or equal to 45",NULL
+Details of Mother,Number of prenatal visits,NUMERIC,1,NULL,"greater that 3
+Less than or equal to 6
+Verify from SOP",NULL
+Details of Mother,Month of pregnancy prenatal care started,NUMERIC,1,NULL,"greater that 1
+Less than or equal to 10",NULL
+Details of Mother,Mode of delivery,TEXT,1,"SVD
+VACUUM EXTRACTION
+BREEECH
+FORCEPS
+CAESAREAN SECTION",NULL,NULL
+Details of Mother,"Number of children born to the mother, including this child",NUMERIC,0,NULL,"greater that 1
+Less than or equal to 20",NULL
+Details of Mother,"Number of children born to the mother, and still living",NUMERIC,1,NULL,Equal to or less that data in Q31,NULL
+Details of Mother,Completed Level of eduction,TEXT,1,"None
+Primary
+Secondary
+Higher Education",NULL,NULL
+Details of Father,SURNAME,TEXT,0,NULL,NULL,NULL
+Details of Father,FIRST NAME,TEXT,0,NULL,NULL,NULL
+Details of Father,Other name,TEXT,1,NULL,NULL,NULL
+Details of Father,ID Number,disable,NULL,disable,disable,NULL
+Details of Father,DATE OF BIRTH,DATE,1,NULL,"Should be 8 years greater that age child
+Less than 100 years",NULL
+Details of Father,Nationality,TEXT,0,LIST OF ALL NATIONALITIES,NULL,NULL
+Details of Father,Country of Residence,TEXT,0,LIST OF COUNTRIES,NULL,NULL
+Details of Father,Same as mother's,TEXT,0,"YES
+NO",NULL,NULL
+Details of Father,District,TEXT,0,LIST OF DISTRICTS,NULL,NULL
+Details of Father,T/A or Area of Residence,TEXT,1,LIST OF TA FOR DISTRICT,NULL,NULL
+Details of Father,VILLAGE/TOWN,TEXT,1,LIST OF VILLAGES FOR TA,NULL,NULL
+Details of Father,Home address same as the physical address,TEXT,0,"YES
+NO",Not recorded,NULL
+Details of Father,District,TEXT,0,LIST OF DISTRICTS,NULL,NULL
+Details of Father,T/A or Area of Residence,TEXT,1,LIST OF TA FOR DISTRICT,NULL,NULL
+Details of Father,VILLAGE/TOWN,TEXT,1,LIST OF VILLAGES FOR TA,NULL,NULL
+Details of informant,Mother is informant,TEXT,0,"YES
+NO",NULL,NULL
+Details of informant,Father is informant,TEXT,0,"YES
+NO",Ask if mother is not informant,NULL
+Details of informant,SURNAME,TEXT,0,NULL,NULL,NULL
+Details of informant,FIRST NAME,TEXT,0,NULL,NULL,NULL
+Details of informant,Other name,TEXT,1,NULL,NULL,NULL
+Details of informant,ID Number,disable,NULL,disable,disable,NULL
+Details of informant,DATE OF BIRTH,DATE,1,NULL,"Should be 8 years greater that age child
+Less than 100 years",NULL
+Details of informant,Relationship to child,TEXT,1,"Mother
+Father
+Brother/Sister
+Aunt/Uncle
+Mother-in-law/Father-in-law
+Sister-in-marriage/Brother-in-marriage",NULL,NULL
+Details of informant,District,TEXT,0,LIST OF DISTRICTS,NULL,NULL
+Details of informant,T/A or Area of Residence,TEXT,1,LIST OF TA FOR DISTRICT,NULL,NULL
+Details of informant,VILLAGE/TOWN,TEXT,1,LIST OF VILLAGES FOR TA,NULL,NULL
+Details of informant,Postal Address,TEXT 1,NULL,NULL,NULL,NULL
+Details of informant,NULL,TEXT 2,NULL,NULL,NULL,NULL
+Details of informant,Phone number,NUMERIC,1,NULL,NULL,NULL
+Details of informant,Has the form been signed by the informant,TEXT,0,"YES
+NO",NULL,NULL
+Details of informant,Date of reporting,DATE,0,NULL,"Equal to or greater date of birth
+Equal to or less than today",NULL
+Details of informant,Replace Child Surname with Mother Maiden Surname,TEXT,0,"YES
+NO",NULL,NULL
