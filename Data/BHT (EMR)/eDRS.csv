@@ -1,0 +1,83 @@
+Category,Variable,Type,Options
+DECEASED'S DETAILS,First Name,Text,
+DECEASED'S DETAILS,Middle Name,Text,
+DECEASED'S DETAILS,Last Name,Text,
+DECEASED'S DETAILS,Gender,Text,
+DECEASED'S DETAILS,In Number,Text,
+DECEASED'S DETAILS,Death Entry Number,Text,
+DECEASED'S DETAILS,Death Registration Number,Text,
+DECEASED'S DETAILS,Birth Date,Date,
+DECEASED'S DETAILS,Date Of Death,Date,
+DECEASED'S DETAILS,Birth Certificate Number,Text,
+DECEASED'S DETAILS,Citizenship,Text,
+DECEASED'S DETAILS,Place Of Death,Text,
+DECEASED'S DETAILS,Cause Of Death,Text,
+DECEASED'S DETAILS,Home Village,Text,
+DECEASED'S DETAILS,Home Ta,Text,
+DECEASED'S DETAILS,Home District,Text,
+DECEASED'S DETAILS,Home Country,Text,
+DECEASED'S DETAILS,Death By Pregnancy,Boolean,
+DECEASED'S DETAILS,Form Signed,Boolean,
+DECEASED'S DETAILS,Approved,Boolean,
+DECEASED'S DETAILS,Status,Text,#Active|Approved|Printed|Reprinted
+MOTHER DETAILS/LOCAL,Id Number,Text,
+MOTHER DETAILS/LOCAL,First Name,Text,
+MOTHER DETAILS/LOCAL,Middle Name,Text,
+MOTHER DETAILS/LOCAL,Last Name,Text,
+MOTHER DETAILS/LOCAL,Gender,Text,
+MOTHER DETAILS/LOCAL,Birth Date,Date,
+MOTHER DETAILS/LOCAL,Current Village,Text,
+MOTHER DETAILS/LOCAL,Current Ta,Text,
+MOTHER DETAILS/LOCAL,Current District,Text,
+MOTHER DETAILS/LOCAL,Home Village,Text,
+MOTHER DETAILS/LOCAL,Home Ta,Text,
+MOTHER DETAILS/LOCAL,Home District,Text,
+MOTHER DETAILS/LOCAL,Home Country,Text,
+MOTHER DETAILS/LOCAL,Citizenship,Text,
+MOTHER DETAILS/LOCAL,Occupation,Text,
+MOTHER DETAILS/FOREIGNER,Residential Country,Text,#Country
+MOTHER DETAILS/FOREIGNER,Foreigner Current District,Text,#District/State
+MOTHER DETAILS/FOREIGNER,Foreigner Current Village,Text,#Village/Town
+MOTHER DETAILS/FOREIGNER,Foreigner Current Ta,Text,#Address
+MOTHER DETAILS/FOREIGNER,Foreigner Home District,Text,#District/State
+MOTHER DETAILS/FOREIGNER,Foreigner Home Village,Text,#Village/Town
+MOTHER DETAILS/FOREIGNER,Foreigner Home Ta,Text,#Address
+FATHER DETAILS/LOCAL,Id Number,Text,
+FATHER DETAILS/LOCAL,First Name,Text,
+FATHER DETAILS/LOCAL,Middle Name,Text,
+FATHER DETAILS/LOCAL,Last Name,Text,
+FATHER DETAILS/LOCAL,Gender,Text,
+FATHER DETAILS/LOCAL,Birth Date,Date,
+FATHER DETAILS/LOCAL,Current Village,Text,
+FATHER DETAILS/LOCAL,Current Ta,Text,
+FATHER DETAILS/LOCAL,Current District,Text,
+FATHER DETAILS/LOCAL,Home Village,Text,
+FATHER DETAILS/LOCAL,Home Ta,Text,
+FATHER DETAILS/LOCAL,Home District,Text,
+FATHER DETAILS/LOCAL,Home Country,Text,
+FATHER DETAILS/LOCAL,Citizenship,Text,
+FATHER DETAILS/LOCAL,Occupation,Text,
+FATHER DETAILS/FOREIGNER,Residential Country,Text,#Country
+FATHER DETAILS/FOREIGNER,Foreigner Current District,Text,#District/State
+FATHER DETAILS/FOREIGNER,Foreigner Current Village,Text,#Village/Town
+FATHER DETAILS/FOREIGNER,Foreigner Current Ta,Text,#Address
+FATHER DETAILS/FOREIGNER,Foreigner Home District,Text,#District/State
+FATHER DETAILS/FOREIGNER,Foreigner Home Village,Text,#Village/Town
+FATHER DETAILS/FOREIGNER,Foreigner Home Ta,Text,#Address
+INFORMANT DETAILS,Id Number,Text,
+INFORMANT DETAILS,First Name,Text,
+INFORMANT DETAILS,Middle Name,Text,
+INFORMANT DETAILS,Last Name,Text,
+INFORMANT DETAILS,Relationship To Deceased,Text,
+INFORMANT DETAILS,Current Village,Text,
+INFORMANT DETAILS,Current Ta,Text,
+INFORMANT DETAILS,Current District,Text,
+INFORMANT DETAILS,Addressline,Text,
+INFORMANT DETAILS,City,Text,
+INFORMANT DETAILS,Phone Number,Text,
+INFORMANT DETAILS,Signed,Boolean,
+INFORMANT DETAILS,Signature Date,Date,
+VERIFICATION,Headman Verified,Boolean,
+VERIFICATION,Headman Verification Date,Date,
+VERIFICATION,Church Verified,Boolean,
+VERIFICATION,Church Verification Date,Date,

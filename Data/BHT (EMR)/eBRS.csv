@@ -1,0 +1,104 @@
+Category,Variable,Type,Options,Condition
+Details of Child,SURNAME,TEXT,na,na
+Details of Child,FIRST NAME,TEXT,na,na
+Details of Child,OTHER,TEXT,na,na
+Details of Child,DATE OF BIRTH,DATE,na,"Less or equal today
+Not less than 42 ago"
+Details of Child,SEX,TEXT,"MALE
+FEMALE",na
+Details of Child,BIRTH WEIGHT,NUMERIC,na,"Greater than 7/10 Kg
+Less than 6/10 Kg"
+Details of Child,Type of birth,TEXT,"SINGLE
+TWIN
+SECOND TWIN
+TRIPLET
+SECOND TRIPLET
+THIRD TRIPLET
+OTHER",na
+Details of Child,Specify Other type of Birth,TEXT,na,IF Type of birth  is Other
+Details of Child,"Are the parents married to
+Each other",TEXT,"YES
+NO",na
+Details of Child,If yes date of marriage,DATE,na,"IF 11 IS YES
+Date not greater than today"
+Details of Mother,Maiden Surname,TEXT,na,na
+Details of Mother,FIRST NAME,TEXT,na,na
+Details of Mother,Other name,TEXT,na,na
+Details of Mother,ID Number,disable,disable,disable
+Details of Mother,DATE OF BIRTH,DATE,na,"Should be 8 years greater that age child
+Less than 100 years"
+Details of Mother,Nationality,TEXT,LIST OF ALL NATIONALITIES,na
+Details of Mother,Country of Residence,TEXT,LIST OF COUNTRIES,na
+Details of Mother,District,TEXT,LIST OF DISTRICTS,na
+Details of Mother,T/A or Area of Residence,TEXT,LIST OF TA FOR DISTRICT,na
+Details of Mother,VILLAGE/TOWN,TEXT,LIST OF VILLAGES FOR TA,na
+Details of Mother,Home address same as the physical address,TEXT,"YES
+NO",Not recorded
+Details of Mother,District,TEXT,LIST OF DISTRICTS,na
+Details of Mother,T/A or Area of Residence,TEXT,LIST OF TA FOR DISTRICT,na
+Details of Mother,VILLAGE/TOWN,TEXT,LIST OF VILLAGES FOR TA,na
+Details of Mother,Gestation age at birth in weeks,NUMERIC,na,"greater that 22
+Less than or equal to 45"
+Details of Mother,Number of prenatal visits,NUMERIC,na,"greater that 3
+Less than or equal to 6
+Verify from SOP"
+Details of Mother,Month of pregnancy prenatal care started,NUMERIC,na,"greater that 1
+Less than or equal to 10"
+Details of Mother,Mode of delivery,TEXT,"SVD
+VACUUM EXTRACTION
+BREEECH
+FORCEPS
+CAESAREAN SECTION",na
+Details of Mother,Number of children born to the mother including this child,NUMERIC,na,"greater that 1
+Less than or equal to 20"
+Details of Mother,Number of children born to the mother and still living,NUMERIC,na,Equal to or less that data in Q31
+Details of Mother,Completed Level of eduction,TEXT,"None
+Primary
+Secondary
+Higher Education",na
+Details of Father,SURNAME,TEXT,na,na
+Details of Father,FIRST NAME,TEXT,na,na
+Details of Father,Other name,TEXT,na,na
+Details of Father,ID Number,disable,disable,disable
+Details of Father,DATE OF BIRTH,DATE,na,"Should be 8 years greater that age child
+Less than 100 years"
+Details of Father,Nationality,TEXT,LIST OF ALL NATIONALITIES,na
+Details of Father,Country of Residence,TEXT,LIST OF COUNTRIES,na
+Details of Father,Same as mother's,TEXT,"YES
+NO",na
+Details of Father,District,TEXT,LIST OF DISTRICTS,na
+Details of Father,T/A or Area of Residence,TEXT,LIST OF TA FOR DISTRICT,na
+Details of Father,VILLAGE/TOWN,TEXT,LIST OF VILLAGES FOR TA,na
+Details of Father,Home address same as the physical address,TEXT,"YES
+NO",Not recorded
+Details of Father,District,TEXT,LIST OF DISTRICTS,na
+Details of Father,T/A or Area of Residence,TEXT,LIST OF TA FOR DISTRICT,na
+Details of Father,VILLAGE/TOWN,TEXT,LIST OF VILLAGES FOR TA,na
+Details of informant,Mother is informant,TEXT,"YES
+NO",na
+Details of informant,Father is informant,TEXT,"YES
+NO",Ask if mother is not informant
+Details of informant,SURNAME,TEXT,na,na
+Details of informant,FIRST NAME,TEXT,na,na
+Details of informant,Other name,TEXT,na,na
+Details of informant,ID Number,disable,disable,disable
+Details of informant,DATE OF BIRTH,DATE,na,"Should be 8 years greater that age child
+Less than 100 years"
+Details of informant,Relationship to child,TEXT,"Mother
+Father
+Brother/Sister
+Aunt/Uncle
+Mother-in-law/Father-in-law
+Sister-in-marriage/Brother-in-marriage",na
+Details of informant,District,TEXT,LIST OF DISTRICTS,na
+Details of informant,T/A or Area of Residence,TEXT,LIST OF TA FOR DISTRICT,na
+Details of informant,VILLAGE/TOWN,TEXT,LIST OF VILLAGES FOR TA,na
+Details of informant,Postal Address,TEXT 1,na,na
+Details of informant,,TEXT 2,na,na
+Details of informant,Phone number,NUMERIC,na,na
+Details of informant,Has the form been signed by the informant,TEXT,"YES
+NO",na
+Details of informant,Date of reporting,DATE,na,"Equal to or greater date of birth
+Equal to or less than today"
+Details of informant,Replace Child Surname with Mother Maiden Surname,TEXT,"YES
+NO",na

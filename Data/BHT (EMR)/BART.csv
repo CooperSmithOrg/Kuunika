@@ -1,0 +1,109 @@
+Category,Variable,Type
+Demographic Registration Client,First Name,Text
+Demographic Registration Client,Last Name,Text
+Demographic Registration Client,Gender,Text
+Demographic Registration Client,Middle name,Text
+Demographic Registration Client,Year of Birth/age estimate,Numeric
+Demographic Registration Client,Month of Birth,text
+Demographic Registration Client,Date of Birth,Date
+Demographic Registration Client,Region of Origin,text
+Demographic Registration Client,Home District,text
+Demographic Registration Client,Ancestral Traditional Authority Area of residence,text
+Demographic Registration Client,Home Village,Text
+Demographic Registration Client,Current Region,Text
+Demographic Registration Client,Current District,Text
+Demographic Registration Client,TA/Area of residence,Text
+Demographic Registration Client,Location/Village,Text
+Demographic Registration Client,Closest Landmark,Text
+Demographic Registration Client,Cell Phone,Alpha/Numeric
+Demographic Registration Client,Ground Phone Number,Alpha/Numeric
+Demographic Registration Client,Occupation,Text
+Demographic Registration Guardian,First Name,Text
+Demographic Registration Guardian,Last Name,Text
+Demographic Registration Guardian,Gender,Text
+Demographic Registration Guardian,Middle name,Text
+Demographic Registration Guardian,Year of Birth/age estimate,Numbers
+Demographic Registration Guardian,Month of Birth,text
+Demographic Registration Guardian,Date of Birth,Date
+Demographic Registration Guardian,Region of Origin,text
+Demographic Registration Guardian,Home District,text
+Demographic Registration Guardian,Ancestral Traditional Authority Area of residence,Alpha/Numeric
+Demographic Registration Guardian,Home Village,Text
+Demographic Registration Guardian,Current Region,Text
+Demographic Registration Guardian,Current District,Text
+Demographic Registration Guardian,TA/Area of residence,Text
+Demographic Registration Guardian,Location/Village,Text
+Demographic Registration Guardian,Closest Landmark,Text
+Demographic Registration Guardian,Cell Phone,Alpha/Numeric
+Demographic Registration Guardian,Ground Phone Number,Alpha/Numeric
+Demographic Registration Guardian,Occupation,Text
+Demographic Registration Guardian,Type of relationship with patient,Text
+Clinic Registration,Previous ART Treatment or not,Text
+New Intiation,Need for follow up for HIV care,Text
+New Intiation,Type of Confirmatory HIV test,Text
+New Intiation,Location of confirmatory HIV test,Alpha/Numeric (If unknown)
+Transfer in patient,Previous ART Treatment or not,Text
+Transfer in patient,Year ART last taken,Alpha/Numeric
+Transfer in patient,Moth ART last taken,Text
+Transfer in patient,Day ART last taken,Date
+Transfer in patient,Last ARVs drugs taken,Text
+Transfer in patient,Previous ART clinic Registration,Text
+Transfer in patient,ART number at Previous Location,Alpha/Numeric
+Transfer in patient,Stage information,Text
+Transfer in patient,Stages 1-2-3-4,Text
+Transfer in patient,Reason for ART Eligibility,Text
+Transfer in patient,Initial CD4 Count,Text
+Transfer in patient,CD4 Count Location,Text
+Transfer in patient,Year of CD4 count,Numeric
+Transfer in patient,Month of CD4 Count,Text
+Transfer in patient,Date of CD4 Count,Date
+Transfer in patient,CD4 Count,Numeric
+Transfer in patient,Initial CD4 Percent,Text
+Transfer in patient,Location of ART Initiation,Text
+Transfer in patient,Year ART started,Alpha/Numeric
+Transfer in patient,Month ART started,Text
+Transfer in patient,Date ART started,Date
+Transfer in patient,Initial height,Numeric
+Transfer in patient,Initial weight,Numeric
+Transfer in patient,Need for HIV care follow up,Text
+Transfer in patient,Confirmatory test,Text
+Transfer in patient,Confirmatory test centre,Text
+Transfer in patient,Confirmatory HIV Test year,Alpha/Numeric
+Vitals,Weight,Numeric
+Vitals,Height,Numeric
+HIV staging,Patient Pregnant,Text
+HIV staging,Patient Breast feedin,Text
+HIV staging,Stages 1-2-3-4,Text
+HIV staging,Recent CD4 Count results,Alpha/Numeric
+HIV staging,CD4 Count date,Date
+HIV staging,CD4 Count,Numeric
+HIV staging,Lymphocyte Count Results availability,Text
+HIV staging,Lymphocyte count date,Date
+HIV staging,Lymphocyte Count Results,Numeric
+HIV staging,CD4 /Lympocyte Count Location,Text
+HIV staging,Clinical Notes,Alpha/Numeric
+HIV Clinic Consultation,Patient Pregnant,Text
+HIV Clinic Consultation,Usage of family planning methods,Text
+HIV Clinic Consultation,ART related symptoms,Text
+HIV Clinic Consultation,TB Associated Symptoms,Text
+HIV Clinic Consultation,TB status,Text
+HIV Clinic Consultation,Referal to clinician,Text
+HIV Clinic Consultation,Need to Prescribe drugs,Text
+HIV Clinic Consultation,Sulphur Alergy,Text
+Treatment,Need to prescribe ARVs,Text
+Treatment,ART regimen,Alpha/Numeric
+Treatment,Duration,Alpha/Numeric
+Treatment,CPT prescription,Text
+Treatment,Cotrimoxaxole dosage,Numeric
+Treatment,Number of condoms given,Numeric
+Treatment,Clinical Notes,Alpha/Numeric
+Treatment,Drug dispensation,Text
+Treatment,Quantity,Numeric
+Other drugs precription,Generic drug,Text
+Other drugs precription,Formulation,Alpha/Numeric
+Other drugs precription,Type of prescription Standard or variable,Text
+Other drugs precription,Dose strength,Numeric
+Other drugs precription,Frequency,Text
+Other drugs precription,Duration,Numeric
+Other drugs precription,PRN,Text
+Appointment,Next visit date,Date
