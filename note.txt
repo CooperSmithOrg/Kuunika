@@ -1,0 +1,36 @@
+no group approval process or workflow -- need concurrency
+more git than google docs in terms of collaboration
+flag issues and submit resolutions to be approved by admin (accepted or rejected)
+ability to add data model update suggestions to a central queue, private views
+ability to prevent multiple/duplicative requests to alter data model
+ability to follow threads/requests/data reconciliation processes (subscribe)
+authentication process, appear seamless to DHIS2 tool usage
+
+--------------
+Data ingestion
+  Basic data cleaning (strip extra whitespace, column and row awareness, etc)
+  Ability to establish connection to server/table
+  Field selection (to import portions of a table or spreadsheet)
+  Column mappings / rename / data type selection(?)
+
+Sign-in
+  Oauth/DHIS2 user login to mirror privileges of existing tool (dhis2)
+
+VIEW
+Visual Rendering
+  Establish baseline aesthetic for displaying information
+  Depict metadata attributes (field ID, source, associations, who or what generated it/ collects it/ uses it)
+  Depict connections between objects (graph/nodes) [see https://linkurio.us/]
+  Ability to show other users, their privileges/roles, contact channel (chat or email, in or outside of app)
+--  Deconflict user perspective of fields that are potentially duplicative but outside user's domain/role
+  Profile page for roles, Admin page for assigning roles and adding users
+  Iconography/badging for depicting user attributes (is the person an admin, do they work with HIV, are they a doc, etc.)
+  Present & Future-state of data model (how it exists currently vs how it would look with users edits approved)
+  Depiction of current vs newly added fields in a way that's clear (ie this field does or does not exist yet in DHIS2)
+
+Deconfliction & metadata adjudication
+  Process for submitting recommended changes/issues to a committee or relevant administrative group
+  Flag data model issues/ suggestions to a central queue (with compartmentalized views according to user privileges)
+  Prevent multiple/duplicative requests from competing for approval on same issue simultaneously
+  Subscription/follow functionality so users can follow data issues through the adjudication process, alerts for progress (github stars)
+  Ability to translate a users visual mappings into DHIS2 alterations(?) DHIS2 <--> Metadata-Nav
