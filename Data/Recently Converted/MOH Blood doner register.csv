@@ -1,0 +1,36 @@
+ID,Element
+1,Register No
+2,Facility Name
+3,District
+4,Date Register Started
+5,Registration No.
+6,Date
+7,Donor Details
+8,Name
+9,Sex
+10,Age
+11,Village
+12,Hb (g/dl)
+13,Blood Grouping
+14,ABO
+15,Rh D
+16,Infectious Disease Screening
+17,HIV
+18,Kit Name 
+19,Lot No
+20,Exp Date 
+21,Hepatitis B
+22,Hepatitis C
+23,Syphilis
+24,Malaria
+25,Summary Outcome (circle one option only)
+26,Not Donated
+27,Donated Screened for
+28,HIV+HepB +HepC+Syp +Ma
+29,HIV+HepB +Syp 
+30,HIV+HepB only 
+31,HIV only 
+32,Any other combination 
+33,Comments
+34,Staff
+35,Signature

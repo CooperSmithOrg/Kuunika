@@ -1,0 +1,29 @@
+Program_Name,Program_ID,intOrder,ParentID
+"Analgesics, Antipyretics and Narcotics",11,1,0
+"Antibiotics and Antimicrobials",1,2,0
+"Antihypertensive and Antihypotensive Medicines",18,3,0
+"Antiretrovirals",2,4,0
+"Cholera Epidemic Preparedness",4,5,0
+"Contraceptives",3,6,0
+"Dermatological Preparations",15,7,0
+"Diabetes Control",19,8,0
+"Disinfectants, Antiseptics and Cleaning Agents",22,9,0
+"Home Based Care",5,10,0
+"Hormones and Endocrine Medicines",16,11,0
+"Laboratory Consumables",26,12,0
+"Laboratory Glassware, Minor Equipment and Spare Parts",27,13,0
+"Laboratory Protective Clothing and Safety Items",28,14,0
+"Laboratory Stains, Reagents and Antisera",25,15,0
+"Malaria Control",6,16,0
+"Medicines Acting on Central Nervous System",13,17,0
+"Medicines Affecting the Blood",12,18,0
+"Medicines Used as Antidotes, Antiallergics and in Anaphylaxis",14,19,0
+"Medicines Used in Anesthesia",10,20,0
+"Medicines Used in Labor (Obstetrics)",9,21,0
+"Nutritional Rehabilitation",7,22,0
+"Ophthalmological Preparations",8,23,0
+"Replacement Fluids",20,24,0
+"Supplies: X-ray Items",24,25,0
+"Supplies:General Surgicals",23,26,0
+"Vaccines and Sera",17,27,0
+"Vitamins",21,28,0

@@ -1,0 +1,80 @@
+ID,Element
+1,Unique Child ID 
+2,HCC Reg No.
+3,Transfer in Date
+4,Birth Cohort
+5,Month
+6,year
+7,Child and Guardian Details 
+8,Child Name 
+9,Male
+10,Female
+11,Guardian Name
+12,Physical Address
+13,Agrees to FUP 
+14,Guardian Relation 
+15,Guardian Phone
+16,Status at Enrolment 
+17,Mother Status 
+18,Alive NoART
+19,Alive OnART
+20,Unk
+21,Art
+22,Regno
+23,Start Date
+24,Age
+25,At Enrolment
+26,when starting NVP
+27,NVP Duration
+28,HIV Testing Sample Date
+29,Type
+30,Dss RT
+31,Sample ID/HTC Serial no
+32,Result
+33,Neg Pos Inc
+34,Date received from lab
+35,Current Age in months
+36,Birth Date
+37,Visit Date 
+38,day/month/year
+39,Height(cm)
+40,Birth Weight
+41,Weight(kg)
+42,MUAC(cm)
+43,Wasting / Malnutrition
+44,Based on Wt / Hgt or MUAC 
+45,Breast feeding 
+46,Ongoing
+47,Exclusive
+48,Mixed / Complement
+49,Stopped 
+50,In last 6 weeks
+51,Over 6 w ago
+52,Mother Status Check Adherence! 
+53,Not on ART 
+54,ART Adherent 
+55,Died
+56,Unknown
+57,Clin. Monit
+58,Noth. Abnorm. Det
+59,Any sickness 
+60,HIV testing
+61,Not done
+62,DBS taken (PCR)
+63,Rapid test done 
+64,HIV infection 
+65,Confirmed
+66,Not infected 
+67,Infected-ART
+68,Not conf.
+69,Not ART eligible 
+70,PSHD -ART! 
+71,CPT Given(ml/tabs)
+72,Follow – Up Outcome
+73,Continue FUP 
+74,Disch. uninfected 
+75,Started ART 
+76,Transfer out 
+77,Defaulted
+78,Died 
+79,Next Appointment or Outcome Date 

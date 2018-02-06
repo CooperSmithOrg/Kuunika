@@ -1,0 +1,7 @@
+Type_Name,Type_Hierarchy,typ_guidID
+"Central Warehouse",1,"{af6a3bdb-e3bb-400a-698c-7997a85aa2bb}"
+"District Warehouse A",2,"{41b3f1e5-5e97-4e6a-4582-2c71de937ef1}"
+"District Warehouse B",2,"{4b19a00c-e19f-4e95-3bbf-1cb005b39326}"
+"Hospital",3,"{f03d4399-7220-4795-1785-fd4bf44a4366}"
+"Local Clinic",3,"{be62271f-c5ca-4b3d-e88d-98e446399c59}"
+"NGO Program",3,"{7b4ef738-3d1b-4987-e7a2-1179b25f76a0}"

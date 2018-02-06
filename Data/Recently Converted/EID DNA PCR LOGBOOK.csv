@@ -1,0 +1,18 @@
+ID,Element
+1,Health Facility Name
+2,Health Facility Site Code
+3,Month
+4,Year
+5,HIV Care Clinic Number OR Infant Registration Number
+6,Infant Name
+7,Mother/Caregiver Name
+8,Physical Address(Village or Town)
+9,Infant Date of Birth
+10,Reason for Test
+11,Date Specimen Collected  (dd/mm/yyyy)
+12,Date Results Received(dd/mm/yyyy)
+13,DNA PCR Result (POS/NEG or Redraw)
+14,Date Results given to patient(dd/mm/yyyy)
+15,Given CPT(yes/no)
+16,Referred to ART?(yes/no)
+17,Comments

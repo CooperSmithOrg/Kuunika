@@ -1,0 +1,48 @@
+ID,Element
+1,Facility Name
+2,Reporting Year
+3,Reporting Month
+4,"Was any client served at this site during this month? If no, still submit this report"
+5,HIV and ART status
+6, Prev+ not on ART  2. Prev+ on ART  
+7,New negative  
+8,New positive  
+9,Test not done 
+10,Pre-Op Status 
+11,Consent given  
+12,Refused
+13,Contraindication
+14, Full circumcision 
+15,Age  Group
+16,A:Less than 60 days
+17,B:60 days – 9 yrs
+18,C: 10- 14 yrs
+19,D: 15- 19 yrs
+20,E: 20 – 34 yrs
+21,F: 35 yrs  and above
+22,Method 
+23,Forceps guided
+24,Device
+25,Dorsal slit
+26,Other
+27,Location 
+28,Static
+29,Mobile 
+30,1st Follow –Up Visit 
+31,Before 24 hours
+32,24 – 72 hours
+33,After 72 hours
+34,2nd Follow- Up Visit 
+35,Before  5 days
+36,5- 9 days
+37,After 9 days 
+38,  Adverse Events
+39,None
+40,Mild
+41,Moderate
+42,Severe
+43,Report filled
+44,Date 
+45,Name
+46,Phone
+47,Report received

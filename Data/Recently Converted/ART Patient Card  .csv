@@ -1,0 +1,79 @@
+ID,Element
+1,Patient / Guardian Details
+2,Patient Name 
+3,"Sex, Birth, Date"
+4,Male
+5,Female
+6,DOB
+7,Physical Address
+8,Guardian Name
+9,Phone 
+10,Patient
+11,Guardian
+12,Agrees to FUP
+13,Guardian Relation
+14,Status at ART Initiation
+15,HIV-related diseases
+16,CD4
+17,TB Status at Initiation
+18,Never>2 years
+19,last 2 yrs
+20,Current
+21,CD4 Date
+22,KS
+23,Height
+24,cm
+25,Pregnant/Breastfeedg 
+26,Preg
+27,Bf
+28,Weight 
+29,Kg
+30,Ever taken ARVs
+31,Age at Init.
+32,"Last ARVs(drug, date) "
+33,Confirmatory HIV Test before ART Start
+34,Site HTC Serial No.
+35,Test Date
+36,Rapid
+37,PCR
+38,ART educat done
+39,Date
+40,TB treatm
+41,Reg No.
+42,ART Regimens
+43,Regimen
+44,Start Date
+45,Annual BP Screening for 30+ years
+46,sys
+47,dias
+48,Visit Date 
+49,day month year
+50,Weight (kg)
+51,Pregnant/ Breastfeed
+52,Write child HCC no if Bf
+53,TB Status (Current)
+54,Suspected
+55,Confirmed
+56,noRx
+57,Rx
+58,Side Effects 
+59,Specify in Notes
+60,Pill Count
+61,Doses Missed 
+62,ART Regimen  
+63,Adult Formulations
+64,ARVs Given
+65,To
+66,CPT/IPT Given
+67,CPT Only
+68,IPT Only
+69,CPT+IPT
+70,No. of tablets 
+71,Family Planning
+72,Depo given
+73,No of condom
+74,Months on ART
+75,Viral load
+76,Sample Result taken
+77,Next Appointment/Outcome Date
+78,Adverse Outcome

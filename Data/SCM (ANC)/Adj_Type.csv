@@ -1,0 +1,11 @@
+Type_Code,Type_Name,Always_Negative,UserCanEnter,Adj_Active,adj_guidID
+"-","DE Debit",1,0,1,"{508a4903-8d2c-4fb2-2ab6-db7c17ea4c18}"
+"+","DE Credit",0,0,0,"{aacf5f06-c7e7-41d1-0b89-d4c82c50eae4}"
+"C","Counseling",1,1,1,"{f6b182b5-94b7-4bac-77af-236e7c53efad}"
+"D","Damaged",1,1,1,"{0f950f4b-4f0b-4d67-32ac-888ff10a2a7d}"
+"E","Expired",1,1,1,"{114177e7-b105-4b34-e1ad-fafc71c8e303}"
+"F","Found",0,1,1,"{a9df4588-f655-483d-ae88-1dd8139e24ce}"
+"I","Transferred In",0,1,1,"{8ada4901-a5e8-4a03-be81-9e755ae7893f}"
+"L","Lost",1,1,1,"{fd2f9cb2-0850-425e-7380-86cf88a91c86}"
+"O","Transferred Out",1,1,1,"{583671cf-8eae-4734-f496-fc1b9f31935b}"
+"T","Training",1,1,1,"{6032607c-516c-47c9-6ea7-5ca09247468b}"

@@ -1,0 +1,70 @@
+ID,Element
+1,Patient / Guardian Details
+2,Patient Name 
+3,"Sex, Birth, Date"
+4,Male
+5,Female
+6,DOB
+7,Physical Address
+8,Guardian Name
+9,Phone 
+10,Patient
+11,Guardian
+12,Agrees to FUP
+13,Guardian Relation
+14,Status at ART Initiation
+15,HIV-related diseases
+16,CD4
+17,TB Status at Initiation
+18,Never>2 years
+19,last 2 yrs
+20,Current
+21,CD4 Date
+22,KS
+23,Height
+24,cm
+25,Ever taken ARVs
+26,Weight 
+27,Kg
+28,Last ARVs
+29,Age at Init.
+30,Date last taken
+31,Site HTC Serial No.
+32,Test Date
+33,Rapid
+34,PCR
+35,ART educat done
+36,Date
+37,TB treatm
+38,Reg No.
+39,ART Regimens
+40,Regimen
+41,Start Date
+42,Visit Date 
+43,day month year
+44,Age(curr)
+45,Height(cm)
+46,Weight (kg)
+47,TB Status (Current)
+48,Suspected
+49,Confirmed
+50,noRx
+51,Rx
+52,Side Effects 
+53,Specify in Notes
+54,Pill Count
+55,Doses Missed 
+56,ART Regimen  
+57,Paediatric  Formulations
+58,ARVs Given
+59,No. of tablets 
+60,To
+61,CPT/IPT Given
+62,CPT Only
+63,IPT Only
+64,CPT+IPT
+65,Months on ART
+66,Viral load
+67,Sample Result taken
+68,Next Appointment/Outcome Date
+69,Adverse Outcome

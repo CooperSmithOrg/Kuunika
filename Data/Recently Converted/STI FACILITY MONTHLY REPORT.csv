@@ -1,0 +1,56 @@
+ID,Element
+1,Site Details and Reporting Period
+2,STI site name
+3,Year
+4,Month
+5,"Have any STI clients been seen here during this month? If no, still submit report"
+6,Sex / Pregnancy
+7,MalesNon- circumcised  
+8,Males  Circumcised  
+9,Females non-preg.  
+10,Females pregnant 
+11,Age Group 
+12,Age group A  
+13,Age group B  
+14,Age group C
+15,Client type
+16,Index cases  
+17,"Partners, asympt.  "
+18,"Partners, symptom"
+19,Ever treated for STI
+20, Never  
+21,Old >3 months ago  
+22,Recent =3 months 
+23,HIV test / ART status 
+24,"Prev. pos., not ART  "
+25,"Prev. pos., on ART  "
+26,New negative  
+27,New positive  
+28,Not done 
+29,Diagnosis
+30,GUD  
+31,20 UD  
+32,"AVD, low risk  "
+33,"AVD, high risk  "
+34,LAP  
+35,SS  
+36,BU  
+37,BA  
+38,NC  
+39,Genital Warts  
+40,Syphilis RPR VDRL  
+41,Other 
+42,Partner slips given
+43,Total slips
+44,Referred for services 
+45,Lab 
+46,Gynae review  
+47,Surgical review  
+48,Repeat HTC  
+49,VMMC  
+50,ART (all HIV +)   
+51,Report filled
+52,Date
+53,Name
+54,Phone 
+55,Report received

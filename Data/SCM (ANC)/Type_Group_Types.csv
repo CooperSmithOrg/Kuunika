@@ -1,0 +1,6 @@
+Type_Group_Name,Type_Name,tgt_guidID
+"Government run","Central Warehouse","{f292f38b-2aa9-4efb-01af-971687c6643b}"
+"Government run","District Warehouse B","{a3cde291-304e-4636-28be-51d6daee9fe9}"
+"Government run","Hospital","{7ab3f436-2152-467d-0fb3-55cfd0dd7210}"
+"Government run","Local Clinic","{83d29de1-04b6-4f11-e080-b928af83de0a}"
+"NGO run","NGO Program","{25acd11a-7de5-4bea-cda2-04077f0ead8f}"

@@ -1,0 +1,61 @@
+ID,Element
+1,Register No
+2,Clinic Name
+3,District
+4,Date Register Started
+5,Date Register Closed
+6,ARV Number
+7,Year
+8,Quarter
+9,Registration Date
+10,Name
+11,Physical Address / Phone Number
+12,Occupation
+13,Sex / Pregnancy
+14,Male
+15,Female Non Pregnant
+16,Female Pregnant
+17,Age
+18,at Art initiation
+19,Age Group
+20,Below 24 months
+21,24 mths-below 15 yrs
+22,15 yrs or older
+23,ART status at registration
+24,First time initiation 
+25,Reinitiation
+26,Transfer in 
+27,Pres Sev HIV Dis
+28,Condition at Art initiation WHO clinical stage 1 or 2
+29,Infant<12m PCR+ 
+30,Child 12-59m
+31,Pregnant woman
+32,Breastf mother
+33,CD4 < threshold
+34,Asymptomatic /Mild /Moderate
+35,WHO 3
+36,Advanced
+37,WHO 4
+38,Severe
+39,Unknown /Other
+40,TB Status at initiation
+41,Never / over 2 Years ago
+42,Within last 2 years
+43,Current
+44,KS
+45,Date of first Starting ART
+46,Number of times re-started ART after default or stop for >2 months (while registered at this site)
+47,1st Restart
+48,2nd Restart
+49,3rd Restart
+50,4th Restart+
+51,Adverse outcomes
+52,Died Time of death after ART initiat
+53,1st Month
+54,2nd Month
+55,3rd Month
+56,4th Month+
+57,Defaulte
+58,Stopped
+59,Transferred out
+60,Outcome date

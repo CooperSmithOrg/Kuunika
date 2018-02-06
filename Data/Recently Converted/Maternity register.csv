@@ -1,0 +1,99 @@
+ID,Element
+1,Register No
+2,Facility Name
+3,District
+4,Date Register started
+5,Date Register Closed
+6,Mother 
+7,Year
+8,Month
+9,Admission Date
+10,Admission details
+11,Admission Number
+12,Name Place of Residence
+13,Age
+14,Gravida 
+15,Para 
+16,Gestation week 
+17,HIV Test Result Mother
+18,Previous test status Before admission
+19,Neg
+20,In last 3 months
+21,Pos
+22,Ever 
+23,Unknown
+24,New test at maternity
+25,not done
+26,ART Mother
+27,None
+28,Not on ART 
+29,Started ART (timing)
+30,Before pregnancy 
+31,1st or 2nd trimester
+32,3rd trimester 
+33,During labour 
+34,ART Clinic Registration No.
+35,Obstetric Complications
+36,Circle only one leading complication
+37,Haemorrhage
+38,Obstr / Prol Labor 
+39,(pre-) Eclampsia 
+40,Sepsis 
+41,Ruptured Uterus 
+42,Other
+43,Complication Management Circle all provided
+44,IM / IV Drugs
+45,Oxytocin
+46,Anticonvulsive
+47,Antibiotics
+48,Blood Transfusion 
+49,Manual Removal Placenta 
+50,Vit A given
+51,Mother
+52,Staff conducting delivery
+53,MD / CO / MA/ Midwife
+54,Nurse / PA / WA / HSA / Other 
+55,Referred out
+56,Mother Alive
+57,Birth date
+58,Twins
+59,Single Baby 
+60,Twin sibling  /  Triplet 
+61,Sex
+62,Male
+63,female
+64,Birth Weight (kg)
+65,APGAR
+66,Delivery Details
+67,Place 
+68,This Facility 
+69,In Transit (BBA) 
+70,Other Facility 
+71,Home / TBA
+72,Mode
+73,Spontan. Vaginal 
+74,Vacuum Extraction 
+75,Breech 
+76,Caesarean Section 
+77,Other 
+78,New born complication
+79,None 
+80,Weight less 2500g 
+81,Asphyxia 
+82,Sepsis
+83,New born survival/PMTCT Management
+84,Discharged Alive
+85,Mother HIV Neg
+86,Mother HIV Pos
+87,NVP syrup
+88,started
+89,Mother HIV Unknown
+90,Stillbirth
+91,fresh
+92,macer ated
+93,Neo natal Death
+94,Breast feeding initiated within 30 min
+95,HCC Registration No. 
+96,for HIV exposed babies
+97,Discharging Provider Name
+98,Comments

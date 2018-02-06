@@ -1,0 +1,50 @@
+ID,Element
+1,Register No
+2,District
+3,Site Name / Location
+4,Date Register Started 
+5,Date Register Closed
+6,Sample Log Number
+7,Assign running number for each sample
+8,Sample Collection
+9,Day
+10,Month
+11,Year
+12,Unique Sample ID
+13,Provider ID
+14,Person drawing the sample
+15,Client Name
+16,Address / Phone
+17,ART Number
+18,Gender
+19,Male
+20,Female
+21,Months on ART
+22,Last VL Date
+23,Reason for Test
+24,Routine
+25,Targeted 
+26,Follow-up after High VL 
+27,Repeat (reject/lost/missing)
+28,Sample Type
+29,Dried Blood Spot 
+30,Plasma
+31,"Other (POC, etc.)"
+32,Receipt of Result
+33,Write Date and circle the number of weeks 
+34,Date result received at the facility
+35,Weeks between sample collection and arrival of result
+36,Result Type
+37,Electronic 
+38,Paper
+39,Viral Load Result
+40,Less than 1000 
+41,1000 or greater 
+42,Sample Rejected 
+43,Result Missing 
+44,Client Notification
+45,Result given / Notified of rejected sample or missing result
+46,Date result given / notified
+47,Weeks between sample collection and client notification
+48,Sample Log Number of Repeat  Sample 
+49,Comments

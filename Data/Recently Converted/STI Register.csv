@@ -1,0 +1,83 @@
+ID,Element
+1,Register No.
+2,Clinic Name
+3,District
+4,Date Register Started
+5,Date Register Closed
+6,Continuous Serial No. Within the Financial Year 
+7,Date
+8,Name
+9,Sex / Pregnancy / MC-status
+10,Male Non-circumcised
+11,Male Circumcised
+12,Female Non-Pregnant
+13,Female Pregnant 
+14,Age
+15,Age Group
+16,0 –19 years
+17,20 –24 yrs
+18,25 yrs or older
+19,Client Type
+20,Index Case
+21,Partner
+22,Asymptomatic
+23,Symptomatic
+24,Ever treated for STI 
+25,Never
+26,Old: >3 months ago
+27,Recent: =3 months
+28,HIV Test / ART Status
+29,Prev. Pos
+30,Prev. Pos. Not on ART
+31,Prev. Pos. On ART
+32,Previous Neg. or Never tested
+33,New Neg 
+34,New Positive
+35,Not Done
+36,Diagnosis 
+37,STI Syndrome
+38,Genital Ulcer
+39,Urethral Discharge
+40,Low Risk
+41,High Risk
+42,Lower Abdo Pain
+43,Scrotal Swelling
+44,Inguinal Bubo
+45,Balanititis
+46,Neonatal Conjunct 
+47,Other 
+48,Genital Warts
+49,Syphilis RPR / VDRL 
+50,Other
+51,Specify if other 
+52,Medication
+53,Indicate number of units given (tablets / vials / pessaries / applications)
+54,Benzathine Penicillin 
+55,Gentamycin
+56,Erythromycin
+57,Doxycyclin
+58,Metronidazole
+59,Azithromycin
+60,Clotrimazole
+61,Podophyllin application
+62,Acyclovir
+63,Ciprofloxacin
+64,Ceftriaxone
+65,Other (specify)
+66,Partner Slips
+67,Number Given
+68,Condoms given 
+69,Male
+70,Female
+71,Referred for Services (circle all that apply) 
+72,Lab
+73,Gynae review
+74,Surgical review
+75,Repeat HTC
+76,VMMC
+77,ART  (all HIV+)
+78,Other (specify in Comments)
+79,Provider Name
+80,Review Visit 
+81,Improved
+82,Comments / Referred for Other Services 

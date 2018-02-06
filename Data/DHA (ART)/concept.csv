@@ -1,0 +1,1624 @@
+ID,concept_ID_parent,concept_name,concept_name_short,concept_description
+181,3,ART clinic logistics,ARTLog,ART clinic logistics
+182,181,ART clinic days per week,ARTLogDays,Total ART clinic days per week (specify 0.5 if only half days)
+183,182,Number of COs per clinic day,ARTLogDaysCo,Average number of clinical officers working on each ART clinic day in the reporting period
+184,182,Number of nurses per clinic day,ARTLogDayNu,Average number of nurses working on each ART clinic day in the reporting period
+185,182,Number of clerks per clinic day,ARTLogDayClerk,Average number of clerks working on each ART clinic day in the reporting period
+186,181,Days from group counseling to ART initiation,ARTLogLag,Average number of days between patients attending the group counseling and ART initiation
+187,2,Reporting version set,Ver,Set of versions of the data collection forms (ANC  maternity  HCC  ART  etc.). This is tied to the year and quarter and is specified in the code_year_quarter table to populate the data sets for the data entry forms automatically through a concep set
+188,187,1,Ver1,
+189,187,2,Ver2,
+190,187,3,Ver3,
+191,187,4,Ver4,
+192,187,5,Ver5,
+193,187,6,Ver6,
+194,187,7,Ver7,
+195,187,8,Ver8,
+197,33,Item attributes,SplyAtt,Supply item attributes
+198,197,Package type,SplyAttPac,Type of item packaging
+199,198,tins,SplyAttPacTin,Tin of loose tablets or capsules
+200,198,bottles,SplyAttPacBot,Bottle of liquid
+201,198,boxes,SplyAttPacBox,Carton of items
+202,198,vials,SplyAttPacVial,Vial of liquid or dry substance for reconsititution
+203,198,blist packs,SplyAttPacBlis,Blister pack of tablets or capsules
+204,198,bundles,SplyAttPacBun,Bundle of cards or sleeves
+205,197,Pack units,SplyAttUnit,Measurement units for the quantification of items in a pack
+206,205,tabs,SplyAttUnitTab,Tablets or capsules
+207,205,each,SplyAttUnitEach,Individual pieces such as rapid tests
+208,205,ml,SplyAttUnitMl,Millilitres of liquid
+209,197,Item presentation,SplyAttPres,Formulation of drugs or presentation of non-drug items
+210,209,tabs,SplyAttPresTab,Tablet or capsule
+211,209,oral susp,SplyAttPresSyrup,Liquid oral suspension
+212,209,inject,SplyAttPresInj,Injectable liquid or dry substance for reconstitution
+213,209,kits,SplyAttPresKit,Rapid diagnostic test kit or filter paper bundle
+214,36,DBS kit (filter paper  lancet  etc.),SplyDtDbs,Filter paper card  lancets  gloves  alcohol for dried blood spot collection
+215,209,sheets,SplyAttPresSheet,Sheet  card or sleeve
+216,209,books,SplyAttPresBook,Register book
+217,34,d4T / 3TC,SplyArvReg1_1,Fixed dose combination stavudine lamivudine
+218,34,d4T / 3TC / NVP,SplyArvReg1_2,Fixed dose combination stavudine lamivudine nevirapine
+219,34,AZT / 3TC,SplyArvReg2_1,Fixed dose combination zidovudine lamivudine
+220,34,AZT / 3TC / NVP,SplyArvReg2_2,Fixed dose combination zidovudine lamivudine nevirapine
+221,34,NVP,SplyArvReg6_1,Nevirapine
+222,34,EFV,SplyArvReg3_1,Efavirenz
+223,34,TDF,SplyArvReg6_2,Tenofovir
+224,34,LPV / r,SplyArvReg8_1,Fixed dose combination lopinavir ritonavir
+225,34,AZT,SplyArvRegAzt,Zidovudine
+226,34,TDF / 3TC,SplyArvReg6_3,Fixed dose combination tenofovir lamivudine
+227,34,TDF / 3TC / EFV,SplyArvReg5_1,Fixed dose combination tenofovir lamivudine efavirenz
+228,34,ABC,SplyArvReg9_1,Abacavir
+229,34,ABC / 3TC,SplyArvReg9_2,Fixed dose combination abacavir lamivudine
+230,34,ddI,SplyArvReg10_1,Didanosine
+231,35,Cotrimoxazole,SplyOiCtx,Fixed dose combination sulphamethoxazole trimethoprim
+232,35,Fluconazole (generic),SplyOiFlucGen,Fluconazole
+233,35,Aciclovir,SplyOiAcic,Aciclovir
+234,35,Ceftriaxone,SplyOiCeft,Ceftriaxone
+235,35,Ciprofloxacin,SplyOiCipro,Ciprofloxacine
+236,35,Vincristine,SplyOiVinc,Vincristine
+237,35,Amitriptylline,SplyOiAmi,Amitriptylline
+238,35,Morphine,SplyOiMorp,Morphine sulphate
+239,35,Ganciclovir,SplyOiGanc,Ganciclovir
+240,35,Ibuprofen,SplyOiIbu,Ibuprofen
+241,35,Codeine,SplyOiCod,Codeine
+242,35,Pyridoxine,SplyOiPyrid,Pyridoxine
+243,35,Bleomycine,SplyOiBleo,Bleomycine
+244,36,Determine syphilis,SplyDtSyp,Syphilis rapid test kit
+245,36,Determine HIV1/2,SplyDtHivDet,Determine HIV rapid test kit
+246,36,Uni-Gold HIV1/2,SplyDtHivUni,Uni-Gold HIV rapid test kit
+247,36,SD Bioline HIV,SplyDtHivBio,SD Bioline HIV rapid test kit
+248,36,Cryptococcal antigen,SplyDtCrypt,Cryptococcal antigen test kit
+249,37,Benzathine Penicillin,SplyStiBenpen,Benzathine benzyl penicillin
+250,37,Erythromycin,SplyStiEryt,Erythromycin
+251,37,Azithromycin,SplyStiAzit,Azithromycin
+252,37,Gentamicin,SplyStiGent,Gentamicin
+253,37,Doxycycline,SplyStiDoxy,Doxycycline
+254,37,Metronidazole,SplyStiMetro,Metronidazole
+255,37,Clotrimazole,SplyStiClotr,Clotrimazole
+256,37,Podophylline,SplyStiPodo,Podophylline
+257,37,Gentian violet,SplyStiGentia,Gentian violet
+258,209,vaginal tabs,SplyAttPresVag,Vaginal tablets with applicator
+259,209,powder,SplyAttPresPowd,Powder
+260,129,ART pat. card adult (yellow),SplyFileArtAd,ART patient card adult ARV formulation
+261,129,ART pat. card paed. (blue),SplyFileArtPed,ART patient card paediatric ARV formulation
+262,129,Pre-ART pat. card (green),SplyFilePre,Pre-ART patient card
+263,129,Exposed child card (pink),SplyFileExp,HIV exposed child patient card
+264,129,HCC register,SplyFileHcc,HIV care clinic register
+265,129,ART register,SplyFileArt,ART clinic register
+266,129,Polythene sleeve,SplyFileSleev,Polythene document sleeve
+267,129,Lever arch file,SplyFileArch,Lever arch file
+268,129,ANC clinic register,SplyFileAnc,ANC clinic register
+269,129,Maternity register,SplyFileMat,Maternity register
+270,129,HTC register,SplyFileHtc,HTC register
+271,2,Facility attributes,Fac,Attributes of health facilities and services
+272,271,Facility type,FacType,Type / level of health facility depending on the range of services offered
+273,272,Central hospital,FacTypeCh,Central hospital
+274,272,District hospital,FacTypeDh,District hospital or large CHAM facility at the level of a district hospital
+275,272,Rural / community hospital,FacTypeRh,Rural hospital or CHAM community hospital
+276,272,Other hospital,FacTypeOh,Other hospital
+277,272,Health centre,FacTypeHc,Health centre
+2,2,root,root,
+3,2,ART program,ARTProg,ART program data elements
+4,2,HIV Care Clinic program,HCCProg,HIV care clinic program data elements
+5,734,Total ART clinic registrations,ARTRegTot,Total ART patients newly registered in the reporting period. Includes new ART initiations  re-initiations and transfers ins
+9,732,Registration type,ARTRegType,
+10,9,First time ART initiations (total patients),ARTRegInit,
+11,9,ART re-initiations,ARTRegRe,
+12,9,ART transfers in,ARTRegTI,
+13,732,Sex,ARTRegSex,
+14,13,Males,ARTRegM,
+15,13,Females,ARTRegF,
+16,15,Non-pregnant,ARTRegFNP,
+17,15,Pregnant,ARTRegFP,
+18,732,Age at ART initiation,ARTRegAge,ART patient age group
+19,18,Adults 15+ yrs,ARTRegAdult,Adults 15 years and above at ART initiation
+20,18,Children 0-14 yrs,ARTRegChild,Children under 15 years at ART initiation
+21,732,Occupation,ARTRegOcc,
+22,21,Housewives,ARTRegOccWife,
+23,21,Farmers,ARTRegOccFarm,
+24,21,Forces,ARTRegOccForc,
+25,21,Teachers,ARTRegOccTeac,
+26,21,Business,ARTRegOccBusi,
+27,21,Health workers,ARTRegOccHcw,
+28,21,Students,ARTRegOccStud,
+29,21,Others,ARTRegOccOth,
+30,732,Reason for starting ART,ARTRegRsn,Reason for starting ART (according to hierarchy of reasons shown in 2011 guidelines)
+31,30,Presumed severe HIV Disease,ARTRsnPshd,Infants with presumed severe HIV disease
+32,737,PCR infants,ARTRsnConf,Infants in WHO stage 1/2 (HIV infection confirmed by DNA-PCR)
+33,2,Supply items,Sply,Items for procurement and supply
+34,33,ARVs,SplyArv,Antiretroviral drugs
+35,33,OI drugs,SplyOi,Drugs for HIV-related diseases
+36,33,Diagnostics,SplyDt,Diagnostic test materials
+37,33,STI drugs,SplySti,STI drugs
+39,20,Children below 24 mths,ARTRegChildA,Children under 24 months at ART initiation. Includes previous category 0-17 months (assumed that only a very small proportion of the previous category 18 months - 14 years were 18-23 months and would now be misclassified in the merged category).
+40,20,Children 2-14 yrs,ARTRegChildB,Children 2-14 years at ART initiation
+43,736,CD4 below threshold,ARTRsnCd4,Children and adults in WHO stage 1/2 with CD4 count below age-specific threshold
+44,735,WHO stage 3,ARTRsnWho3,WHO stage 3 (any CD4 count)
+45,735,WHO stage 4,ARTRsnWho4,WHO stage 4 (any CD4 count)
+46,2,ANC Program,ANCProg,ANC program data elements
+47,865,Total HCC registrations,HCCRegTot,Total HCC patients newly registered in the reporting period. Includes new HCC enrolments  re-enrolments and transfers ins
+48,864,Registration type,HCCRegType,HCC patient registration type
+49,48,Patients enrolled first time,HCCRegFirst,Patients enrolled in HCC for the first time
+50,48,Patients re-enrolled,HCCRegRe,Patients re-enrolled in HCC after interruption
+51,48,Patients transferred in,HCCRegTI,Patients transferred in from other HCC
+52,864,Sex,HCCRegSex,HCC patient sex
+53,864,Age at registration,HCCRegAge,HCC patient age at registration
+54,53,Children 0-14 yrs,HCCRegChild,Children under 15 years at HCC registration
+55,53,Adults 15+ yrs,HCCRegAdult,Adults 15 years and above at HCC registration
+56,54,Children 24 months - 14 years,HCCReg2-14y,Children 2-14 years at HCC registration
+57,862,Children 2 - below 24 months,HCCReg2-23m,Children 2-23 months at HCC registration
+60,864,Reason for HCC registration,HCCRegRsn,Reason for HCC registration
+61,60,Exposed infants,HCCRegExpInf,Children under 2 years enrolled for HIV exposed child follow-up
+62,52,Males (all ages),HCCRegM,Male HCC patients registered
+63,52,Females (all ages),HCCRegF,Female HCC patients registered
+64,63,Non-pregnant,HCCRegFNP,Non-pregnant female HCC patients registered
+65,63,Pregnant,HCCRegFP,Pregnant female HCC patients registered (should not be in HCC)
+66,862,Infants below 2 months,HCCReg0-1m,Infants below 2 months at HCC registration
+67,60,Confirmed infected patients (pre-ART),HCCRegPreArt,Patients with confirmed HIV infection enrolled for pre-ART
+68,863,Pre-ART follow-up outcome,HCCPreOutc,Primary follow-up outcomes of pre-ART patients as of the end of the reporting period
+69,866,Total retained in pre-ART,HCCPreOutcRet,Total pre-ART patients retained in pre-ART follow-up
+70,866,Started ART,HCCPreOutcART,Pre-ART patients who started ART
+71,867,Transferred out,HCCPreOutcTO,Pre-ART patients who transferred out
+72,866,Defaulted,HCCPreOutcDef,Pre-ART patients who were more than 2 months late for their next appointment
+73,866,Died,HCCPreOutcDied,Pre-ART patients who died (before starting ART)
+74,4,Exposed child follow-up outcomes,HCCExpOutc,Outcomes of age cohorts from exposed child follow-up
+75,872,Total children registered,HCCExpOutcTot,Total HIV exposed children registered in birth cohort
+76,871,HIV status,HCCExpOutcHIV,Latest HIV status of HIV exposed children in the birth cohort
+77,871,CPT status,HCCExpOutcCPT,Latest CPT status of HIV exposed children in the birth cohort
+78,871,Primary follow-up outcome,HCCExpOutcPrim,Primary follow-up outcome of HIV children in the birth cohort
+79,78,Continue follow-up,HCCExpOutcCont,Children retained in HIV exposed child follow-up
+80,78,Discharged uninfected,HCCExpOutcDis,HIV exposed children discharged confirmed uninfected
+81,78,Started ART,HCCExpOutcART,HIV exposed children started on ART
+82,873,Transferred out,HCCExpOutcTO,HIV exposed children transferred out to another site
+83,78,Defaulted,HCCExpOutcDef,HIV exposed children who were more than 2 months late for their next appointment
+84,78,Died,HCCExpOutcDied,HIV exposed children who died before starting ART
+86,737,Pregnant women,ARTRsnPreg,HIV infected pregnant women in WHO stage 1/2 with CD4 count unknown or above 350
+87,737,Breastfeeding mothers,ARTRsnBf,Breastfeeding women in WHO stage 1/2
+88,737,Children 12-59 mths,ARTRsnU24,Children age 12-59 months in WHO stage 1/2  based on 2014 Malawi guidelines. This category has simply been re-defined for consistency to previous data collected (Children age 12-23 months in WHO stage 1/2)
+89,735,Unknown / reason outside of guidelines,ARTRsnUnk,Patients with unknown reason for starting ART or other reason outside of guidelines
+90,732,TB at ART initiation,ARTRegTB,TB status at the time of ART initiation
+91,90,Never TB / TB > 24 months ago,ARTRegTBNev,
+92,90,TB within the last 24 months,ARTRegTBRec,
+93,90,Current episode of TB,ARTRegTBCurr,
+94,738,Patients with KS,ARTRegKsY,Kaposi's sarcoma at the time of ART initiation
+95,731,ART outcomes,ARTOutc,Primary ART follow-up outcome at the end of the reporting period
+96,776,Alive on ART at site of last registration,ARTOutcAlive,
+97,739,Total died,ARTOutcDied,
+98,97,Died month 1,ARTOutcDiedM1,Died within 1st month after ART initiation
+99,97,Died month 2,ARTOutcDiedM2,Died within 2nd month after ART initiation
+100,97,Died month 3,ARTOutcDiedM3,Died within 3rd month after ART initiation
+101,97,Died month 4+,ARTOutcDiedM4,Died after the end of the 3rd month after ART initiation
+102,739,Defaulted,ARTOutcDef,Patients who were more than 2 months overdue after expected to have run out of ARVs
+103,739,Stopped ART,ARTOutcStop,Patients who were last known to be alive and had stopped taking ARVs (clinician or patient own decision)
+104,810,Transferred out,ARTOutcTO,Patient transferred out to another ART site
+105,95,ART regimens,ARTOutcRegim,ART regimen and formulation at the last visit before end of the reporting period
+106,773,Any side effects,ARTOutcSeY,Patients with any side effects at the last visit before end of the reporting period
+107,95,Adherence,ARTOutcAdh,Adherence level at the last visit before end of the reporting period
+108,95,Current TB status among ART patients (ICF),ARTOutcICF,TB status (any form of TB) at the last visit before end of the reporting period
+109,743,Regimen 1P,ARTOutcRegim1P,
+110,743,Regimen 2P,ARTOutcRegim2P,
+111,743,Regimen 3P,ARTOutcRegim3P,
+112,743,Regimen 4P,ARTOutcRegim4P,
+113,742,Regimen 1A,ARTOutcRegim1A,
+114,742,Regimen 2A,ARTOutcRegim2A,
+115,742,Regimen 3A,ARTOutcRegim3A,
+116,742,Regimen 4A,ARTOutcRegim4A,
+117,742,Regimen 5A,ARTOutcRegim5A,
+118,742,Regimen 6A,ARTOutcRegim6A,
+119,744,Regimen 7A,ARTOutcRegim7A,
+120,744,Regimen 8A,ARTOutcRegim8A,
+121,745,Regimen 9P,ARTOutcRegim9P,
+122,105,Other regimen (adult / paed),ARTOutcRegimOth,
+123,770,0-3 doses missed,ARTOutcAdh0_6,Patients with 0-3 doses missed at their last visit before end of the reporting period. New threshold for 95% adherence level introduced in July 2014 to reflect most patients are now on 5A with once daily tab. Previous version: Patients with 0-6 doses missed at their last visit before end of the reporting period
+124,770,4+ doses missed,ARTOutcAdh7+,Updated threshold (July 2014). Previous: Patients with 7 or more doses missed at their last visit before end of the reporting period
+125,775,TB not suspected,ARTOutcTbN,
+126,775,TB suspected,ARTOutcTbY,
+127,748,TB confirmed  not on treatment,ARTOutcTbC,
+128,748,TB confirmed  on TB treatment,ARTOutcTbRx,
+129,33,Stationery,SplyFile,Stationery and M&E tools
+130,2,Service/data quality checklist,QChk,Clinic supervision quality check list
+131,130,General,QChkGen,General clinic logistics
+132,131,Clinic tidy,QChkGenTidy,Clinic not orderly and tidy
+133,131,Pharmacy organised,QChkGenPharm,Pharmacy disorganised / stock cards not updated
+135,131,Standard M&E tools used,QChkGenME,Standard M&E tools not used / not properly maintained (paper or EDS)
+136,130,Patient cards correctly filled,QChkCard,Patient cards correctly filled
+137,136,ART - Card header complete,QChkCardHead,ART Card header details incomplete
+138,136,ART - Confirmatory HIV tests recorded,QChkCardHiv,ART Confirmatory HIV test details not recorded (paed. and adult cards)
+139,136,ART - Blue and yellow cards correctly selected,QChkCardForm,ART - Paediatric and adult formulation cards not correctly selected (transition by weight)
+140,136,ART - Special stage defining conditions recorded,QChkCardSdc,ART - TB status  KS and/or pregnancy (at the time of ART initiation) not recorded
+141,136,ART - WHO stage conditions recorded,QChkCardWho,ART - WHO stage defining conditions not written on card header / circled on reverse of cards
+142,136,ART - 2-week visits recorded on footer,QChkCardFoot,ART - Details of 2-week initiation visit not recorded at bottom of card
+143,136,ART - Weight recorded each visit,QChkCardWgt,ART - Weight not recorded at each visit
+144,136,ART - Regimen and side effects recorded,QChkCardReg,ART regimen and side effects not recorded at each visit
+145,136,ART - 'TB status current' recorded at all visits,QChkCardTb,ART - 'TB status current' not recorded at all ARV refill visits
+146,136,ART - Doses missed recorded,QChkCardDos,ART - 'Doses missed' not recorded at all ARV refill visits
+147,1023,ART register,QChkRgArt,Quality of ART clinic register
+148,147,ART - Reg numbers correct and match cards,QChkRegNo,ART - Registration number not correctly assigned and/or don't match cards
+149,147,ART - Transfer-ins in recorded,QChkRegTi,ART register - Transfer-ins not recorded
+150,147,ART - All case finding columns complete,QChkRegData,ART register - case finding columns not complete (age  sex  reason …)
+151,147,ART - Case finding data match cards,QChkRegMatch,ART register - Case finding data do not match cards
+152,147,ART - Outcomes complete and updated,QChkRegOutCom,ART register - Outcomes incomplete and/or not updated every quarter
+153,147,ART - Outcome dates specified,QChkRegOutDat,ART register - Outcome dates not specified
+154,130,Reports complete and accurate,QChkRep,HIV Program reports complete and accurate (site own data)
+155,154,ART - Quart ART coh report (reg details) complete,QChkRepARTQ,ART - Quarterly cohort report (registration details) incomplete and/or inaccurate
+156,154,ART - Outcome data report complete,QChkRepOut,ART - Cumulative cohort analysis (for all patients ever registered) not done
+157,154,ART - Cumulative cohort outcome report accurate,QChkRepOutAcc,ART - Cumulative cohort outcomes report incomplete or <98% accurate
+158,131,Certificate of excellence awarded,QChkCert,Certificate of excellence awarded for Integrated HIV services
+160,431,ART patients on CPT,ARTOutcCpt,Approx. % of patients alive on ART who are currently on CPT
+161,755,ART women on Depo,ARTOutcDepo,Approx. % of women alive on ART who are currently on Depo
+162,431,Pre-ART patients on CPT,HCCPreOutcCpt,Approx. % of patients retained in pre-ART who are currently on CPT
+163,861,Pre-ART patients on IPT,HCCPreOutcIpt,Approx. % of patients retained in pre-ART who are currently on IPT
+164,755,Pre-ART women on Depo,HCCPreOutcDepo,Approx. % of women retained in pre-ART who are currently on Depo
+165,2,PEP program,PEPProg,Post exposure prophylaxis program
+166,165,Total PEP clients registered,PEPRegTot,Total persons started on PEP in the reporting period
+167,422,HTC register correctly filled,QChkHtcReg,HTC register not correctly filled: New page for each month  page totals  etc.
+168,2,HTC program,HTCProg,HIV testing and counseling program
+169,978,Total HIV tested,HTCTest,Total HTC encounters in the reporting period. Summary total entered directly until Q2 2012. From Q3 2012  the full dataset is entered an this turns into a calculated data element.
+170,1362,New positive,HTCTestPos,Total counseled as HIV positive. Version 2 of HTC register did not accommodate clients who have been previously tested positive  so all of the ones classified as positive before were 'new positive' as in version 3 of HTC register.
+171,131,CD4 machine installed,QChkCd4,CD4 count machine installed at this facility
+172,131,TB registration site,QChkTbSite,Is this facility a TB registration site
+173,423,TB register complete and accurate,QChkTbReg,TB register not correctly filled and/or page summaries not accurate
+174,2,TB / HIV program,TBProg,TB / HIV program
+175,761,Total TB patients registered,TBRegTot,Total TB patients registered for treatment in the reporting period
+176,756,HIV status ascertained,TBRegHivtestY,TB patients with ascertained HIV status
+178,176,HIV positive,TBRegHivPos,TB patients HIV positive
+179,178,Already on ART,TBRegHivArtY,HIV positive TB patients already on ART at TB treatment start
+278,272,Dispensary,FacTypeDisp,Dispensary
+279,272,Health post,FacTypeHp,Health post
+280,272,Special / other site,FacTypeSpec,Special / other facility such as dedicated HTC site
+281,271,Managing authority,FacAuth,Managing authority for the service/department of the facility
+282,281,MoH,FacAuthMoh,Ministry of health
+283,281,CHAM,FacAuthCham,Christian Health Authority of Malawi
+284,281,Indep NGO,FacAuthNgo,Independent non-governmental organization
+285,281,Army,FacAuthMdf,Malawi defence force
+286,281,MoEST,FacAuthMoest,Ministry of education  science and technology
+287,281,Police,FacAuthPol,Malawi Police Service
+288,281,Prisons,FacAuthPris,Malawi Prison Service
+289,281,Private,FacAuthPriv,Private authority (for profit or company clinic)
+290,281,Loc Govt,FacAuthLGov,Local government
+291,281,Research,FacAuthRes,Research organization
+292,281,Dep Forest,FacAuthFor,Department of Forestry
+293,271,Health service type,FacServ,Type of health service / program provided
+294,293,ART,FacServArt,ART
+295,293,HTC,FacServHtc,HTC
+296,293,ANC,FacServAnc,ANC
+297,293,Ward,FacServWard,In-patient department
+298,293,NRU,FacServNru,Nutritional rehabilitation unit
+299,293,TB_BMU,FacServTbbmu,TB basic management unit (TB registration and treatment initiation site)
+300,293,PMTCT,FacServPmtct,PMTCT
+301,293,TB_periph,FacServTbperi,Peripheral TB treatment continuation facility
+302,293,Paeds,FacServPaed,Paediatric department
+303,293,Blood Transfusion,FacServBldTra,Blood transfusion services
+304,293,STI,FacServSti,STI treatment
+305,293,Maternity,FacServMat,Maternity
+306,293,OPD,FacServOpd,Out patient department
+307,293,Supply,FacServSply,Commodity supply unit
+308,271,Health service mode,FacMode,Mode of service delivery
+309,308,Static,FacModeStat,Static service: resident staff and own independent register
+310,308,Outreach,FacModeOutr,Outreach service: non-resident staff but own independent register
+311,308,Mobile,FacModeMob,Mobile service: non-resident staff and inclusion in static site's register
+312,271,Free or paying,FacFreepay,Free or paying service
+313,312,Free,FacFreepayFree,Free service open to the general public
+314,312,Pay,FacFreepayPay,Paying service or open only to company employees and/or dependants
+315,271,Rural/Urban,FacLoc,Location of facility by settlement density
+316,315,Rural,FacLocRur,Rural
+317,315,Urban,FacLocUrb,Urban
+318,315,Semi-urban,FacLocUrbsem,Semi-urban
+319,271,Malawi (national),FacGeo,Geographical location national level Malawi
+321,319,Northern Region,FacGeoRegN,Northern Region
+322,319,Central Region,FacGeoRegC,Central Region
+323,319,Southern Region,FacGeoRegS,Southern Region
+324,321,Northern Zone,FacGeoZonN,North Zone
+325,324,Chitipa,FacGeoCp,Chitipa District
+326,322,Central East Zone,FacGeoZonCe,Central East Zone
+327,322,Central West Zone,FacGeoZonCw,Central West Zone
+328,323,South West Zone,FacGeoZonSw,South West Zone
+329,323,South East Zone,FacGeoZonSe,South East Zone
+330,324,Karonga,FacGeoKa,Karonga District
+331,324,Nkhata Bay,FacGeoNb,Nkhata Bay District
+332,324,Rumphi,FacGeoRu,Rumphi District
+333,324,Mzimba North,FacGeoMzn,Mzimba North District
+334,324,Mzimba South,FacGeoMzs,Mzimba South District
+335,326,Nkhotakota,FacGeoKk,Nkhotakota District
+336,326,Kasungu,FacGeoKu,Kasungu District
+337,326,Ntchisi,FacGeoNs,Ntchisi District
+338,326,Dowa,FacGeoDa,Dowa District
+339,326,Salima,FacGeoSa,Salima District
+340,328,Chiradzulu,FacGeoCz,Chiradzulu District
+341,328,Blantyre,FacGeoBt,Blantyre District
+342,328,Mwanza,FacGeoMn,Mwanza District
+343,328,Thyolo,FacGeoTo,Thyolo District
+344,328,Chikwawa,FacGeoCk,Chikwawa District
+345,328,Nsanje,FacGeoNe,Nsanje District
+346,328,Neno,FacGeoNen,Neno District
+347,327,Lilongwe,FacGeoLl,Lilongwe District
+348,327,Mchinji,FacGeoMc,Mchinji District
+349,327,Dedza,FacGeoDz,Dedza District
+350,327,Ntcheu,FacGeoNu,Ntcheu District
+351,329,Mangochi,FacGeoMh,Mangochi District
+352,329,Machinga,FacGeoMhg,Machinga District
+353,329,Zomba,FacGeoZa,Zomba District
+354,324,Likoma,FacGeoLa,Likoma District
+355,329,Mulanje,FacGeoMj,Mulanje District
+356,329,Phalombe,FacGeoPe,Phalombe District
+357,329,Balaka,FacGeoBlk,Balaka District
+358,2,Form control types,FrmCtl,Types of controls on the data entry forms
+359,358,Text box,FrmCtlTxt,Text box for integers
+360,358,YesNoBlank,FrmCtlYNB,Combo box with 3 options (Yes  No  Blank)
+361,358,Percent,FrmCtlPerc,Text box for percent values
+362,33,Family planning,SplyFp,Family planning commodities
+363,362,Depo-Provera,SplyFpDepo,Depot medroxyprogesterone acetate for injection
+364,362,Condoms male,SplyFpCondM,Male condoms
+365,362,Condoms female,SplyFpCondF,Female condoms
+366,209,topical solution,SplyAttPresSolu,Cream or solution for topical application
+367,205,tests,SplyAttUnitTest,Test strips (rapid diagnostic tests)
+368,205,sheets,SplyAttUnitSheet,Sheets of card or polythene sleeve
+369,209,pieces,SplyAttPresPiec,Pieces  e.g. condoms
+370,271,Sector,FacSect,Public or private sector
+371,370,Public,FacSectPub,Public sector facility
+372,370,Private,FacSectPriv,Private sector facility
+373,1551,Isoniazid (H),SplyTbDrH,"Isoniazid
+H for isoniazid"
+374,34,3TC,SplyArvReg10_2,Lamivudine
+379,736,Total lymphocytes <threshold,ARTRsnTlc,Children and adults in WHO stage 1/2 with total lymphocyte count below age-specific threshold
+972,998,Final result given to client,HTCOutc,
+973,1362,New exposed infants,HTCOutcExp,Counseled as exposed infant (HIV antibody positive and age <12m)
+975,1362,New negative,HTCOutcNeg,Counseled as HIV negative.
+976,1362,New inconclusive,HTCOutcInc,Counselled as inconclusive HIV status. From version 3 of HTC register  this implies last negative or never tested and first and second pass of testing in this session gave discordant results.
+977,168,HTC Program report,HTCProgRep,
+978,998,Total HTC clients served,HTCClient,
+979,168,HTC report check sums,HTCChk,Check sum for the subgroups on the HTC report (2007 register)
+980,979,CHECK: Total tested (sex sum),HTCChkTotSex,Check sum field on data entry form for sum of subgroups
+981,504,HTCSex,ChkHTCSex,
+982,504,HTCAge,ChkHTCAge,
+983,504,HTCTest,ChkHTCTest,
+984,504,HTCRes,ChkHTCRes,
+985,485,HTC facility report ver2,DatsetHtc2,HTC report from version 2 HTC register (2007 version). Referred for services omitted.
+986,979,CHECK: Total tested (age sum),HTCChkTotAge,
+987,979,CHECK: Total tested (test sum),HTCChkTotTest,
+988,979,CHECK: Total tested (result sum),HTCChkTotRes,
+989,195,HTC at  health facility - 1st month,Ver8Pg37,
+990,195,HTC at health facility - 2nd month,Ver8Pg38,
+991,195,HTC at health facility - 3rd month,Ver8Pg39,
+992,195,HTC in community - 1st month,Ver8Pg40,
+993,195,HTC in community - 2nd month,Ver8Pg41,
+994,195,HTC in community - 3rd month,Ver8Pg42,
+995,504,MatVitA,ChkMatVitA,
+996,504,MatTEO,ChkMatTEO,
+997,694,HTC site report,RepProgHTC,HTC site monthly report (collected during supervision)  separate sub-groups for testing done at the site vs. mobile testing outside of the facility
+998,977,HTC client details,HTCClientDet,
+999,129,Wall chart job aids (set),SplyWallchart,Wall charts printed by Diginitas (enlarged from guidelines). Set of 4 charts.
+1000,35,Albendazole,SplyOiAlben,Albendazole
+1001,814,Total ART clinic registrations,ARTProgSurvReg,Calculated data element (reference to main data element in ART cohort analysis)
+1002,1001,Transfers out (double counted),ARTProgSurvTO,Calculated data element (reference to primary data element in ART cohort analysis set)
+1003,1001,Total not transferred out (patients in cohort),ARTProgSurvToN,Calculated data element (total registrations - transfers out)
+1004,33,Reason for relocation / disposal,SplyReloRsn,Reason for registered relocation or disposal of HIV commodities (used on relocation form)
+1005,1004,Stock count error (supervision form),SplyReloRsnSOH,Error or missing data on the stock position from the site that was used to make the last allocation
+1006,1004,Patient count error (supervision form),SplyReloRsnPat,Error in patient number used for previous allocation of commodities
+1543,1507,Clinician,Clinician,Clinicians at facilities across the country
+1544,1507,Nurse,Nurse,Nurses at facilities across the country
+1545,1543,Clinicians(MA/CO/MO) at the facilty,ClinFac,Number of clinicians(MA/CO/MO) at the facility
+1546,1543,Clinicians trained in STI,CliTrSTI,Number of clinicians trained in STI
+1547,1543,Clinicians trained in STI that are practicing,CliTrPrSTI,Number of Clinicians trained in STI that are practicing at facility
+1548,1544,Nurses at the facility,NursFac,Number of nurses at the facility
+1549,1544,Nurses trained in STI,NursTrSTI,Number of nurses trained in STI at facility
+1550,1544,Nurses trained in STI that are practicing,NursTrPra,Number of nurses trained in STI that are practicing
+1551,33,TB drugs,SplyTbDr,Anti-TB drugs. Added April 2015 to accommodate TB inventory items in the joint stock report form for supervision
+1552,1551,RHZE,SplyTbDrRhze,"R for rifampicin
+H for isoniazid
+Z for pyrazinamide
+E for ethambutol
+Fixed dose combination of rifampicin/isoniazid/pyrazinamide/ethambutol in tablet"
+1553,1551,RHZ,SplyTbDrRhz,"Fixed-dose combination of rifampicin/isoniazid/pyrazinamide in tablet
+R for rifampicin
+H for isoniazid
+Z for pyrazinamide"
+1554,1551,RH,SplyTbDrRh,"Fixed-dose combination rifampicin/isoniazid tablets
+R for rifampicin
+H for isoniazid"
+1555,1551,E thambutol (E),SplyTbDrE,"Single drug formulation ethambutol in tablets
+E for ethambutol"
+1556,1551,Streptomycin,SplyTbDrS,Streptomycin sulfate solution for injection
+1557,1551,RHE,SplyTbDrRhe,"Fixed-dose combination of rifampicin / isoniazid / ethambutol in tablets
+R for rifampicin
+H for isoniazid
+E for ethambutol"
+1558,2,VMMC Program,Mc,VMMC Program
+1559,1558,VMMC report check sums,McChk,Check sum fields on the reporting form
+1561,1558,VMMC services report,McProgRep,
+1562,1559,CHECK: Total HIV ascertainment,McChkTotAsc,Check sum field on reporting form for total number of males ascertained for HIV status
+1563,1559,CHECK: Total pre-op status,McChkPreOp,Check sum field on reporting form for total number of pre-op status  assesment
+1564,1559,CHECK: Total clients age group,McChkAgegrp,
+1565,1559,CHECK: Total VMMC method,McChkmet,
+1566,1559,CHECK: Total VMMC location,McChkLoc,
+1567,1559,CHECK: Total VMMC 1st Visits,McChk1stVis,Check sum field on reporting form for total number of males with 1st  follow-up visit
+1568,1559,CHECK: Total VMMC 2nd visits,McChk2ndVis,Check sum field on reporting form for total number of males with 2nd follow-up visit
+1569,1559,CHECK: Total VMMC severe AE,McChkSevAE,Check sum field on reporting form for total number of males with severe AE
+1570,1561,HIV  status ascertainment,McOutcHiv,
+1571,1570,HIV status not ascertained,McOutcHivNd,HIV status not ascertained at VMMC
+1572,1570,HIV status ascertained,McOutcHivAsc,HIV ascertained at VMMC
+1573,1572,Valid previous test result,McOutcHivAscPre,Previous HIV test result ascertained
+1574,1572,New test result at VMMC,McOutcHivNew,New HIV test result done at VMMC
+1575,1573,Prev+ not on ART,McOutcHivPrePoNA,Previous HIV positive males not on ART
+1576,1573,Prev+ on ART,McOutcHivPrepoA,Previous positive males on ART
+380,754,ART patients working,ARTOutcWork,ART patients working as of the last visit before end of reporting period
+381,754,ART patients walking,ARTOutcWalk,ART patients ambulatory as of the last visit before end of reporting period
+382,744,Adult second line,ARTOutcRegim2ad,Standard adult second line ART regimen (2004 guidelines): AZT/3TC + TDF + LPV/r
+383,745,Paediatric second line,ARTOutcRegim2ch,Standard paediatric second line ART regimen (2004 guidelines): ABC/3TC + ddI + LPV/r
+384,740,Alternative first line unspecified,ARTOutcRegim1Alt,Unspecified adult or paediatric alternative first line regimen (2004 guidelines): Regimen 2  3 or 4 (2011 guidelines)
+385,749,PTB within the last  24 months or current,ARTRegTBRecPtb,Pulmonary TB current or within the last 24 months at the time of ART initiation
+386,749,EPTB within the last 24 months or current,ARTRegTBRecEptb,Extra-pulmonary TB within the last 24 months or current at the time of ART initiation
+387,749,Unspec. TB within the last 24 months or current,ARTRegTbRecTb,TB unspecified location within 24 months or current at ART initiation
+389,395,Report period,CohPeriod,Reporting periods for cohort data elements: month 1  2 or 3 of the specified quarter  the whole quarter or cumulative
+390,389,1st month of quarter,CohPeriodM1,First month of the referenced quarter: Jan  Apr  Jul or Oct
+391,389,2nd month of quarter,CohPeriodM2,Second month of referenced quarter: Feb  May  Aug or Nov
+392,389,3rd month of quarter,CohPeriodM3,Third month of referenced quarter: Mar  Jun  Sep or Dec
+393,389,Quarter,CohPeriodQuart,All 3 months of the referenced quarter
+394,389,Cumulative,CohPeriodCumul,Cumulative period starting at the start date of the clinic and ending at the end of the referenced quarter. Zero is used in the period_obs field of the cohort_period table for cumulative records to represent infinite observation periods
+395,2,Data dimensions,Data,Attributes of patient data stored in the cohort table
+396,395,Sub groups,DataTyp,Clinic own (unchecked) or checked data (by supervision team)  all patients or subgroups (e.g. children)
+397,396,All patients (unchecked data),DataTypRaw,Clinic own data (unchecked by supervision team)
+398,396,All patients (checked data),DataTypCheck,Data verified by supervision team
+399,21,Unknown,ARTRegOccUnk,Occupation unknown
+401,396,12 month survival children,DataTyp12mChild,Only children in the cohort (under age 15 years at the time of initiation)
+402,147,ART - RegNo's correct for transfers in,QChkRegTiregno,ART register - ARV clinic registration numbers not correctly assigned for transfers in
+403,147,ART - Registration continuous,QChkRegRegcont,ART register - Registration process not continuous (gaps at the end of quarter)
+404,147,ART - Occupation recorded,QChkRegOcc,ART register - Patient occupation not consistently recorded in register
+405,147,ART - PMTCT recorded,QChkRegPmtct,ART register - PMTCT not recorded as reason for starting
+406,147,ART - TB recorded,QChkRegTb,ART register - TB status at initiation not recorded in register
+408,136,ART - Visit columns complete,QChkCardColcompl,Not all columns for ART visits are completed
+409,425,ARV drug register complete,QChkGenDrugreg,ARV drug register not filled (properly)
+410,424,CPT register complete,QChkGenCptreg,CPT drug register is not filled (properly)
+411,181,Number of outreach/mobile ART clinics,ARTLogOutr,Total number of ART outreach clinics provided by staff from this facility in the reporting period
+412,182,ART initiation days,ARTLogDaysInit,Number of days per week when new ART patients are initiated
+413,182,ART follow-up days,ARTLogDaysFup,Number of clinic days per week for ART follow-up visits
+414,952,Males tested,HTCTestM,Total males tested
+415,952,Females tested,HTCTestF,
+416,415,Females non-pregnant,HTCTestFnp,Non-pregnant females tested
+417,415,Females pregnant,HTCTestFp,Pregnant women tested
+418,966,HIV positives referred for ART,HTCTestPosArt,Total HIV positives referred for ART clinic assessment
+419,966,HIV positives referred for PMTCT,HTCTestPosPmtct,Total HIV positives referred for PMTCT services
+422,1023,HTC Register,QChkHtc,Qualtiy of filling the HTC register
+423,1023,TB register,QChkTb,Data quality in TB register
+424,1023,CPT Register,QChkCpt,Data quality of CPT register
+425,1023,ARV drug register,QChkARVdrugreg,Data quality of ARV drug register
+426,131,CPT implementation started,QChkGenCptstart,Ever started implementing CPT
+427,131,Mentoring visit needed,QChkGenMent,Mentoring visit urgently needed
+428,422,HTC register page sums correct,QChkHtcPgsum,HTC Register page summaries incomplete and/or inaccurate
+429,2,HIV labs program,Lab,CD4 counts  viral loads  DNA-PCR
+430,429,Total CD4 results produced,LabCd4Output,Total CD4 results produced in the reporting period
+431,2,CPT program,CptProg,Cotrimoxazole preventive therapy program. CPT patient data from different program sources (CPT register = cumulative ever registered  ART patient cards  HCC patient cards)
+432,431,Cumulative CPT patients registered,CptProgPatcum,Cumulative patients ever registered in the CPT register
+433,2,Fluconazole program,FlucProg,Fluconazole program (Pfizer donated fluconazole). Case data from Pfizer Fluconazole registers and possibly other data sources where registers are not available
+434,433,New cryptococcal meningitis cases,FlucProgCm,New cryptococcal meningitis cases registered in the reporting period
+435,433,New oesophageal candidiasis cases,FlucProgOc,New oesophageal candidiasis cases registered in the reporting period
+436,793,Total women in booking cohort,ANCOutc,Outcome status of the booking cohort comprising women who had their first visit 6 months before the reporting month
+437,792,Women with first visit in reporting period,ANCNew,Registration data of the women who had their first visit during the reporting month
+438,437,New women registered,ANCNewTot,Total number of women registered with their first visit during the reporting month
+439,791,Visits per woman,ANCOutcVis,Total number of ANC visits per woman
+440,791,Trimester of first visit,ANCOutcTrim,
+441,791,Pre-eclampsia,ANCOutcEcl,
+442,791,TTV doses,ANCOutcTtv,
+443,791,SP tablets,ANCOutcSp,
+444,791,FeFo tablets,ANCOutcFefo,
+445,791,Syphilis status,ANCOutcSyp,
+446,791,HIV status ascertainment,ANCOutcHiv,
+447,791,ART eligibility,ANCOutcArteli,
+448,791,CPT status (among HIV pos),ANCOutcCpt,
+449,791,PMTCT regimen mother,ANCOutcPtMoth,
+450,791,Baby's ARVs dispensed,ANCOutcPtBaby,Baby's NVP or AZT syrup dispensed to the mother for take home
+451,439,Women with 1 visit,ANCOutcVis1,
+452,439,Women with 2 visits,ANCOutcVis2,
+453,439,Women with 3 visits,ANCOutcVis3,
+454,439,Women with 4 visits,ANCOutcVis4,
+455,439,Women with 5+ visits,ANCOutcVis5,
+456,440,Started ANC 0-12 wks,ANCOutcTrim1,
+457,440,Started ANC 13+ wks,ANCOutcTrim2,
+458,441,No pre-eclampsia,ANCOutcEclNo,
+459,441,Pre-eclampsia,ANCOutcEclYes,
+460,442,0-1 TTV doses,ANCOutcTtv0,
+461,442,2+ TTV doses,ANCOutcTtv2,
+462,443,0-5 SP tablets,ANCOutcSp0,
+463,443,6+ SP tablets (2 x 3 tabs),ANCOutcSp6,
+464,444,0-119 FeFo tablets,ANCOutcFefo0,
+465,444,120+ FeFo tablets,ANCOutcFefo120,
+466,803,Syphilis negative,ANCOutcSypNeg,
+467,803,Syphilis positive,ANCOutcSypPos,
+468,445,Not tested for syphilis,ANCOutcSypUnk,
+469,796,Previous negative,ANCOutcHivPreNeg,Most recent HIV test result: documented negative from within 3 months before first ANC visit
+470,796,Previous positive,ANCOutcHivPrePos,Documented postive HIV test result from any time before starting ANC
+471,797,New negative,ANCOutcHivNewNeg,Most recent HIV test result: negative during ANC (this pregnancy)
+472,797,New positive,ANCOutcHivNewPos,Most recent HIV test result: positive test during ANC (this pregnancy)
+473,446,HIV status not ascertained,ANCOutcHivNd,HIV status not ascertained at ANC
+474,801,Not eligible,ANCOutcArteliNo,HIV positive and not eligible for ART (clinical staging and/or CD4 done)
+475,801,Eligible,ANCOutcArteliYes,HIV positive and eligible for ART (based on clinical staging and/or CD4 count)
+476,447,Unknown,ANCOutcArteliUnk,HIV positive  ART eligibility not assessed
+477,448,On CPT,ANCOutcCptYes,HIV infected and on CPT as of last ANC visit
+478,448,Not on CPT,ANCOutcCptNo,HIV infected but not on CPT as of last ANC visit
+479,449,No ARVs,ANCOutcPtMothNo,Mother HIV infected but not on any PMTCT regimen as of last ANC visit
+480,802,ART (initiation before or during pregnancy),ANCOutcPtMothArt,Mother on ART as of last ANC visit
+481,802,sdNVP,ANCOutcPtMothNvp,Mother HIV infected and on single dose nevirapine regimen as of last ANC visit
+482,802,AZT,ANCOutcPtMothAzt,Mother HIV infected and on AZT combination prophylaxis as of the last ANC visit
+483,450,No ARVs dispensed for infant,ANCOutcPtBabyNo,Baby's ARV prophylaxis not dispensed to the mother by the last ANC visit
+484,450,ARVs dispensed for infant,ANCOutcPtBabyYes,NVP syrup dispensed to the mother for take home by the last ANC visit
+485,2,Program data sets,Datset,Data element sets contained on page of the data entry forms (program reports may be split into several data sets depending on the arrangement on the paper forms)
+486,485,ANC report ver2,DatsetAnc2,ANC reporting form data set
+487,820,Confirmed not infected,HCCExpOutcHIVA,
+488,820,Confirmed infected (ART eligible),HCCExpOutcHIVB,
+489,821,HIV infection not confirmed  not ART eligible,ExpOutcHIVC,
+490,821,HIV infection not confirmed  ART eligible (PSHD),HCCExpOutcHIVD,
+491,77,On CPT,HCCExpOutcCPTYes,
+492,77,Not on CPT,HCCExpOutcCPTNo,
+493,485,Exposed child outcomes ver8,DatsetExpOutc8,Follow-up outcomes of exposed child age cohorts
+494,485,HCC registration data ver8,DatsetHccreg,Registration details for HCC patients (exposed children and pre-ART patients)
+495,485,pre-ART outcomes ver8,DatsetPreOutc,Pre-ART patient follow-up outcomes
+496,485,ART registration data ver8,DatsetArtReg,ART patient registration details
+497,485,ART outcomes (primary) ver8,DatsetArtOutcPri,ART patient follow-up outcomes by the end of the reporting period
+498,485,ART outcomes (prim+sec) ver8,DatsetArtOutcAll,Primary and secondary ART patient outcomes
+499,485,Clinic quality checklist ver8,DatsetChk,Quality check list
+500,485,ART survival analysis,DatsetArtSurv,Group cohort survival analysis data set (total registered in cohort and primary outcomes)
+501,195,ART survival 12 months (all ages),Ver8Pg1,
+502,195,HCC registration data quarter,Ver8Pg2,
+503,195,HCC registration data cumulative,Ver8Pg3,
+504,2,Checksums,Chksum,Concept sets for sub groups that should add up to a total. Used for  validation on data entry forms. All checksums MUST be defined as follows: need 2 records as concept sets: the first record (sort weight = 0) is the reference group (left side of the equation); the second record (sort weight = 1) is the comparison group (made up of sub groups  elements to sum defined by another concept set)
+505,504,ARTRegType,Chksum1,
+506,504,ARTRegSex,Chksum2,
+507,504,ARTRegAge,Chksum3,
+508,504,ARTRegRsn,Chksum4,
+509,504,ARTRegTB,Chksum5,
+510,504,ARTOutc,Chksum6,
+511,504,ARTOutcRegim,Chksum7,
+512,504,ARTOutcTB,Chksum8,
+513,504,ARTOutcDied,Chksum9,
+514,504,HCCRegType,Chksum10,
+515,504,HCCRegSex,Chksum11,
+516,504,HCCRegAge,Chksum12,
+517,504,HCCRegRsn,Chksum13,
+518,504,HCCPreOutc,Chksum14,
+519,504,HCCExpOutcHIV,Chksum15,
+520,504,HCCExpOutcPrim,Chksum16,
+521,504,ANCOutcVis,Chksum17,
+522,504,ANCOutcTrim,Chksum18,
+523,504,ANCOutcEcl,Chksum19,
+524,504,ANCOutcTtv,Chksum20,
+525,504,ANCOutcSp,Chksum21,
+526,504,ANCOutcFefo,Chksum22,
+527,504,ANCOutcSyp,Chksum23,
+528,504,ANCOutcHiv,Chksum24,
+529,504,ANCOutcArteli,Chksum25,
+530,504,ANCOutcCpt,Chksum26,
+531,504,ANCOutcPtMoth,Chksum27,
+532,504,ANCOutcPtBaby,Chksum28,
+533,195,Pre-ART outcomes cumulative,Ver8Pg4,
+534,195,Exp child - 1st month - Age 2m,Ver8Pg5,
+535,195,Exp child - 1st month - Age 12m,Ver8Pg6,
+536,195,Exp child - 1st month - Age 24m,Ver8Pg7,
+537,195,Exp child - 2nd month - Age 2m,Ver8Pg8,
+538,195,Exp child - 2nd month - Age 12m,Ver8Pg9,
+539,195,Exp child - 2nd month - Age 24m,Ver8Pg10,
+540,195,Exp child - 3rd month - Age 2m,Ver8Pg11,
+541,195,Exp child - 3rd month - Age 12m,Ver8Pg12,
+542,2,Maternity program,MatProg,Maternity report data elements
+543,805,HIV status ascertainment,MatHiv,
+544,827,Previous negative,MatHivPrevneg,
+545,827,Previous positive,MatHivPrevPos,
+546,828,New negative,MatHivNewNeg,
+547,828,New positive,MatHivNewPos,
+548,543,HIV status not ascertained,MatHivNd,
+549,832,ARV during pregnancy,MatArv,
+550,549,No ARVs in pregnancy,MatArvNon,
+551,837,AZT 0-3 weeks,MatArvAzt0,
+552,837,AZT 4+ weeks,MatArvAzt4,
+553,838,ART 0-3 weeks,MatArvArt0,Women at maternity who were on ART for 0-3 weeks during pregnancy.
+554,838,ART 4+ weeks,MatArvArt4,Women at maternity who were on ART for 4+  weeks during pregnancy.
+555,805,Obstetric complications,MatCxM,
+556,555,No obstetric complications,MatCxMNon,
+557,842,Haemorrhage (ante- or post-partum),MatCxMHaem,
+558,842,Obstr / prol labour,MatCxMOpl,
+559,842,(pre-) Eclampsia,MatCxMEcl,
+560,842,Maternal sepsis,MatCxMSep,
+561,842,Ruptured uterus,MatCxMRup,
+562,842,Other obstetric complications,MatCxMOth,
+563,832,Referred out before delivery,MatRef,
+564,563,Not referred out,MatRefNo,
+565,563,Referred out,MatRefYes,
+566,805,Staff conducting delivery,MatStaf,
+567,566,Category A: MO  CO  nurse/midwife  MA,MatStafA,
+568,566,Category B: PA  WA  HSA,MatStafB,
+569,566,Category C: Other,MatStafC,
+570,805,Mother survival,MatSurv,
+571,570,Mother alive,MatSurvYes,
+572,570,Mother died,MatSurvNo,
+573,806,Single babies / multiple deliveries,MatTwin,Header
+574,843,Single babies,MatTwinNo,
+575,843,Twin / multiple babies,MatTwinYes,
+576,806,Delivery place,MatLoc,
+577,844,This facility,MatLocHere,
+578,845,In transit,MatLocTrans,
+579,844,Other facility,MatLocOth,
+580,845,Home / TBA,MatLocHome,
+581,806,Delivery mode,MatMod,
+582,581,Spontaneous vaginal,MatModSvd,
+583,581,Vacuum extraction,MatModVe,
+584,581,Breech,MatModBre,
+585,581,Caesarean section,MatModCs,
+586,806,Infant complications,MatCxIn,
+587,586,No infant complications,MatCxInNon,
+588,846,Prematurity,MatCxInPrem,
+589,846,Weight less 2500g,MatCxInLbw,
+590,846,Asphyxia,MatCxInAsp,
+591,846,Sepsis,MatCxInSep,
+592,846,Other newborn complication,MatCxInOth,
+593,806,Infant survival,MatInf,
+594,593,Total live births,MatInfAli,Calculated data element
+595,593,Stillbirths,MatInfSb,Calculated data element
+596,594,Neonatal deaths,MatInfNnd,
+597,595,Stillbirth  fresh,MatInfSbFresh,
+598,595,Stillbirth  macerated,MatInfSbMac,
+599,860,Alive not HIV exposed,MatInfAliHivNo,
+600,860,Alive HIV exposed,MatInfAliHivY,
+601,860,Alive HIV exposure unknown,MatInfAliHivUnk,
+602,600,Alive HIV exposed no ARV,MatInfAliHivYNon,
+603,600,Alive HIV exposed NVP,MatInfAliHivYNvp,
+604,600,Alive HIV exposed NVP+AZT,MatInfAliHivYDuo,
+605,600,Alive HIV exposed AZT,MatInfAliHivYAzt,
+606,806,Breastfeeding initiated,MatBf,
+607,606,BF not started within 60min,MatBfNo,
+608,606,BF started within 60min,MatBfYes,
+609,485,Maternity report ver2,DatsetMat2,
+610,832,ARV during labour,MatArvLab,
+611,610,No ARVs in labour,MatArvLabNon,
+612,841,sd NVP,MatArvLabNvp,
+613,841,NVP + AZT + 3TC,MatArvLabTrip,
+614,841,ART,MatArvLabArt,
+615,396,Age 2 months,DataTypAge2m,Age 2 month birth cohort (exposed child follow-up)
+616,396,Age 12 months,DataTypAge12m,Age 12 months cohort (exposed child follow-up)
+617,396,Age 24 months,DataTyp24m,Age 24 months cohort (exposed child follow-up)
+618,195,Exp child - 3rd month - Age 24m,Ver8Pg13,
+619,195,ART registration data quarter,Ver8Pg14,
+620,195,ART registration data cumulative,Ver8Pg15,
+621,195,ART outcomes cumulative,Ver8Pg16,
+622,195,Quality check list,Ver8Pg17,
+623,195,ANC booking cohort - 1st month,Ver8Pg18,
+624,195,Maternity - 1st month,Ver8Pg19,
+625,195,ANC booking cohort - 2nd month,Ver8Pg20,
+626,195,Maternity - 2nd month,Ver8Pg21,
+627,195,ANC booking cohort  - 3rd month,Ver8Pg22,
+628,195,Maternity - 3rd month,Ver8Pg23,
+629,181,Regimen 5A monthly ceilings,ARTLogReg5,Maximum number of patients to be started on Regimen 5A per month as proposed by the supervision team
+630,629,New initiations on Regimen 5A,ARTLogReg5Init,
+631,629,Substitutions to Regimen 5A,ARTLogReg5Subs,
+632,396,12 month survival all ages,DataTyp12mAll,
+633,396,6 month survival all ages,DataTyp6mAll,
+634,396,18 month survival all ages,DataTyp18mAll,
+635,396,24 month survival all ages,DataTyp24mAll,
+636,396,24 month survival children,DataTyp24mChild,
+637,396,6 month survival children,DataTyp6mChild,
+638,396,36 month survival all ages,DataTyp36mAll,
+639,396,36 month survival children,DataTyp36mChild,
+640,396,48 month survival all ages,DataTyp48mAll,
+641,396,48 month survival children,DataTyp48mChild,
+642,396,60 month survival all ages,DataTyp60mAll,
+643,396,60 month survival children,DataTyp60mChild,
+644,396,72 month survival all ages,DataTyp72mAll,
+645,396,72 month survival children,DataTyp72mChild,
+646,396,84 month survival all ages,DataTyp84mAll,
+647,396,84 month survival children,DataTyp84mChild,
+648,396,96 month survival all ages,DataTyp96mAll,
+649,396,96 month survival children,DataTyp96mChild,
+653,395,Sub group sets,DataTypSet,Sets of subgroups used for concept sets
+654,653,Survival analysis,DataTypSetSurv,
+655,653,Age cohorts (birth month),DataTypSetAge,
+656,653,Checked / unchecked data,DataTypSetChk,Clinic own vs supervisor validated data
+657,663,CHECK: Total women in cohort,ANCChkTot,Check sum field on data entry form for sum of women with different numbers of visits
+658,663,CHECK: Total women HIV+,ANCChkHivpos,Check sum field for the total of previous positive and new positive women
+659,662,CHECK: Total women,MatChkTot,Check sum field on reporting form for total  number of women (sum of HIV test result groups)
+660,662,CHECK: Total HIV +,MatChkHivPos,Check sum field on reporting form for total HIV+ women (sum of previous positives and new positives)
+661,662,CHECK: Total babies,MatChkBab,Check sum field on reporting form for the total number of babies (sum of single and twin babies)
+662,542,Maternity report check sums,MatChk,Check sum fields on the reporting form
+663,46,ANC report check sums,ANCChk,Check sum fields on the ANC reporting form
+664,2,Report display elements,Rep,Elements used for definition  grouping and formatting of reports
+670,97,Total died (sum of M1  2  3  4+),ARTOutcDiedM,
+671,504,HCCExpOutcCPT,ChkHCCExpOutcCPT,
+672,504,MatHiv,ChkMatHiv,
+673,504,MatArv,ChkMatArv,
+674,504,MatCxM,ChkMatCxM,
+675,504,MatRef,ChkMatRef,
+676,504,MatStaf,ChkMatStaf,
+677,504,MatSurv,ChkMatSurv,
+678,504,MatTwin,ChkMatTwin,
+679,504,MatLoc,ChkMatLoc,
+680,504,MatMod,ChkMatMod,
+681,504,MatCxIn,ChkMatCxIn,
+682,504,MatInf,ChkMatInf,
+683,504,MatBf,ChkMatBf,
+684,504,MatArvLab,ChkMatArvLab,
+685,662,CHECK: Women delivered here,MatChkTotHere,
+686,195,ART survival 12 months (children),Ver8Pg24,
+687,195,ART survival 24 months (all ages),Ver8Pg25,
+688,195,ART survival 36 months (all ages),Ver8Pg26,
+689,195,ART survival 48 months (all ages),Ver8Pg27,
+690,195,ART survival 60 months (all ages),Ver8Pg28,
+691,195,ART survival 72 months (all ages),Ver8Pg29,
+692,195,ART survival 84 months (all ages),Ver8Pg30,
+693,195,ART survival 96 months (all ages),Ver8Pg31,
+694,664,Report menu,RepProg,Report query builder menu for program reports
+695,271,PMTCT site definition,FacPmtctSite,Performance-based definition of PMTCT site: required to have recorded at least 1 woman at ANC who received ARVs AND/OR at least 1 woman AND 1 baby who received ARVs at maternity
+696,695,PMTCT site ANC,FacPmtctSiteAnc,
+697,695,PMTCT site maternity mother,FacPmtctSiteMatM,
+698,695,PMTCT site maternity baby,FacPmtctSiteMatB,
+699,664,Calculated data elements,Calc,Calculated data elements and indicators. Calculation defined in concept sets
+700,699,Total ANC visits by women in the cohort,CalcAncVis,
+701,699,Total ANC women tested for syphilis,CalcAncSyp,
+702,699,Total ANC women with valid prev HIV test,CalcAncHivPrev,
+703,699,Total ANC women newly tested for HIV,CalcAncHivNew,
+704,699,Total ANC women with ascertained HIV status,CalcAncHivAsc,
+705,699,Total ANC women HIV positive,CalcAncHivPos,
+706,699,Total ANC women HIV negative,CalcAncHivNeg,
+707,699,Total ANC women assessed for ART eligibility,CalcAncArtElig,
+708,699,Total ANC women receiving ARVs,CalcAncArv,
+709,699,Total females registered for ART,CalcArtFem,
+710,699,Total children registered for ART,CalcArtChild,
+711,699,Total starting ART with confirmed HIV infection,CalcArtConf,
+712,699,Total starting ART in WHO stage 1/2,CalcArtWho12,
+713,699,Total starting ART with TB,CalcArtTb,
+714,699,Total alive on ART (incl. patients in transfer),CalcArtAliv,
+715,699,Total on first line ART,CalcArt1L,
+716,699,Total on second line ART,CalcArt2L,
+717,699,Total on first line ART adult formul,CalcArt1LAd,
+718,699,Total on first line ART paed formul,CalcArt1LPaed,
+719,699,Total on second line ART adult formul,CalcArt2LAd,
+720,699,Total on second line ART paed formul,CalcArt2LPaed,
+721,699,Total ART patients on CPT,CalcArtCpt,
+722,699,Total pre-ART patients on CPT,CalcPreArtCpt,
+723,699,Total pre-ART patients on IPT,CalcPreArtIpt,
+724,699,Total patients in HIV care on CPT,CalcHivCpt,
+725,699,Total pre-ART women on Depo-Provera,CalcPreArtDepo,
+726,699,Total ART women on Depo-Provera,CalcArtDepo,
+727,699,Total women in HIV care on Depo-Provera,CalcHivDepo,
+728,197,Adult / paed formulation,SplyAttAdPed,Adult or paediatric formulation for drugs
+729,728,Adult formulation drug,SplyAttAd,
+730,728,Paediatric formulation drug,SplyAttPaed,
+731,3,ART cohort analysis,ARTCoh,Patients with any side effects at the last visit before end of the reporting period
+732,731,Registration details,ARTCohReg,
+734,732,ART clinic registrations,ARTCohRegist,
+735,30,Confirmed HIV infection,ARTRegRsnHiv,
+736,735,WHO stage 1 or 2,ARTRegRsnWho12,
+737,736,CD4 unknown or >threshold,ARTRsnCd4Unk,
+738,732,Kaposi's sarcoma at ART initiation,ARTRegKs,
+739,95,Primary follow-up outcomes,ARTOutcPrim,
+740,105,First line regimens,ARTOutcRegim1L,
+741,105,Second line regimens,ARTOutcRegim2L,
+742,740,Adult formulation,ARTOutcRegim1LAd,
+743,740,Paed. formulation,ARTOutcRegim1LCh,
+744,741,Adult formulation,ARTOutcRegim2LAd,
+745,741,Paed. Formulation,ARTOutcRegim2LCh,
+746,95,ART side effects,ARTOutcSe,
+747,773,No side effects,ARTOutcSeN,
+748,775,TB confirmed,ARTOutcTBConf,
+749,90,TB recent or current,ARTRegTBAny,
+750,395,Geographical areas,DataGeo,Used for concept sets needed to select the different levels of geographical areas
+751,750,Regions,DataGeoReg,
+752,750,Zones,DataGeoZon,
+753,750,Districts,DataGeoDist,
+754,95,Functional treatment outcomes,ARTOutcFunc,
+755,2,Provider initiated family planning program,Pifp,PIFP is provided in pre-ART and ART clinics. Data reported as semi-quantitative estimate among women retained in care.
+756,760,HIV status ascertainment,TBRegHIV,
+757,756,HIV status not ascertained,TBRegHivtestN,
+758,176,HIV negative,TBRegHivNeg,Calculated data element
+759,178,Not on ART when starting TB treatment,TBRegHivArtN,
+760,174,TB program report,NTP,
+761,760,TB clinic registrations,NTPReg,
+762,174,TB / ART program triangulation,TbArt,
+763,762,HIV-burden among TB patients (estimated),TbArtHiv,
+764,763,HIV negative (est. 40%),TbArtHivNeg,calculated data element
+765,763,HIV positive (est.  60%) in need of ART,TbArtHivPos,calculated data element
+766,765,Total on ART (coverage),TbArtHivPosArtY,
+767,765,Not on ART,TbArtHivPosArtN,calculated data element: (estimated HIV positives) - (already on ART from TB prog) - (ART initiations with current TB ART prog) - (ART initiations after recent TB ART prog)
+768,766,Already on ART (TB prog),TbArtHivPosArtA,data element carried forward from TB report
+769,766,Started ART within 24m of TB diagnosis (ART prog),TbArtHivPosArtB,Sum of calculated data elements from ART program data set (current and recent TB at ART registration adjusted for transfers ins)
+770,107,Adherence recorded,ARTOutcAdhRecY,sum of subgroups
+771,107,Adherence unknown (not recorded),ARTOutcAdhRecN,Calculated data element. Entered data element from version 8.3 Jan 2013
+772,746,Side effects unknown (not recorded),ARTOutcSeRecN,Calculated data element. Entered data element from version 8.3 Jan 2013
+773,746,Side effects recorded,ARTOutcSeRecY,Sum of sub groups
+774,108,ICF not done (Current TB status unknown/ not circ),ARTOutcICFN,calculated data element. Entered data element from version 8.3 (Jan 2013)
+775,108,ICF done,ARTOutcICFY,sum of sub groups
+776,739,Total alive on ART,ARTOutcAliveTot,sum of sub groups
+777,776,ART patients in transit between sites,ARTOutcAliveTr,Calculated data element
+778,738,No KS,ARTRegKsN,Calculated data element
+779,750,Nation,DataGeoNat,Concept set
+780,395,Report period set,CohPerSet,
+781,780,Quarter / cumulative,CohPerSetQuCu,
+782,780,Monthly,CohPerSetMonth,
+783,694,ART cohort analysis,RepProgArtCoh,
+784,694,HIV exposed child follow-up,RepProgExp,
+785,694,ART survival analysis,RepProgArtSurv,
+786,694,Antenatal Care,RepProgAnc,
+787,694,Labour and delivery,RepProgMat,
+788,694,HIV Care Clinic (HCC) cohort analysis,RepProgPreArt,
+789,664,Program data sets,RepProgSet,Concept sets for multi-level program reports (needed for combo-box on report query builder)
+790,46,ANC services report,ANCProgRep,
+791,790,ANC cohort analysis,ANCProgRepCoh,
+792,790,New ANC registrations in reporting period,ANCProgRepNew,
+793,791,Total women completing ANC in the reporting period,ANCProgRepCohTot,
+795,446,HIV status ascertained,ANCOutcHivAsc,
+796,795,Valid previous test result,ANCOutcHivAscPre,
+797,795,New test at ANC,ANCOutcHivNew,
+798,791,HIV status summary,ANCOutcHivSum,
+799,798,Total women HIV negative,ANCOutcHivSumNeg,
+800,798,Total women HIV positive,ANCOutcHivSumPos,
+801,447,ART eligibility determined,ANCOutcArteliY,
+802,449,Any ARVs,ANCOutcPtMothY,
+803,445,Tested for syphilis,ANCOutcSypDone,
+804,542,Maternity services report (labour and delivery),MatProgRep,
+805,804,Maternal details,MatProgRepMum,
+806,804,Infant details,MatProgRepBab,
+807,769,ART initiations with current TB (ART prog),TbArtHivPosArtB1,Calculated dataelement: current TB at ART initiation (adjusted for transfers)
+808,769,ART initiations after recent TB (ART prog),TbArtHivPosArtC,Calculated dataelement (recent TB at initiation adjusted for transfers)
+809,694,TB/HIV program,RepProgTbHiv,
+810,95,Transfers between sites,ARTOutcTransf,
+811,810,Total not transferred out,ARTOutcTransFN,calculated data element: total registrations - transfers out
+812,3,ART survival analysis,ARTProgSurv,This concept branch is used for generic report routine only. All data elements are calculated or refer to ART cohort  data elements directly (these generic data elements are also used to store the survival analysis data elements)
+813,812,Survival and retention in ART program,ARTProgSurvGp,
+814,813,ART cohort registration group outcomes,ARTProgSurvGpSur,Section header in report
+815,1003,Total alive on ART,ARTProgSurvAl,Calculated data element (reference to total alive on ART)
+816,1003,Total not retained,ARTProgSurvDrop,
+817,816,Defaulted,ARTProgSurvDef,Calculated data element (refer to primary DE: Defaulted)
+818,816,Stopped ART,ARTProgSurvStop,Calculated data element: refer to ART cohort Stopped ART
+819,816,Died,ARTProgSurvDied,Calculated data element: refer to ART cohort Total died
+820,76,Current HIV infection status known,ExpOutcHIVtst,
+821,76,Current HIV infection status unknown,ExpOutcHIVtstN,Calculated data element
+822,805,Admissions in the reporting period,MatAdm,Header for calculated data elements
+823,822,Total admissions (referrals double-counted),MatAdmTot,
+824,823,Not referred to other site (total women),MatAdmWom,Calculated data element
+825,823,Referred out before delivery (multiple admissions),MatAdmRef,Calculated data element
+826,543,HIV status ascertained,MatHivAsc,
+827,826,Valid previous test result,MatHivAscPrev,Calculated data element
+828,826,New test at maternity,MatHivAscNew,Calculated data element
+829,805,HIV status summary,MatHivSum,Calculated data element header
+830,829,Total women HIV negative,MatHivSumNeg,Calculated data element
+831,829,Total women HIV positive,MatHivSumPos,Calculated data element
+832,542,Maternity report raw data elements,MaTProgRaw,Concept branch for raw data elements for entry that need to be converted into calculated data elements for the report table.
+833,694,Maternity,RepProgMaternity,
+834,805,ARVs during pregnancy (among HIV pos),MatMumPregArv,Header for calculated data elements
+835,834,No ARV in pregnancy,MatMumPregArvNV3,Calcuated data element for Maternity Report Version 3: subtracting only the subgroups for ART (by time of initiation). All data elements used in the calculation must be available to compile
+836,834,Any ARVs,MatMumPregArvY,Sum of sub groups
+837,836,AZT combination prophylaxis,MatMumPregArvAzt,Sum of sub groups
+838,836,ART,MatMumPregArvArt,Sum of sub groups
+839,805,ARVs during labour (among HIV pos),MatMumLabArv,Header for calculated data elements
+840,839,No ARVs in labour,MatMumLabArvN,Calculated data element
+841,839,Any ARVs,MatMumLabArvY,Sum of sub groups
+842,555,Any obstetric complications,MatCxMAny,Header for sub groups
+843,573,Total babies delivered,MatTwinTot,Calculated data element
+844,576,Total deliveries at a health facility,MatLocFac,Calculated data element
+845,576,Total deliveries before reaching the facility,MatLocEx,Calculated data element
+846,586,Total infants with complications,MatCxInY,Calculated data element
+847,594,Discharged alive,MatInfAliDischV2,Calculated data element. For version 2 of the Mat report (incl. 3 different infant ARV regimens)
+848,806,HIV exposure / ARV proph. (among discharged alive),MatInfPmtct,Header for calculated data elements
+849,848,Infants with unknown HIV exposure status,MatInfPmtctUnk,Calculated data element
+850,848,Infants with known HIV exposure status,MatInfPmtctAsc,Calculated data element
+851,850,Not HIV exposed,MatInfPmtctExpN,Calculated data element
+852,850,HIV exposed,MatInfPmtctExpY,Calculated data element
+853,852,Received no ARVs,MatInfPmtctArvN,Calculated data element
+854,852,Received ARVs,MatInfPmtctArvY,Calculated data element
+856,854,Nevirapine,MatInfPmtctArvNv,Calculated data element (ref to equivalent raw DE)
+857,854,AZT combination regimen,MatInfPmtctArvAz,Calculated data element
+858,857,Started zidovudine + nevirapine,MatInfPmtctAzt2,Calculated data element (direct ref to raw DE)
+859,857,Started zidovudine only,MatInfPmtctArv1,Calculated data element (direct ref to raw DE)
+860,832,Infant survival / PMTCT status,Mat RawInfPmtct,Group node for raw data elements
+861,2,IPT program,IptProg,
+862,54,Children below 24 months (exposed children),HCCRegChildExp,Calculated data element: sum of infants and 2-23m olds
+863,4,HCC cohort analysis,HCCProgCoh,
+864,863,Registration details,HCCProgCohReg,
+865,864,HCC clinic registrations,HCCProgCohRegDet,
+866,68,Primary follow-up outcomes,HCCPreOutcPrim,
+867,68,Transfers between sites,HCCPreOutcTr,
+870,867,Total not transferred out,HCCPreOutcTrN,Calculated data element: total pre-ART registrations - total transfers out
+871,74,Age cohort outcomes,HCCExpOutcCoh,
+872,871,Total children in birth cohort,HCCExpOutcCohTot,
+873,871,Transfers between sites,HCCExpOutcTr,
+874,873,Total not transferred out,HCCExpOutcTrN,Calculated data element: total registered - transferred out
+875,871,ART eligibility summary,HCCExpOutcArtEli,Header for calculated data elements
+876,875,ART eligible,HCCExpOutArtEliY,Calculated data element: confirmed infected + PSHD
+877,875,Not eligible for ART,HCCExpOutArtEliN,Calculated data element: Total registered - ART eligible
+878,876,ART not initiated,HCCExpOutArtN,Calculated data element: ART eligible - ART initiated
+879,876,Initiated ART,HCCExpOutArtY,Calculated data element: = started ART
+880,2,Person attributes,Pers,Person attributes  such as staff cadre
+881,880,Staff qualification,PersCadr,Staff qualification. Concept set to define combobox for staff qualifications.
+882,1623,MO Medical Officer / Doctor,PersCadrMo,Medical officer (doctor)
+883,1623,CO Clinical Officer,PersCadrCo,Clinical officer
+884,1624,Nurse / Midwife unspecified,PersCadrNu,Nurse and/or midwife (registered or technician)
+885,881,Auxiliary Staff,PersCadrAux,Auxiliary staff and health extension workers
+886,1623,MA Medical Assistant,PersCadrMa,Medical assistant
+887,885,HSA Health Surveillance Assistant,PersCadrHsa,Health Surveillance Assistant
+888,881,Other / unknown qualification,PersCadrOth,Other / unknown professional qualification
+889,197,Releasing authority,SplyRoAuth,Items are procured and managed by different authorities  e.g. CHAI procures and authorizes distribution of paediatric ARVs  UNICEF is responsible for adult ARVs and OI drugs  etc. This concept is used on the psm_dist_batch and psm_DL_sheet tables to create separate release order sheets
+890,889,UNICEF,SplyRoAuthUNICEF,UNICEF
+891,889,CHAI,SplyRoAuthCHAI,
+892,889,MOH,SplyRoAuthMOH,Ministry of Health  Department for HIV and AIDS
+893,396,108 month survival all ages,DataTyp108mAll,
+894,396,108 month survival children,DataTyp108mChild,
+895,396,120 month survival all ages,DataTyp120mAll,
+896,396,120 month survival children,DataTyp120mChild,
+897,195,ART survival 108 months (all ages),Ver8Pg32,
+898,195,ART survival 120 months (all ages),Ver8Pg33,
+899,485,ART outcomes validation,DatsetArtOutcVal,Selection of primary and secondary ART outcomes where the previous quarter's values should not be > than the current quarter's values. Used in Data Validation report (consistency checks)
+900,396,6 month survival OptionB+,DataTyp6mB+,6 month survival analysis of women who started with reason 'pregnant' or 'breastfeeding'
+901,396,12 month survival OptionB+,DataTyp12mB+,
+902,396,24 month survival OptionB+,DataTyp24mB+,
+903,195,ART survival 6 months (Option B+),Ver8Pg34,
+904,195,ART survival 12 months (Option B+),Ver8Pg35,
+905,195,ART survival 24 months (Option B+),Ver8Pg36,
+906,443,0 SP doses,ANCOutcSp0Dos,Total women who received 0 SP doses
+907,443,1 SP dose (1 x 3 tabs),ANCOutcSp1Dos,Total women received 1 SP dose (1 x 3 tabs)
+908,791,Albendazole (Deworming),ANCOutcAlb,
+909,908,0 Albend. doses,ANCOutcAlb0,Total ANC women receiving no Albendazole
+910,908,1 Albend. dose,ANCOutcAlb1,Total ANC women receiving 1 dose of Albendazole
+911,791,ITN (bednets),ANCOutcITN,
+912,911,No ITN,ANCOutcITNN,Total ANC women not receiving ITN
+913,911,ITN received,ANCOutcITNY,Total ANC women receiving ITN
+914,918,Already on ART when starting ANC,ANCOutcArtTri0,Total ANC women already on ART at 1st ANC visit
+915,918,Started ART at 0-27 weeks of pregnancy,ANCOutcArtTri1_2,Total ANC women starting ART during 1st or 2nd trimester
+916,918,Started ART at 28+ weeks of preg.,ANCOutcArtTri3,Total ANC women starting ART during 3rd trimester
+917,485,ANC report ver3,DatsetAnc3,ANC report version 3. Introduced (prematurely) in July 2012 during Q2 2012 supervision round.
+918,802,ART (by time of initiation),ANCOutcArtTime,ANC ART time of initiation subgroups (introduced in Version 3)
+919,941,ART initiated before pregnancy,MatArvArtPrePreg,Women at maternity who had initiated ART before 1st ANC visit. Data element introduced from version 3.
+920,941,ART initiated in 1st / 2nd trimester,MatArvArtTri1_2,Women at maternity who initiated ART during 1st or 2nd trimester. Data element introduced from version 3.
+921,941,ART initiated in 3rd trimester,MatArvArtTri3,Women at maternity who initiated ART during 3rd trimester. Data element introduced from version 3.
+922,941,ART initiated during labour,MatArvArtLab,Women at maternity who initiated ART during labour. Data element introduced from version 3.
+924,926,Haemorrhage ante-partum,MatCxMHaemAnte,
+925,926,Haemorrhage post-partum,MatCxMHaemPost,
+926,842,Haemorrhage,MatCxMHaemTime,
+927,805,Emergency obstetric care,MatCxMTx,
+928,927,Oxytocin,MatCxMTxOx,Women given oxytocin at maternity
+929,927,Anticonvulsive,MatCxMTxAk,
+930,927,Antibiotics,MatCxMTxAb,Women given antibiotics at maternity. From version 3
+931,927,Blood transfusion,MatCxMTxBlood,Women at maternity receiving blood transfusions. From version 3.
+932,927,Manual removal of placenta,MatCxMTxMrp,Women at maternity receiving manual removal of placenta. From version 3.
+933,805,Vitamin A,MatMumVitA,Introduced from version 3.
+934,933,Vit A not given,MatMumVitAN,Women at maternity not receiving vitamin A. From version 3. Calculated data element.
+935,933,Vit A given,MatMumVitAY,Women at maternity receiving vitamin A. From version 3.
+936,806,Tetracycline eye ointment given,MatInfTO,From version 3.
+937,936,TO not given,MatInfTON,From version 3. Calculated data element.
+938,936,TO given,MatInfTOY,Infants receiving tetracycline eye ointment at maternity. From version 3
+939,485,Maternity report ver3,DatsetMat3,Introduced July 2012 (prematrurely during 2012 Q2 supervision).
+940,35,Amoxicillin / Clavulanic acid,SplyOiCoamox,
+941,836,ART (by time of initiation),MatMumPregArtTri,Subgrouping changed from version 3 (by trimester of ART initiation)
+943,834,No ARVs in pregnancy,MatMumPregArvNV2,Calculated data element for Mat Report Version 2: subtracting the AZT and ART subgroups from total HIV pos. All data elements used in the calculation must be available to compile
+945,35,Fluconazole (Diflucan),SplyOiFlucPfi,Fluconazole donated by Pfizer (Diflucan) needs separate concept as inventory and distribution are managed separately
+946,889,CMS priority,SplyRoAuthCMSpri,Release from CMS MANOBEC. Priority category introduced in DL11 to allow separating consignments when appending to psm_DL_site for generation of allocation list (site and releasing authority has to be unique in this table).
+947,889,CMS regular,SplyRoAuthCMSReg,Releasing authority CMS MANOBEC regular priority. To allow splitting of consigments onto different sheets per round.
+948,396,Clients at health facility (static),DataTypStatic,HTC clients tested at static health facilities.
+949,396,Clients tested in the community,DataTypMobile,HTC clients served in the community (Version 3). Version 2: clients testing outside of health facility (outreach / mobile)
+950,653,Static / outreach / mobile,DataTypSetStOR,Service mode: clients served at static site in health facility vs. at outreach or mobile locations (used for HTC report from Oct 20123)
+952,998,Sex,HTCTestSex,
+953,998,Age,HTCTestAge,
+954,953,Adults 15+ years,HTCTestAgeCD,
+955,953,Children 0-14 yrs,HTCTestAgeAB,
+956,954,Young adults 15-24 years (Age group C),HTCTestAgeC,
+957,954,Older adults 25+ yrs (Age group D),HTCTestAgeD,
+958,955,Children 12 mths - 14 yrs (Age group B),HTCTestAgeB,
+959,955,Children below 12 mths (Age group A),HTCTestAgeA,Age group A was defined as 0-17 months in version 2 of HTC register (2007). Updated clinical guidelines required modification as rapid test is considered diagnostic from age 12m. Version 3 of HTC register defines Age group A as 0-11 months.
+960,998,Counseling session type / Partner present,HTCCoun,HTC counseling session type
+961,960,Counseled with partner / partner present,HTCCounPY,
+962,960,Counseled alone / Partner not present,HTCCounAlon,Calculated data element in version 2  entered from version 3
+963,998,HTC first time / repeat,HTCFtRep,
+964,963,Previously accessed HTC,HTCRepeat,
+965,963,Never tested before,HTCFt,Clients accessing HTC for the first time in their life. Calculated data element
+966,998,Referred for services,HTCRef,
+967,998,Outcome summary (HIV test),HTCRes,
+968,967,Single test negative,HTCRes1-,
+969,967,Test 1&2 negative,HTCRes1-2-,
+970,967,Test 1&2 positive,HTCRes1+2+,
+971,967,Test 1&2 discordant,HTCResDisc,
+1007,1004,Unexpected growth (transfers in),SplyReloRsnTrans,Unexpected increase in consumption rate since last supervision due to large number of patients transferring in
+1008,1004,Bad stock management at site,SplyReloRsnWaste,Bad stock management at site (failure to identify and relocate out excess stock)
+1009,1004,Deviation from distribution list,SplyReloRsnDev,Deviation of stocks received from whart was allocated on the distribution list
+1010,1004,Unknown / other,SplyReloRsnUnk,Unknown / other reason causing relocation or disposal of HIV commodities
+1011,1004,Data entry error,SplyReloRsnEntry,Data entry error from supervision form or returned delivery note
+1012,1004,Exceeded 5A ceilings,SplyReloRsn5ACei,Unexpected change in consumption rate since last supervision due to exceeding of 5A ceilings
+1013,1004,Prevent expiry of excess stock,SplyReloRsnSha,Relocation of slow moving / excess stock to prevent expiry
+1014,1004,Unexpexted growth (new starts),SplyReloRsnStart,Unexpected increase in consumption rate since last supervision due to large number of new patients started on this regimen
+1015,130,Logistics,QChkLog,Clinic quality check list section logisitcs
+1016,1015,Relocation forms filled for ARVs / tests,QChkLogRelo,ARVs / HIV test kits relocated or disposed without authorization and filling of Relocation form
+1017,1015,Diflucan register filled for each bottle dispensed,QChkLogDifl,Diflucan dispensed without filling of Diflucan register
+1018,1015,Enough HIV tests reserved for pregnant women,QChkLogTstRes,Not enough HIV test kits reserved for pregnant women
+1019,1015,ART init and contin direct at ANC/MCH,QChkLogB+,Failure to implement ART inititiation and continuation directly at ANC / MCH
+1020,1015,NVP syrup dispensed at ANC asap,QChkLogNVPsyr,Failure to dispense full amount of NVP syrup at ANC as soon as possible
+1021,136,Filing - Exp Child cards correctly filed,QChkCardFilExp,Exposed child cards not correctly filed (by birth month)
+1022,136,Filing - Pre-ART+ART cards filed by Active/Inactiv,QChkCardFilAct,Pre-ART and ART cards not correctly filed (by Active / Inactive)
+1023,130,Registers correctly filled,QChkRg,Quality check list: Registers correctly filled
+1024,1023,ANC register correctly filled,QChkRgANC,ANC register not correctly filled: New page for each month  final status  page totals  etc.
+1025,1023,Mat register correctly filled,QChkRgMat,Maternity register not correctly filled: New page for each month  final status  page totals  etc.
+1026,1023,HCC register correctly filled,QChkRgHCC,HCC register not correctly filled: New page for each month  final status  page totals  etc.
+1027,154,HTC reports for all 3 months,QChkRepHTC,HTC reports not complete for all 3 months or inaccurate
+1028,154,ANC cohort reports for all 3 months,QChkRepANC,ANC cohort reports not complete for all 3 months or inaccurate
+1029,154,Maternity reports for all 3 months,QChkRepMat,Maternity reports not complete for all 3 months or inaccurate
+1030,154,HCC - Quarterly cohort report complete,QChkRepHCCQ,HCC quarterly cohort registration report incomplete and/or inaccurate
+1031,154,HCC - Cumulative Pre-ART outcome report complete,QChkRepHCCOutc,HCC - Cumulative Pre-ART cohort outcome report incomplete and/or inaccurate
+1032,154,HCC - Exp Child cohort reports complete,QChkRepHCCExp,HCC - Exposed Child cohort reports incomplete / inaccurate (for age 2  12 and 24 months for all 3 months of the quarter)
+1033,154,ART - Cumul cohort report (reg details) complete,QChkRepARTCR,ART - Cumulative cohort registration details report incomplete and/or inaccurate
+1034,433,Diflucan - CM new cases given Tabs,FlucProgCmNewTab,Diflucan register - New cases with cryptococcal meningitis (New + CM) given Diflucan tablets
+1035,433,Diflucan - CM maintenance cases given Tabs,FlucProgCmMaiTab,Diflucan register - Patients receiving CM maintenance therapy (Refill) Diflucan tablets
+1036,433,Diflucan - OC new cases given Tabs,FlucProgOCTab,Diflucan register - New cases oesophageal candidiasis (New + OC) given Diflucan tabs
+1037,433,Diflucan - CM new cases given Oral susp,FlucProgCmNewSyr,Diflucan register - New cases cryptococcal meningitis (New + CM) given Diflucan oral suspension
+1038,433,Diflucan - CM maintenance cases given Oral susp,FlucProgCmMaiSyr,Diflucan register - Patients receiving CM maintenance therapy (Refill) given Diflucan oral suspension
+1039,433,Diflucan - OC new cases given Oral susp,FlucProgOCSyr,Diflucan register - New cases oesophageal candidiasis (New + OC) given Diflucan oral suspension
+1040,504,ARTOutcAdh,ChksumArtAdh,Checksum for 3 adherence categories (introduced from version 8.3  Jan 2013)
+1041,504,ARTOutcSE,ChksumArtOutcSE,Checksum for 3 subgroups for ART adherence  including unknown. Introduced version 8.3 Jan 2013
+1042,485,Clinic quality checklist ver8.3,DatsetChk8.3,Form version 8.3: Preventive services / HIV related diseases  Quality checklist (Jan 2013)
+1043,429,Blood safety,LabBld,Blood safety report from 2011 MOH Blodd Safety Register. Collected through site supervision from Jan 2013 (version 8.3 of supervision form)
+1044,1085,HIV screening,LabBldHiv,Potential bllod donors tested for HIV
+1045,1085,Hepatitis B screening,LabBldHepB,Potential blood donors tested for Hepatitis B
+1046,1085,Hepatitis C screening,LabBldHepC,Potential blood donors tested for Hepatitis C
+1047,1085,Syphilis screening,LabBldSyp,Potential blood donors tested for syphilis
+1048,1085,Malaria screening,LabBldMal,Potential blood donors tested for malaria
+1049,1085,Summary screening outcome,LabBldOutc,Summary outcome of potential blood donors after screening
+1050,1049,Not donated,LabBldOutcNd,Potential blood donors who ended up not donating after screening
+1051,1049,Donated,LabBldOutcD,Potential blood donors who ended up donating
+1052,1126,Screened for HIV  HepB  HepC  Syphilis  Malaria,LabBldOutcD5,Blood donors screened negative for HIV  Hepatitis B  Hepatitis C  Syphilis and Malaria
+1053,1126,Screened for HIV  HepB  Syphilis,LabBldOutcD3,Blood donors screened negative for HIV  HepB and syphilis
+1054,1051,Screened for HIV  HepB,LabBldOutcD2,Blood donors screened for HIV and HepB only.
+1055,1051,Screened for HIV only,LabBldOutcD1,Blood donors screened negative for HIV only
+1056,1051,Screened with any other combination of tests,LabBldOutcDOth,Blood donors screened with any other combination of tests.
+1057,34,ATV / r,SplyArvReg8_3,Fixed dose combination atazanavir / ritonavir
+1058,1114,HIV negative,LabBldHivNeg,Potential blood donors tested HIV negative
+1059,1114,HIV positive,LabBldHivPos,Potential blood donors tested HIV positive
+1060,1044,HIV testing not done,LabBldHivNd,Potential blood donors not tested for HIV
+1061,1043,Blood safety report check sums,LabBldChkSum,Check sums from blood safety report (entered from paper form but not shown on electronic report)
+1062,1061,CHECK: Total potential donors (sum HIV testing),LabBldChkSumHIV,
+1063,1061,CHECK: Total potential donors (sum HepB testing),LabBldChkSumHepB,
+1064,1061,CHECK: Total potential donors (sum HepC testing),LabBldChkSumHepC,
+1065,1061,CHECK: Total potential donors (sum Syp testing),LabBldChkSumSyp,
+1066,1061,CHECK: Total potential donors (sum malaria tests),LabBldChkSumMal,
+1067,1061,CHECK: Total potential donors (sum outcomes),LabBldChkSumSum,
+1068,1061,Total units cross-matched (sum),LabBldChkSumXm,
+1069,1084,Cross-matching report,LabBldXm,Report from cross-matching records
+1070,1119,Total blood group typing done,LabBldXmGp,Total blood group typing done (=total tests used for donors + patients + units)
+1071,1069,Blood units cross-matched by patient group,LabBldXmUn,
+1072,1071,Units cross-matched for maternity,LabBldXmUnMat,Total blood units cross-matched for maternity
+1073,1071,Units cross-matched for paediatrics,LabBldXmUnPaed,Total units cross-matched for paediatric wards
+1074,1071,Units cross-matched for other ward,LabBldXmUnOth,Total blood units cross-matched for other wards
+1075,1069,Transfusion reactions,LabBldXmAe,Total suspected and confirmed tranfusion reactions
+1076,1075,Units transfused without adverse events,LabBldXmAeN,Total units transfused without tranfusion reactions (calculated data element)
+1077,1075,Units with suspected transfusion reactions,LabBldXmAeS,Total units transfused with suspected transfusion reactions
+1078,1075,Units with confirmed transfusion reactions,LabBldXmAeC,Total units transfused with confirmed transfusion reactions
+1079,1043,Stock-out report of key commodities,LabBldStk,Stock-outs of key commodities used for blood donations in the reporting month
+1080,1079,HIV test reagent stock-out,LabBldStkHIV,Checklist for stock-outs of key commodities for blood donations in the reporting month: HIV test kits
+1081,1079,Hepatitis B test reagent stock-out,LabBldStkHepB,Checklist for stock-outs of key commodities for blood donations in the reporting month: Hepatitis B test kits
+1082,1079,Hepatitis C test reagent stock-out,LabBldStkHepC,Checklist for stock-outs of key commodities for blood donations in the reporting month: Hepatitis C test kits
+1083,1079,Syphilis test reagent stock-out,LabBldStkSyp,Checklist for stock-outs of key commodities for blood donations in the reporting month: Syphilis test kits
+1084,1043,Blood safety report,LabBldRep,Report header for generic report from blood safety monthly reports
+1085,1084,Infect. disease screening among potential donors,LabBldInf,Infectious disease screening among potential blood donors (sub-heading from blood donor report)
+1086,1115,HepB Negative,LabBldHepBNeg,Potential Blood donors tested Hepatitis B Negative
+1087,1115,HepB Positive,LabBldHepBPos,Potential Blood donors tested Hepatitis B Positive
+1088,1045,HepB testing not done,LabBldHepBNd,Potential Blood donors not tested for Hepatitis B
+1089,1116,HepC Negative,LabBldHepCNeg,Potential blood donors  tested Hepatitis C negative
+1090,1116,HepC Positive,LabBldHepCPos,Potential blood donors  tested Hepatitis C positive
+1091,1046,HepC testing not done,LabBldHepCNd,Potential Blood donors not tested for Hepatitis C
+1092,1117,Syphilis Negative,LabBldSypNeg,Potential Blood donors tested Syphilis Negative
+1093,1117,Syphilis Positive,LabBldSypPos,Potential Blood donors tested Syphilis Positive
+1094,1047,Syphilis testing not done,LabBldSypNd,Potential blood donors  not tested for Syphilis
+1095,1118,Malaria Negative,LabBldMalNeg,Potential Blood donors tested Malaria negative
+1096,1118,Malaria Positive,LabBldMalPos,Potential Blood donors tested Malaria positive
+1097,1048,Malaria testing not done,LabBldMalNd,Potential blood donors not tested for malaria
+1098,485,Blood safety report version 1,DatsetBld,Blood safetly monthly facility report version 1. Actively collected from Q4 2012 (Jan 2013 supervision visit)
+1100,195,Blood safety - 1st month,Ver8Pg43,
+1101,195,Blood safety - 2nd month,Ver8Pg44,
+1102,195,Blood safety - 3rd month,Ver8Pg45,
+1103,504,BldHIV,ChkBldHIV,
+1104,504,BldHepB,ChkBldHepB,
+1105,504,BldHepC,ChkBldHepC,
+1106,504,BldSyp,ChkBldSyp,
+1107,504,BldMal,ChkBldMal,
+1108,504,BldSumOutc,ChkBldSumOutc,
+1109,504,BldXmatch,ChkBldXmatch,
+1110,396,District level aggregate,DataTypDistAgg,District level aggregated report. Subgroup created to permit district HTC reports to be entered in this database. District reports are entered for the respective District Hospital (visted in PMTCT/ART supervision)
+1111,195,HTC District report,Ver8Pg49,HTC district level report. Passively reported by the district HTC coordinators.
+1112,694,HTC district level report,RepProgHTCDist,District level HTC report (passively reported by HTC district coordinators)
+1113,694,Blood safety,RepProgBld,Blood Safety report from blood safety register version 1. Collected during site supervision visits from Jan 2013 (for Q4 2012)
+1114,1044,Tested for HIV,LabBldHivY,Calculated data element
+1115,1045,Tested for Hepatitis B,LabBldHepBY,Calculated data element
+1116,1046,Tested for Hepatitis C,LabBldHepCY,Calculated data element
+1117,1047,Tested for Syphilis,LabBldSypY,Calculated data element
+1118,1048,Tested for malaria,LabBldMalY,Calculated data element
+1119,1069,Blood group typing (for units and patients),LabBldXmGpTot,Header level
+1120,1069,Blood units cross-matched (by source),LabBldXmTot,Heading for calculated data elements
+1121,1120,Total blood units cross-matched,LabBldXmUnTot,Calculated data element (from bllod units cross-matched by patient group)
+1122,1121,Total units from MBTS (estimated),LabBldXmMBTS,Calculated data element: Sum of blood units cross-matched by patient group - Total blood units donated
+1123,1121,Total units from replacement donors,LabBldXmRepl,Calculated data element: = total units donated (from screenin section)
+1126,1051,Screened for at least HIV  HepB and syphilis,LabBldOutcD5min,Calculated data element: sum of sub groups
+1127,37,Penicillin G,SplyStiPenG,Penicillin G
+1128,187,9,Ver9,Stock report version 9 (from 2013 Q1)
+1129,33,Supply item groups,SplyGrp,Concept set for supply_item_set form to help sort items by group
+1130,197,Inventory units,SplyAttInvUn,Concept set for concepts specified under pack units / item presentation used for inventory units
+1131,1004,Delayed scheduled delivery,SplyReloRsnDel,Delayed scheduled delivery
+1132,130,Performance criteria,QChkPerfCrit,Concept set for concepts among service/data quality checklist that are all of general relevance and interpreted as No=poor and Yes=good performance
+1133,1015,Stock cards for ARVs  OI and test kits up-to-date,QChkLogStCrd,Failure to update stock cards for all ARVs  OI meds and test kits
+1134,485,Clinic quality checklist ver8.5,DatsetChk8.5,Quality check list version 8.5 introduced April 2013 for Q1 2013
+1135,1004,Receipt,SplyReloRsnRec,Receipt of items at warehouse
+1136,1004,Confirmed order in pipeline,SplyReloRsnOrd,Confirmed procurement order in pipeline
+1137,33,Supply item transactions,SplyAct,Transactions for supply items. Concepts used in the psm_relocate table and associated queries.
+1138,1137,Confirmed order in pipeline,SplyActOrd,Confirmed order. Sending site: Partnership for Supply Chain Management (Dept under VPP as facility). Receiving site: Shipping agent (Dept under VPP as facility)
+1139,1137,Receipt in warehouse,SplyActRec,Receipt at MANOBEC warehouse. Sending site: Shipping Agent (Dept under VPP as facility). Receiving site: MANOBEC warehouse (Dept under CMST)
+1140,1137,Ad-hoc allocation from warehouse,SplyActAdhoc,Ad-hoc allocation from MANOBEC warehouse. SMANOBEC warehouse (Dept under CMST). Receiving site: Any ART department
+1141,1137,Disposal,SplyActDisp,Disposal of items due to expiry or loss. Sending site: any. Receiving site: 'Disposals' (Dept under 'Ministry of Health' as site)
+1142,187,10,Ver10,Reporting form version 10 (stock report) used from Q2 2013
+1143,129,Stock card,SplyFileStckCrd,LMIS stock cards
+1144,129,HIV Rapid Tests Daily Activity Register,SplyFileDAR,HIV Rapid Tests Daily Activity Register  version 2 (April 2013)  block of 50 carbonated sheets in triplicate)
+1145,129,Reg Form for Relocation / Disposal HIV Commodities,SplyFileReloFrm,Registration forms for relocation and disposal of HIV Commodities (block of 50 sheets in triplicate copy)
+1147,2,STI program,STI,STI program report
+1148,1147,STI report check sums,STIchk,STI program report check sums
+1149,1147,STI Program Report,STIrep,STI program report
+1150,1226,Sex,STIrepSex,Sex of STI client
+1151,1150,Males,STIregSexM,Male STI clients
+1152,1150,Females,STIregSexF,Female STI clients. Calculated data element
+1153,1152,Non-pregnant,STIregSexFNP,Non-pregnant female STI clients
+1154,1152,Pregnant,STIregSexFP,Pregnant STI clients
+1155,1226,Age group,STIrepAge,Age groups for STI clients
+1156,1155,Age group A (0-19 years),STIrepAgeA,STI client age group A (0-19 years)
+1157,1155,Age group B (20-24 years),STIrepAgeB,STI client age group B (20-24 years)
+1158,1155,Age group C (25+ years),STIrepAgeC,STI client age group C (25+ years)
+1159,1226,Client type,STIrepTyp,STI client type
+1160,1161,Index cases,STIrepTypInd,STI client type: index cases
+1161,1159,Symptomatic cases,STIrepTypSym,STI client type symptomatic cases: calculated data element
+1162,1159,Partners asymptomatic,STIrepTypAsym,STI client type: asymptomatic partners of index cases
+1163,1161,Partners symptomatic,STIrepTypSymPart,STI client type: symptomatic partners
+1164,1226,STI treatment history,STIrepHx,STI treatment history
+1165,1164,Never treated for STI,STIrepHxNev,STI treatment history: never treated for STI before
+1166,1164,Previously treated for STI,STIrepHxPrev,STI treatment history: Previously treated for STI. Calculated data element
+1167,1166,Old >3 months ago,STIrepHxPrevOld,Old STI treatment history (>3 months ago)
+1168,1166,Recent ≤3 months ago,STIrepHxPrevRec,Cases with recent previous STI treatment ≤3 months ago
+1169,1226,HIV test / ART status,STIrepHIV,STI client HIV and ART status
+1170,1172,HIV negative (new test),STIrepHIVNeg,STI clients with new HIV negative test result
+1171,1172,HIV positive,STIrepHIVPostot,Total known HIV positive STI clients. Calculated data element
+1172,1169,HIV status ascertained,STIrepHIVAsc,Total STI clients with HIV status ascertained
+1173,1169,HIV status not ascertained,STIrepHIVAscN,STI clients with unknown HIV status
+1174,1171,New positive,STIrepHIVPosNew,STI clients with new HIV positive test result
+1175,1171,Previous positive,STIrepHIVPosPrev,STI clients with previous positive HIV test result. Calculated data element
+1176,1175,Not on ART,STIrepHIVPosARTN,STI clients with previous positive HIV test  not on ART
+1177,1175,On ART,STIrepHIVPosARTY,HIV positive STI clients already on ART
+1178,1226,STI syndromic diagnosis,STIrepDx,STI syndromic diagnosis
+1179,1178,GUD,STIrepDxGUD,Genital Ulcer Disease
+1180,1178,UD,STIrepDxUD,Urethral Discharge
+1181,1178,AVD,STIrepDxAVD,Abnormal vaginal discharge. Calculated data element
+1182,1181,Low risk,STIrepDxAVDL,Abnormal Vaginal Discharge  low risk
+1183,1181,High risk,STIrepDxAVDH,Abnormal Vaginal Discharge  high risk
+1184,1178,LAP,STIrepDxLAP,Lower abdominal pain
+1185,1178,SS,STIrepDxSS,Scrotal Swelling
+1186,1178,BU,STIrepDxBU,Bubo
+1187,1178,BA,STIrepDxBA,Balanitis
+1188,1178,NC,STIrepDxNC,Neonatal conjunctivitis
+1189,1178,Genital Warts,STIrepDxGW,Genital Warts
+1190,1178,Syphilis RPR VDRL,STIrepDxSyp,Serologically confirmed syphilis
+1191,1178,Other STI,STIrepDxOth,Other STI diagnosis
+1192,1226,STI partner notification,STIrepPrt,STI partner notification system
+1193,1192,Total partner notification slips issued,STIrepPrtSlp,Total STI partner notification slips issued
+1194,1193,Total partners returned,STIrepPrtRet,Total STI clients of client type partner (presumably presented with slip). Calculated data element.
+1195,1193,Total partners not seen,STIrepPrtDef,Total partners of STI clients not presenting. Calculated data element
+1196,1226,STI clients referred for services,STIrepRef,STI clients referred for services
+1197,1196,Lab,STIrepRefLab,STI clients referred for lab investigations
+1198,1196,Gynae review,STIrepRefGyn,STI clients referred for gynae review
+1199,1196,Surgical review,STIrepRefSurg,STI clients referred for surgical review
+1200,1196,Repeat HTC,STIrepRefHTC,STI clients referred for repeat HTC (to rule out new infection in window period)
+1201,1196,ART (for assessment),STIrepRefArt,HIV positive STI clients referred for ART eligibility assessment
+1202,1196,PMTCT,STIrepRefPmtct,STI clients referred for PMTCT
+1203,1196,Other (service referrals),STIrepRefOth,STI clients referred for other services
+1204,1147,STI drug stock summary,STIStox,Stock-outs of key STI drugs
+1205,1204,Benzathine Penicillin,STIStoxPen,Stock-out of Benzathine Penicillin in the reporting period
+1206,1204,Gentamycin,STIStoxGent,Stock-out of gentamycin in the reporting period
+1207,1204,Doxycyclin,STIStoxDox,Stock-out of doxycyclin in the reporting period
+1208,1204,Metronidazole,STIStoxMetro,Stock-out of metronidazole in the reporting period
+1209,1148,CHECK: Total STI clients (sum sex),STIchkSex,
+1210,1148,CHECK: Total STI clients (sum age),STIchkAge,
+1211,1148,CHECK: Total STI clients (sum client type),STIchkType,
+1212,1148,CHECK: Total STI clients (sum ever treated),STIchkHx,
+1213,1148,CHECK: Total STI clients (sum HIV status),STIchkHIV,
+1214,1148,CHECK: Total STI clients (sum diagnosis),STIchkDx,
+1215,504,STISex,ChkSTIsex,
+1216,504,STIAge,ChkSTIAge,
+1217,504,STITyp,ChkSTITyp,
+1218,504,STIHx,ChkSTIHx,
+1219,504,STIHIV,ChkSTIHIV,
+1220,504,STIDx,ChkSTIDx,
+1221,485,STI report version 2,DatsetSTI2,STI facility monthly report version 2
+1222,195,STI report - 1st month,Ver8Pg46,STI facility report 1st month of quarter
+1223,195,STI report - 2nd month,Ver8Pg47,STI Facility Monthly report - 2nd month of quarter
+1224,195,STI report - 3rd month,Ver8Pg48,STI Facility Monthly Report - 3rd month of quarter
+1225,694,STI site report,RepProgSTI,Site level STI reports (collected during PMTCT/ART supervision)
+1226,1149,STI clients treated in the reporting period,STI repRep,Section header for generic report
+1227,1226,Total STI clients,STIrepTot,Calculated data element (sum of sex groups)
+1228,1230,Index patients treated (symptomatic),STIrepTotIndx,Calculated data element = index patients
+1229,1230,Partners treated,STIrepTotPart,Calculated data element = partners asymptomatic + partners symptomatic
+1230,1227,Total STI clients treated,STIrepTotSum,Calculated data element = sum of client types
+1231,694,ART survival analysis (data export),RepProgArtSurvEx,Menu option for data export. The generic aggregated report is using only calculated data elements for the survival analysis  which don't show up on the export query.
+1232,33,Data elements used in calc rules for distribution,SplyRuleDe,Data elements available in the combobox for defining calculation rules for automated allocation of supply items in distribution lists
+1233,187,11,Ver11,Reporting form version 11 (stock report) used from Q3 2013
+1234,1348,DNA-PCR specimens recorded in logbook,LabEid,Report from EID DNA-PCR logbooks at sites. Added to Exposed child follow-up reporting from from Oct  2013 (first data from July 2013)
+1235,1351,Total DNA-PCR specimens collected,LabEidSamp,Total DNA-PCR samples collected in the reporting period (from DNA-PCR logbook at sites)
+1236,1235,DNA-PCR results received at facility,LabEidSampRes,Total DNA-PCR samples with results entered in DNA-PCR log book (as of the day of site visit  e.g. 2-4  weeks after the end of the quarter)
+1237,1243,Positive DNA-PCR results,LabEidSampResPos,Positive DNA-PCR results documented in EID DNA-PCR logbook (by beginning of next quarter)
+1238,1243,Negative / inconclusive DNA-PCR results,LabEidSampResNeg,Negative or inconclusive DNA-PCR results entered in EID DNA-PCR logbook. Calculated data element (total results received - positive results)
+1240,1235,DNA-PCR results not (yet) received at facility,LabEidSampResN,Calculated data element: Total samples collected - results received
+1241,1236,Total results given to guardian,LabEidResGiv,Total DNA-PCR results given to mother / guardian by the time of supervision visit (2-4 weeks after end of quarter)
+1242,1236,Total results not (yet) given to guardian,LabEidResGivN,Calculated data element: results received at facility - results given to guardian
+1243,1349,EID outcomes (out of results received at site),LabEidResSumm,Calculated data element and section header
+1244,1349,DNA-PCR results received at site (2-4 wks after Q),LabEidResRecv,Section header
+1245,485,EID DNA-PCR Logbook Report ver2,DatsetEID,EID logbook summary added to the Exposed child reporting form in Oct 2013 (version 2). Summary from logbook for reporting month (not related to age cohort outcomes)  therefore separate section required for data entry.
+1246,195,EID DNA-PCR Logbook 1st month,Ver8Pg5A,
+1247,195,EID DNA-PCR Logbook 2nd month,Ver8Pg5B,
+1248,195,EID DNA-PCR Logbook 3rd month,Ver8Pg5C,
+1249,168,HTC site supervision checklist,HTCSup,HTC Site Supervision Form Checklist. Based on Version 2 of supervision form (Sept 2013)
+1250,1249,HTC site logistics,HTCSupLog,HTC site logisitcs (section header)
+1251,1250,Total testing units/locations,HTCSupLogLoc,Total number of testing units/locations within the site
+1252,1250,Total opening days/week,HTCSupLogDays,Total  number of opening days per week (including half days)
+1253,1249,Policy  Standards  Guidelines,HTCSupPSG,Policy  Standards  Guidelines (section header)
+1254,1253,HTC guidelines available,HTCSupPSGG,National HTC Guidelines available at site.
+1255,1253,HTC protocol on display,HTCSupPSGP,Revised HTC Protocol on display (provide if not available)
+1256,1253,Safety protocol on display,HTCSupPSGS,Safety protocol on display (infection prevention  waste management  PEP)
+1257,1249,Infrastructure of main counseling unit,HTCSupInf,Infrastructure of the main counselling unit (section header)
+1258,1257,Waiting area clean  adequate seating,HTCSupInfWait,Waiting area clean and adequate seating
+1259,1257,Counselling room clean  tidy,HTCSupInfCTid,Counselling room clean and tidy
+1260,1257,Spacious  well ventilated,HTCSupInfVent,Counselling room spacious and well ventilated
+1261,1257,Well lit,HTCSupInfLit,Counselling room well lit
+1262,1257,3 chairs  table  testing surface,HTCSupInfFurn,Counselling room has at least 3 chairs  1 table  separate testing surface
+1263,1257,Lockable cupboard for records,HTCSupInfLock,Lockable cupbvoard for records (counsellor access only)
+1264,1257,Door tags,HTCSupInfTag,Door tags available (counselling in progress / please enter)
+1265,1257,Penis model available,HTCSupInfPenis,Penis model available
+1266,1257,Male condoms freely available,HTCSupInfConM,Male condoms freely available
+1267,1257,Female condoms freely available,HTCSupInfConF,Female condoms freely available
+1268,1257,IEC materials available,HTCSupInfIEC,IEC materials available
+1269,1249,Safety,HTCSupSaf,Safety (section header)
+1270,1269,Running water & soap available,HTCSupSafWat,Running water & soap available
+1271,1269,Sharps container available,HTCSupSafBinS,Sharps container available
+1272,1269,Separate bin for contaminated waste,HTCSupSafBinR,Separate bin for contaminated waste (gloves  cotton  etc.) available
+1273,1269,Functional pit / incinerator,HTCSupSafPit,Functional pit / incinerator for safe disposal
+1274,1269,Disposable gloves available,HTCSupSafGlov,Disposable gloves available
+1275,1269,Cotton wool available,HTCSupSafCot,Cotton wool available
+1276,1269,Methylated spirit available,HTCSupSafSpir,Methylated spirit available
+1277,1269,Antiseptic / decontamination solution available,HTCSupSafSept,Antiseptic / decontamination solution available
+1278,1269,Antiseptic solution made up according to SOP,HTCSupSafSepSop,Antiseptic solution made up according to SOP
+1279,1249,QA for HIV testing,HTCSupQAT,Quality assurance for HIV testing (section header)
+1280,1279,DBS cards for external QC available,HTCSupQATDbs,DBS cards for external QC available
+1281,1279,Total clients tested in last month,HTCSupQATN,Total number of clients tested in last month (Aug 2013 on version 2)
+1282,1279,Total QC tests documented last month,HTCSupQATQ,Total number of QC tests documented in register in last month (Aug 2013 on version 2)
+1283,1279,QC testing correctly documented,HTCSupQATDoc,QC testing correctly documented in register
+1284,1249,QA for Counselling,HTCSupQAC,Quality Assurance for Counselling (section header)
+1285,1284,Session observation checklist available,HTCSupQACChk,Blank MOH session observation checklist available
+1286,1284,Total session obs forms filled last quarter (seen),HTCSupQACChkF,Number of session observation forms filled last quarter (number seen)
+1287,1284,Counsellor meeting conducted last quarter,HTCSupQACMeet,Counsellor meeting conducted during last quarter
+1288,1284,Minutes for counsellor meeting seen,HTCSupQACMin,Minutes for counsellor meeting (during last quarter) seen by this supervision team
+1289,1249,M&E Tools,HTCSupME,M&E Tools (section header)
+1290,1289,HTC register available (latest version),HTCSupMERegAv,National HTC Register (latest version) available (version 3 in Sept 2013)
+1291,1289,HTC register correctly filled,HTCSupMERegFil,National HTC register correctly filled
+1292,1289,Daily Activity Register available,HTCSupMEDarAv,Daily Activity Register available
+1293,1289,Daily Activity Register correctly filled,HTCSupMEDarCor,Daily Activity Register correclty filled
+1294,1289,HTC monthly report form available,HTCSupMERepAv,HTC monthly report form available
+1295,1289,HTC monthly report form correctly filled,HTCSupMERepCor,HTC monthly report form correctly filled
+1296,1289,HTC monthly report sent to DHO by 5th day,HTCSupMERepSent,HTC monthly report sent to DHO by 5th day of the month
+1297,1289,Family referral slips available,HTCSupMEFam,Family referral slips available
+1298,1249,HIV Test Kit Management,HTCSupKit,HIV Test Kit Management (section header)
+1299,1298,Test kits kept in pharmacy,HTCSupKitPhar,HIV test kits kept in pharmacy / drug store
+1300,1298,Proper storage,HTCSupKitStor,Proper storage of HIV test kits (safe  off the floor  cool  arranged by expiry date)
+1301,1298,Determine HIV stock card available,HTCSupKitDetCrd,Stock card for Determine HIV available
+1302,1298,Determine HIV stock card last entry date,HTCSupKitDetDat,Stock card for Determine HIV date of last entry on stock card
+1303,1298,Determine HIV stock card last position,HTCSupKitDetCntC,Stock card for Determine HIV last stock position (copy from card)
+1304,1298,Determine HIV physical stock count,HTCSupKitDetPhys,Determine HIV physical stock count
+1305,1298,Uni-Gold HIV stock card available,HTCSupKitUniAv,Stock card for Uni-Gold HIV available
+1306,1298,Uni-Gold HIV stock card last entry date,HTCSupKitUniDat,Uni-Gold HIV stock card last entry date
+1307,1298,Uni-Gold HIV stock card last position,HTCSupKitUniCnt,Uni-Gold HIV stock card last stock position on card
+1308,1298,Uni-Gold HIV physical stock count,HTCSupKitUniPhys,Uni-Gold HIV physical stock count
+1309,1249,Provider Initiated Testing Performance,HTCSupPITC,Provider Initiated Testing Performance (section header)
+1310,1309,ANC / Mat services at this site,HTCSupPITCAnc,ANC / Maternity services provided at this site
+1311,1309,Test kits reserved for ANC/Mat,HTCSupPITCRes,System for reserving HIV test kits for ANC/Maternity is implemented
+1312,1309,Sufficient test kits reserved for pregn women,HTCSupPITCResSuf,Sufficient test kits reserved for pregnant women for this quarter
+1313,1309,Currently enough staff to test all ANC women,HTCSupPITCStaf,Are there currently enough counsellors to test all ANC women?
+1314,1309,In-session testing for all ANC women,HTCSupPITCInses,In-session testing used for all ANC women
+1315,1309,Any ANC women not tested last month,HTCSupPITCNd,Have any ANC women been turned away without HTC last month
+1316,1249,HTC Counsellor Knowledge,HTCSupKno,HTC Counsellor Knowledge (section header)
+1317,1316,Correct knowledge of testing algorithm,HTCSupKnoAlg,HTC counsellor knowledge correct regarding testing algorithm (correct 1st / 2nd test  immediate repeat  etc.)
+1318,1316,Correct incubation time Determine HIV,HTCSupKnoIncDet,Correct knowledge of incubation time for Determine HIV
+1319,1316,Correct incubation time for Uni-Gold HIV,HTCSupKnoIncUni,Correct knowledge of incubation time for Uni-Gold HIV
+1320,1316,Correct amount of blood,HTCSupKnoBlo,Correct knowledge about amount of blood to be applied to test kits
+1321,1316,Correct amount of buffer,HTCSupKnoBuf,Correct knowledge about amount of buffer solution to be applied to test kits
+1322,1316,Referral for re-testing based on risk assessment,HTCSupKnoRetst,Correct knowledge about referral and appointment for re-testing based on new test result and risk assessment.
+1323,485,HTC site supervision form version 2,DatsetHTCsup2,HTC site supervision form version 2 (Sept 2013)
+1324,189,HTC site supervision form,Ver2HTCSup,HTC site supervision form
+1325,130,Supervision Team Performance Feedback,QChkSup,Integrated HIV Program Site Supervision Feedback Form. Introduced for Q3 2013 (Oct 2013)
+1326,1325,Introduced themselves properly,QChkSupIntrod,Introduced themselves properly and gave us their phone number
+1327,1325,Verified data left behind at site,QChkSupData,Made sure we have a clean copy of the verified data for each reporting form
+1328,1325,Polite attitude  constructive feedback,QChkSupPolite,Polite attitude  gave constructive and useful feeback
+1329,1325,Competent and professional,QChkSupCompet,Competent and professional: able t answer questions / referred us to someone who can help
+1330,1325,Thorough: proper stock count  enough time,QChkSupThorough,Through: did a proper stock count  spent enough time
+1331,195,Feedback Form,Ver8Pg50,Integrated HIV Program Supervision Feedback Form Version 1 (2013 Q3)
+1332,485,HIV Prog Supervision Feedback form version 1,DatsetFeedb,Integrated HIV Program Site Supervision Feedback Form  version 1 (2013 Q3)
+1333,293,Blood Collection,FacServBldCol,Blood collection (from replacement donors). Introduced in Oct 2013 on PMTCT/ART Supervision form to distinguish blood collection and transfusion services for reporting.
+1334,293,Fam Planning,FacServFP,Family planning services. Introduced in Oct 2013 on PMTCT/ART supervision form to allow allocation of FP products in drug distribution
+1335,293,CD4 counting,FacServCD4,CD4 count service at site. Introduced in Oct 2013 in PMTCT/ART supervision form to validate expected reports on CD4 count outputs
+1336,293,HIV exp child FUP,FacServHEC,HIV exposed child follow-up service. Introduced in Oct 2013 in PMTCT/ART supervision form to validate expected reporting.
+1337,36,PIMA CD4 Cartidge,SplyDtPICart,PIMA CD4 Cartridge
+1338,36,PIMA Bead Standard,SplyDtPIBead,PIMA Bead Standard
+1339,36,Thermal printer paper roll,SplyDtPIRoll,Thermal printer paper roll
+1340,36,Sample collection kit venous blood,SplyDtVenePun,Sample collection kit for venous blood (supplied for PIMA machines). Alcohol swab  dry cotton swab  5ml EDTA Vacutainer  canula
+1341,699,Total ANC women in the cohort,CalcAncWom,Sum of women with 1  2  3  4 and 5+ visits.
+1342,664,Calculated indicators,Indic,Calculated indicators: define numerator by adding concept set with sort order 0  denominator 2nd concept set with sort order 1
+1343,1342,% of ANC women with HIV status ascertained,IndicAncAsc,ANC women with HIV status ascertained / Total ANC women in the cohort
+1344,1342,% of ANC women HIV+,IndicAncHiv,Proportion of HIV+ among ANC women whose HIV status was ascertained. Total HIV+ ANC women / Total ANC women with HIV status ascertained.
+1345,1342,% of HIV+ ANC women on ART,IndicAncArt,Proportion of total HIV+ ANC women who were on ART at the end of ANC. Total ANC women on ART / Total HIV+ ANC women
+1346,699,Total ANC women on ART,CalcAncArt,Sum of all ART categories
+1347,694,EID DNA-PCR logbook report,RepProgPCRLog,DNA PCR logbook report. Data collected during supervision from DNA-PCR logbooks for 1st 2nd and 3rd month of quarter
+1348,429,Early Infant Diagnosis Specimen Report,LabEidRep,Report header for generic report
+1349,1234,DNA-PCR specimens collected,LabEidCol,Level 3 subheader in generic report
+1350,1349,DNA-PCR results received by guardian,LabEidResGivHead,Subheader level 5 for generic report
+1351,1234,DNA-PCR specimens collected and results received,LabEidHead,
+1352,187,12,Ver12,Reporting form version 12 (stock report) used from Q4 2013
+1353,998,HTC access type,HTCAcc,HTC access type (introduced in HTC register version 3)
+1354,1353,PITC,HTCAccPitc,HTC access type: Provider initiated HTC
+1355,1353,Family Referral Slip (FRS),HTCAccFrs,HTC access type: Family referral slip. Client came for HTC prompted by HTC family referral slip
+1356,1353,Other (VCT  etc.) HTC access,HTCAccOth,HTC access type: Other.
+1357,964,Last negative,HTCRepeatNeg,Previously tested and last test result negative. Last HIV test disaggreation introduced in HTC register version 3.
+1358,964,Last positive,HTCRepeatPos,Previously tested for HIV and last result positive. Last HIV test disaggreation introduced in HTC register version 3.
+1359,964,Last exposed infant,HTCRepeatLexp,Previously tested for HIV and last positive rapid test outcome as infant. Last HIV test disaggreation introduced in HTC register version 3.
+1360,964,Last inconclusive,HTCRepeatLinc,Previously tested for HIV and last result inconclusive. Last HIV test disaggreation introduced in HTC register version 3.
+1361,967,Single test positive,HTCRes1+,Only 1 RDT used and result is positive. Data element introduced in version3
+1362,972,Results among clients never tested / last negative,HTCOutcRegular,Subgroup header from version 3 of HTC register: results given to clients who have never been tested or who last tested negative
+1363,972,Confirmatory results (previous positive clients),HTCOutcConf,Subgroup header from version 3 of HTC register: Results given to clients with previous positive test results
+1364,1363,Confirmatory positive,HTCOutcConfPos,Confirmatory positive result (from version 3)
+1365,1363,Confirmatory inconclusive,HTCOutcConfInc,Confirmatory test negative or discordant (for clients previously tested positive). Introduced from version 3 of HTC register.
+1366,1004,Special activity (training  campaign  etc.),SplyReloRsnSpec,Special activity requiring extra allocation of commodities
+1367,998,Partner / Family HTC referral slips,HTCFrs,Subgroup header: Partner (Family) HTC Referral Slips given. Introduced in Version 3 HTC register.
+1368,1367,Sum of slips given,HTCFrsGiven,Sum of all Family Referral Slips handed out
+1369,1368,Total clients presenting with referral slip,HTCFrsReturn,Calculated data element: HTC access type FRS
+1370,1368,Total failed referrals (slips not returned),HTCFrsFail,Calculated data element: Sum of slips given - HTC access type FRS
+1371,485,HTC facility report ver3,DatSetHtc3,HTC facility report version 3
+1372,979,CHECK: Total tested (access type sum),HTCChkTotAcc,Checksum (entered from form)
+1373,979,CHECK: Total tested (last HIV test sum),HTCChkTotLast,Checksum (entered from form)
+1374,979,CHECK: Total tested (partner present sum),HTCChkTotPart,Checksum (entered from form)
+1377,396,Clients at stand-alone HTC sites,DataTypHtcHtc,Clients tested at stand-alone HTC sites
+1379,1390,Commodity use summary,HTCkit,Test kit use summary (from HTC report version 3)
+1381,1379,Opening stock (physical),HTCkitOpen,Opening stock (number of individual tests) at the beginning of the reporting period
+1382,1379,Receipts,HTCkitRec,Sum of all receipts (tests) in the reporting period
+1383,1379,Used for clients,HTCkitUseClient,Sum of tests used for testing clients in the reporting period
+1384,1379,Used for other purposes,HTCkitUseOth,Sum of tests used for other purposes in the reporting period
+1385,1379,Losses,HTCkitLoss,Sum of tests declared as lost
+1386,1379,Closing stock (physical),HTCkitClose,Closing stock (physical count) at the end of the reporting period
+1390,33,Inventory / utilization report,SplyRep,Commodity inventory and utilization report. Introduced on HTC facility report version 3 for Determine and Uni-Gold utilization report from Daily Inventory Register
+1391,396,HIV test 1 used at health facilities,DataTypTst1Hfac,HIV test kit 1 (Determine HIV 1/2). Dimension for first column of Test kit use summary (HTC report version 3) from health facility based testing.
+1392,396,HIV test 2 used at health facilities,DataTypTst2Hfac,HIV test kit 2 (Uni-Gold HIV 1/2). Dimension for first column of Test kit use summary (HTC report version 3) from health facility based testing.
+1393,1390,Commodity use report check sums,SplyKitChksum,Data elements entered from HTC report version 3  Test kit use summary. These data elements are calculated in the field and entered from the form  but these are re-calculated from primary data elements for aggregated reporting.
+1394,1393,Balance (recorded),SplyKitChksumBal,Calculated balance: opening + receipts - used for clients - used for other - losses = balance
+1395,1393,Difference (recorded),SplyKitChksumDif,Calculated difference: calculated balance - closing stock (physical count) = difference.
+1396,485,Test kit use summary,DatsetTestKit,Test kit use summary for test 1 (Determine HIV 1/2) and test 2 (Uni-Gold HIV 1/2) from HTC report version 3. Different test types are represented as data dimension subgroups. Added opening and closing stock from pharmacy stock card from version 3.1 (Jan 2014)
+1398,396,HIV test 1 used in community,DataTypTst1Comm,HIV test kit 1 (Determine HIV 1/2). Dimension for first column of Test kit use summary (HTC report version 3) from community based testing.
+1399,396,HIV test 2 used in community,DataTypTst2Comm,HIV test kit 2 (Uni-Gold HIV 1/2). Dimension for first column of Test kit use summary (HTC report version 3) from community based testing.
+1400,195,Test kit 1 use at health facility - 1st month,Ver8Pg37A,
+1401,195,Test kit 1 use at health facility - 2nd month,Ver8Pg38A,
+1402,195,Test kit 1 use at health facility - 3rd month,Ver8Pg39A,
+1403,195,Test kit 2 use at health facility - 1st month,Ver8Pg37B,
+1404,195,Test kit 2 use at health facility - 2nd month,Ver8Pg38B,
+1405,195,Test kit 2 use at health facility - 3rd month,Ver8Pg39B,
+1406,195,Test kit 1 use in community - 1st month,Ver8Pg40A,
+1407,195,Test kit 1 use in community - 2nd month,Ver8Pg41A,
+1408,195,Test kit 1 use in community - 3rd month,Ver8Pg42A,
+1409,195,Test kit 2 use in community - 1st month,Ver8Pg40B,
+1410,195,Test kit 2 use in community - 2nd month,Ver8Pg41B,
+1411,195,Test kit 2 use in community - 3rd month,Ver8Pg42B,
+1412,504,HIVTestBalance,ChkTstBal,HTC report version 3  Test kit use summary: sum of (opening  receipts  used for clients  used for other  losses) must be equal to balance entered.
+1413,504,HIVTestDifference,ChkTstDiff,
+1414,1393,Difference (validated),SplyKitChksumVal,Concept set for validation of data entry: Balance - Closing = Difference
+1415,504,HTCAccType,ChkHTCAcx,
+1416,504,HTCLastTest,ChkHTCLast,
+1417,504,HTCPartPres,ChkHTCPart,
+1418,195,Test kit 1 use at health facility - quarter,Ver8Pg37C,
+1419,195,Test kit 2 use at health facility - quarter,Ver8Pg37D,
+1420,195,Test kit 1 use in community - quarter,Ver8Pg40C,
+1421,195,Test kit 2 use in community - quarter,Ver8Pg40D,
+1422,136,ExpCh - DNA-PCR result written on card,QChkCardExpPcr,DNA-PCR results written on card + HIV status correctly classified. Introduced in version 9.
+1423,136,ExpCh - Rapid test at 12+ 24m done and recorded,QChkCardExpRdt,Exposed child cards: Rapid test at 12 + 24m done and recorded on cards. Introduced from version 9 supervision form part 2.
+1424,485,Clinic quality checklist ver9,DatsetChk9,Supervision version 9 from Part 2: Quality checklist. Introduced 7/1/2014.
+1425,653,Survival analysis all ages,DataTypSetSurvAl,Concept set for sub groups of survival analysis  all ages
+1426,653,Survival analysis children,DataTypSetSurvCh,Concept set for sub groups for survival analyses  children
+1427,653,Survival analysis Option B+,DataTypSetSurvB+,Concept set for sub groups for survival analyses  women started under Option B+
+1428,33,ART regimen hierarchy,SplyARThier,ART regimen hierarchy levels. Used for aggregation of data for export to Excel used for forecasting and quantification
+1429,1428,Standard,SplyARThierStY,Standard ART regimens
+1430,1428,Non-standard,SplyARThierStN,Non-standard ART regimens
+1431,1429,Adult formulations,SplyARThierAd,Adult ART formulations
+1432,1429,Paed. Formulations,SplyARThierPaed,Paediatric ART formulations
+1433,1431,1st line adult,SplyARThier1st,First line adult formulation ART regimens
+1434,1431,2nd line adult,SplyARThier2nd,Second line ART regimens
+1435,1433,TDF-based adult,SplyARThierTdfY,TDF-based 1st line adult ART regimens
+1436,1433,Non-TDF-based adult,SplyARThierTdfN,Non-TDF-based 1st line adult ART regimens
+1437,1436,AZT-based adult,SplyARThierAztY,AZT-based adult first line ART regimens
+1438,1436,Non-AZT-based adult,SplyARThierAztN,
+1439,1438,d4T-based adult,SplyARThierd4TY,d4T-based adult first line regimens
+1440,1438,Non-d4T-based adult,SplyARThierd4TN,Non-d4T-based adult first line regimens
+1441,1432,1st line paed,SplyARThier1stPe,First line paediatric formulation ART regimens
+1442,1432,2nd line paed,SplyARThier2ndPe,Second line paediatric formulation ART regimens
+1444,1441,AZT-based paed,SplyARThierAztYP,AZT-based 1st line ART regimens
+1445,1441,Non-AZT-based paed,SplyARThierAztNP,Non-AZT-based paediatric formulation 1st line ART regimens
+1446,1445,d4T-based paed,SplyARThierd4TYP,d4T-based paediatric formulation 1st line ART regimens
+1447,1445,Non-d4T-based paed,SplyARThierd4TNP,Non-d4T-based paediatric formulation first line ART regimens
+1448,742,Regimen 0A,ARTOutcRegim0A,
+1449,743,Regimen 0P,ARTOutcRegim0P,ABC 60mg / 3TC 30mg + NVP 50mg
+1450,187,13,Ver13,Reporting form version 13 (stock report) used from Q1 2014
+1451,1379,Opening stock (stock card),HTCkitOpenStore,Opening stock from stock card in pharmacy / drug store
+1452,1379,Closing stock (stock card),HTCkitCloseStore,Closing stock position on stock card in pharmacy / drug store
+1453,129,Diflucan Register,SplyFileDifluc,Diflucan Partnership Program Register
+1454,33,Equipment,SplyEqip,Medical devices and equipment
+1455,1454,Weighing scale adult,SplyEqipScalAd,Adult weighing scale
+1456,129,Diflucan Prescription Pad,SplyFileDifluPad,Diflucan prescription pad  block of 50 sets of 3 self-carbonated sheets
+1457,1454,Pallet,SplyEqipPalet,Pallet for storage / shipping of commodities
+1458,694,HIV test utilization report (triangulation),RepProgDAR,HIV Rapid Tests Daily Activity Register data (collected as section on HTC reporting form)
+1459,168,HIV test utilization report,HTCUt,"Hierarchical display of data from DAR and HTC register made up of calculated and referenced data elements for triangulation of DAR and HTC register data collected on ""HIV Testing and Counselling - Combined Quarterly Site Report"". Introduced Q1 2014"
+1460,1459,Triangulation: HTC register / daily test inventory,HTCUtHd1,HIV test utilization report sub header 1
+1461,1460,Pharmacy HIV test inventory,HTCUtPharm,
+1462,1461,Total HIV tests available in pharmacy,HTCUtPAv,Total HIV tests available in pharmacy / drug store during the reporting period. Calculated data element.
+1463,1462,Pharmacy opening stock (tests),HTCUtPOp,Total test kits in stock in pharmacy at the beginning of the reporting period. Calculated data element.
+1464,1462,Pharmacy receipts in reporting period (tests),HTCUtPRec,Total estimated receipts of test kits in the reporting period. Calculated data element: Pharmacy closing stock - opening stock + issues to the testing rooms (entered as receipts in the testing rooms)
+1465,1460,Testing room HIV test inventory,HTCUtTRm,Subheading for HIV test utilization report
+1466,1465,Total tests available in testing rooms,HTCUtTRmAv,Total HIV tests available in testing rooms in reporting period. Calculated data element.
+1467,1466,Testing room opening stock (tests),HTCUtTRmOp,Total opening stock in testing rooms. Calculated data element.
+1468,1466,Testing room receipts (tests),HTCUtTRmRec,Total receipts of test in testing rooms during the reporting period. Calculated data element.
+1469,1465,Total tests in testing rooms (utilization),HTCUtTRmUt,Total tests available in testing rooms in the reporting period. Calculated data element: opening stock + receipts.
+1470,1469,Total unaccounted tests,HTCUtTRmMis,Total unccounted tests in testing rooms. Calculated data element: opening + receipts - used for clients - used for other - losses - closing.
+1471,1469,Tests accounted for,HTCUtTRmAcc,Total tests accounted for in testing rooms. Calculated data element: tests used for clients + used for other + losses + closing
+1472,1471,Tests remaining in testing rooms (closing stock),HTCUtTRmAccRem,Total test remaining in testing rooms at the end of the reporting period. Calculated data element.
+1473,1471,Tests consumed,HTCUtTRmAccCs,Total tests consumed in testing rooms. Calculated data element: used for clients + used for other + losses
+1474,1473,Losses in testing rooms (tests),HTCUtTRmLoss,Total tests lost in testing room (expiry  spoiled  etc.). Calculated data element.
+1475,1473,Tests used for testing,HTCUtTRmTst,Total tests used for testing in testing rooms (clients  QA  training  etc.) Calculated data element: used for clients + used for other
+1476,1475,Tests used for testing clients (DAR),HTCUtTRmTstCli,Total tests used for testing clients (DAR). Calculated data element.
+1477,1475,Tests used for other purposes (QA  training),HTCUtTRmTstOth,Total tests used for other purposes in testing rooms. Calculated data element.
+1478,187,14,Ver14,Reporting form version 14 (stock report modification from Q2 2014)
+1479,653,Site level aggregate,DataTypSetSitAg,Site level data. Concept set used for aggregation of HTC reports to distinguish district level aggregate reports from site level reports.
+1480,653,District level aggregate,DataTypSetDistAg,District level data. Concept set used for aggregation of HTC reports to distinguish district level aggregate reports from site level reports.
+1481,485,Clinic quality checklist ver10,DatsetChk10,Service quality checklist version 10. Introduced for Q2 2014 (June 2014).
+1482,1132,HIV ascert at ANC: 95% target met,QChkPerfAncTst,Performance against target: HIV ascertainment at ANC. Introduced on version 10 supervision form.
+1483,1132,Option B+ 6m retention: 90% target met,QChkPerfCritB+6m,Performance against targets: Option B+ retention at 6 months (from ART survival analysis). Introduced on version 10 supervision form.
+1484,1132,HIV testing Exp children 2m: 85% target met,QChkPerfCritHec2,Performance against targets: HIV testing among HIV exposed children (from 2m Exposed Follow-Up Report): 85% target met. Introduced on version 10 supervision form.
+1485,1132,HIV testing Exp children 12m: 85% target met,QChkPerfCriHec12,Performance against targets: HIV testing among HIV exposed children (from 12m Exposed Follow-Up Report): 85% target met. Introduced on version 10 supervision form.
+1486,129,Blood donor register,SplyFileBloDon,Blood Donor Register
+1487,129,STI register,SplyFileStiReg,STI clinic register
+1488,1137,Relocation between sites,SplyActRelo,Relocation of commodities between health facilities
+1489,1624,RNM Registered Nurse Midwife,PersCadrRNM,Registered nurse midwife (degree)
+1490,1624,NMT Nurse Midwife Technician,PersCadrNMT,Nurse Midwife Technician (Diploma)
+1491,1495,Lab Technician,PersCadrLabT,Laboratory Technician (Diploma)
+1492,1495,Lab Assistant,PersCadrLabA,Lab Assistant (Certificate)
+1493,1624,ENM Enrolled Nurse Midwife,PersCadrENM,Enrolled Nurse Midwife (certificate)
+1494,881,Clinical staff,PersCadrClin,Clinical cadres
+1495,881,Lab staff,PersCadrLab,Lab staff
+1496,1495,Chief Lab Officer,PersCadrCLO,Chief Laboratory Officer (BSc)
+1497,1624,SRN State Registered Nurse,PersCadrSRN,State Registered Nurse (BSc)
+1498,881,Pharmacy staff,PersCadrPharm,Pharmacy staff
+1499,1498,Pharmacist,PersCadrPhBSc,Pharmacist (BSc)
+1500,1498,Pharmacy Technician,PersCadrPharmTec,Pharmacy Technician (Diploma)
+1501,1498,Pharmacy Assistant,PersCadrPharmAs,Pharmacy Assistant (Certificate)
+1503,885,PA Patient Attendant,PersCadrPa,Patient attendant: promoted hospital / ward attendant. No formal training  on the job training only.
+1504,885,EHO Environmental Health Officer,PersCadrEho,Environmental Health Officer (BSc in Environmental Health)
+1505,885,HA Hospital / Ward Attendant,PersCadrHa,Hospital / Ward Attendant. On the job training  no formal training.
+1506,885,AEHO Assitant Environmental Health Officer,PersCadrAeho,Assistant Environmental Health Officer (Diploma in Environmental Health)
+1507,880,Staff Position,PersPos,Professional position / role (additional attribute to professional qualification)
+1508,1507,DNO District Nursing Officer,PersPosDno,District Nursing Officer. Usually State Registered Nurse appointed to the DHO
+1509,1507,Zonal TB Program Supervisor,PersPosZtb,Zonal TB Program Supervisor
+1510,1507,Zonal ART Program Supervisor,PersPosZArt,Zonal PMTCT/ART Program Supervisor
+1511,1507,Clerk (ART),PersPosClrkArt,ART clerk. On the job training of aux staff.
+1512,1507,Clerk (Pharmacy),PersPoClrkDrg,Drug Store Clerk. On the job training  appointment of lower cadre qualification
+1514,1624,CHN Community Health Nurse,PersCadrChn,Community Health Nurse (Diploma after further training for enrolled nurses)
+1515,1507,District PMTCT/ART Coordinator,PersPosDArt,District PMTCT/ART Program Coordinator
+1516,1507,Technical Assistant,PersPosTa,Technical Assistant
+1517,653,Survival analysis all ages reggroups,DataTypSetSAlRg,Concept set for aggregation of quarterly cohort registration groups for validation of survival analysis registrations
+1518,653,Survival analysis children reggroups,DataTypSetSChRg,Concept set for aggregation of data elements in quarterly ART cohort analysis to validate 'total registered' in survival analysis
+1519,653,Survival analysis Option B+ reggroups,DataTypSetSB+Rg,Concept set for aggregation of data elements in quarterly ART cohort analysis to validate 'total registered' in survival analysis
+1520,396,12 month survival adults (non B+),DataTyp12mAdB+N,Calculated data element set: Adults (non-Option B+) 12 months survival. Subtraction of survival data elements for subgroups 'All ages' - 'children' - 'Option B+'
+1521,396,36 month survival OptionB+,DataTyp36mB+,
+1522,195,ART survival 36 months (Option B+),Ver8Pg51,
+1523,33,Anti-malarials,SplyMalDr,Antimalarial drugs. Added Oct 2014 to allow import and append of NMCP distribution list to HIV commodity list.
+1524,1523,Sulfadoxine / pyrimethamine,SplyMalDrSP,Sulfadoxine / pyrimethamine fixed dose combination
+1525,1523,Lumefantrine / artemether,SplyMalDrLA,Lumefantrine / artemether fixed dose combination
+1526,1523,Artesunate / amodiaquine,SplyMalDrAQ,Artesunate / amodiaquine fixed dose combination
+1527,36,Examination gloves  latex,SplyDtGl,Latex examination gloves
+1528,36,Microscope slides,SplyDtMs,Microscope slides
+1529,36,Microscope,SplyDtMic,Microscope (light)
+1530,36,Blood lancet,SplyDtLanc,Blood lancet
+1531,36,Sharps container,SplyDtShrp,Sharps disposable container
+1532,36,Malaria rapid diagnostic test,SplyDtmRDT,Malaria rapid diagnostic test kit (different manufacturers  e.g. Paracheck  SD Bioline)
+1533,36,Capillary tubes,SplyDtCap,Capillary tubes EDTA 0.05ml
+1534,36,Chase buffer,SplyDtBuf,Chase buffer for whole blood rapid diagnostic tests
+1535,36,Syringe with needle,SplyDtSyr,Syringe with hypodermic needle
+1536,195,HTC at stand-alone - 1st month,Ver8Pg52A,HTC monthly report for 1st month of quarter for testing done at stand-alone HTC sites
+1537,195,HTC at stand-alone - 2nd month,Ver8Pg52B,HTC report 2nd month of quarter for testing done at stand-alone HTC sites
+1538,195,HTC at stand-alone - 3rd month,Ver8Pg52C,HTC report for 3rd month of quarter for testing done at stand-alone HTC sites
+1539,195,Test kit 1 use at stand-alone - quarter,Ver8Pg53A,Test kit use quarterly aggregate from DAR  test 2 used at stand-alone sites
+1540,195,Test kit 2 use at stand-alone - quarter,Ver8Pg53B,Test kit use quarterly aggregate from DAR  test 2 used at stand-alone sites
+1541,396,HIV test 1 used at stand-alone,DataTypTst1StA,
+1542,396,HIV test 2 used at stand-alone,DataTypTst2StA,
+1577,1574,New negative,McOutcHivNewNeg,New HIV negative test result at VMMC
+1578,1574,New positive,McOutcHivNewPos,New HIV positive result at VMMC
+1579,1561,Pre-OP status,McPreOPStat,
+1580,1579,Consent given,McConsGiv,Client has signed VMMC client card to confirm consent
+1581,1579,Refused,McRef,Client has not signed the VMMC client card for consent and opted not to get circumcised at  this time
+1582,1579,Contraindication,McContra,Client has contraindication(s) that prevent or delay circumcision at this time
+1583,1579,Full circumcision,McFullCir,Client is found to be already fully circumcised at this time
+1584,1561,Age group,McAgegrp,Age group for VMMC clients
+1585,1584,Age group A (less than 1month),McAgegrpA,Age group A for VMMC clients
+1586,1584,Age group B (1month -14yrs),McAgegrpB,Age group B for VMMC  clients
+1587,1584,Age group C ( 15-24yrs),McAgegrpC,Age group C for VMMC clients
+1588,1584,Age group D ( 25yrs and over),McAgegrpD,Age group D for VMMC clients
+1589,1561,Method,McMethod,Method used for circumcision
+1590,1589,Forceps guided,McForGuid,Forceps guided surgical circumcision
+1591,1589,Device,McDev,Non -surgical circumcision using a device such as Pre-Pex
+1592,1589,Other,McOth,Any other circumcision method
+1593,1561,Location,McLoc,Location type where circumcision was done
+1594,1593,Static,McStat,Static location for circumcision
+1595,1593,Mobile,McMob,Mobile location for circumcision
+1596,1561,1st follow-up visit,Mc1stFV,VMMC clients  with 1st follow-up visit
+1597,1596,Below 24hrs,McB24hrs,1st follow-up visit made before 24hrs
+1598,1596,24-72hrs,Mc24-72,1st follw-up visit made  within  24 to 72hrs
+1599,1596,After 72hrs,McAf72hrs,1st follow-up visit made up to 72hrs
+1600,1561,2nd  follow-up visit,Mc2ndFV,Clients with 2nd follow-up visit
+1601,1600,Before 5days,McBf5d,Clients with 2nd follow-up visit made before 5days
+1602,1600,5-9 days,Mc5-9d,Clients with 2nd follow-up visit  within 5-9 days
+1603,1600,After 9 days,McAft9d,Clients with 2nd follow-up visit after 9 days
+1604,1561,Most severe AE,McMsAE,Clients with most severe AE (Adverse Events)
+1605,1604,None,McAENon,Clients without AE
+1606,1627,Mild,McAEMd,Aes requiring only reassurance or supportive measures such  as  wound cleaning or paracetamol etc
+1607,1627,Moderate,McAEMod,Aes requiring management at the VMMC clinic (as an outpatient )  such as stitches  antibiotics etc
+1608,1627,Severe,McAESev,Aes requiring hospital admission and/or revision in theatre
+1609,485,VMMC report ver2,Datasetvmmc2,VMMC reporting form dataset
+1610,195,VMMC - 1st month,Ver8pg54,
+1611,195,VMMC - 2nd month,Ver8pg55,
+1612,195,VMMC - 3rd month,Ver8pg56,
+1613,504,McOutcHiv,ChkVMMC1,
+1614,504,McPreOPstat,ChkVMMC2,
+1615,504,McAgegrp,ChkVMMC3,
+1616,504,McMethod,ChkVMMC4,
+1617,504,McLoc,ChkVMMC5,
+1618,504,Mc1stFV,ChkVMMC6,
+1619,504,Mc2ndFV,ChkVMMC7,
+1620,504,McMsAE,ChkVMMC8,
+1621,433,Diflucan - Est. # of patients needing Dif. Per qtr,FlucProgEsNDpQ,Diflucan register - Estimated number of patients needing Diflucan per quarter
+1622,187,15,Ver15,Reporting form version 15 (stock report modification from Q2 2015)
+1623,1494,Clinicians,PersCadrClins,Subgroup used as concept set for grouping MO  CO  MA
+1624,1494,Nurses,PersCadrNurs,Sugroup used to define concept set for grouping nurses
+1625,881,Staff qualification groups,PersCadrGroup,Concept set for groups of staff qualifications
+1626,694,TB cohort report (data export),RepProgTb,TB cohort report. Limited to registration data (4 data elements) from quarterly report.
+1627,1604,Any AE,McAEAny,Any adverse events in the course of procedure or follow-up. Calculated sub-group.
+1629,271,Supporting Partner Organization,FacPart,Implementing Parter organizations allocated to specific facilities (for COP reporting). Introduced from Q2 2015 supervision to map partners to sites
+1630,1629,MSH,FacPartMsh,Management Sciences for Health
+1631,1629,Baylor,FacPartBipai,Baylor Internation Pediatric AIDS Initiative Malawi
+1632,1629,Dignitas,FacPartDign,Dignitas International
+1633,1629,SSDI / JHPIEGO,FacPartSsdi,Support for Service Delivery Integration-Services
+1634,1629,DOD,FacPartDod,USG Department of Defense
+1635,1629,Partners in Hope,FacPartPih,Partners in Hope
+1636,1629,EGPAF,FacPartEgpaf,Elizabeth Glazer Pediatric AIDS Foundation
+1637,1629,Lighthouse,FacPartLh,Lighthouse
+1638,396,ANC women after 6 months,ANCSixMonths,
+1639,485,ANC report ver4,DatasetAncVer4,ANC report version 4
+1640,485,ANC new registration report ver1,DatastsAncNewReg,Introduced during 2015 quarter 2 supervision after updating the ANC register with disagregated data for new registrations with first visits.
+1641,195,ANC new registration - 1st month,Ver8pg57,
+1642,195,ANC new registration - 2nd month,Ver8pg58,
+1643,195,ANC new registration - 3rd month,Ver8pg59,
+1644,504,ANCNewRegTrim,ANCChksum0,
+1645,504,ANCNewRegHiv,ANCChksum1,
+1646,504,ANCNewRegArteli,ANCChksum2,
+1647,129,Family HTC Referral Slip,SplyFrs,Family HTC Referral Slips. Supplied as individual A4 printed sheets
+1648,129,STI Partner Referral Slip,SplySrs,STI patient partner referral slip. Supplied as tear-off sheets in block or as stamp.
+1649,187,16,Ver16,Reporting form version 16 (stock report modification from Q3 2015)
+1650,694,VMMC,RepProgVmmc,VMMC program monthly facility reports
+1651,1495,HDA HIV Diagonostic Assistant,PersCadrHda,HDA HIV Diagonostic Assistant
+1652,1523,Artesunate,SplyMalDrA,Artesunate
+1653,129,Flipcharts ARV Education Set of 3 (2015),SplyFlipchrtv2,Malawi ARV patient education flip charts developed with Baylor (sets of 3)
+1655,396,48 month survival OptionB+,DataTyp48mB+,
+1656,195,ART survival 48 months (Option B+),Ver8Pg60,
+1657,485,Clinic quality checklist ver13,DatsetChk13,Service quality checklist version 13. Introduced for Q4 2015 (Jan 2016).
+1658,136,Viral load: months on ART  bled  result recorded,QChkCardVL,ART patient cards: VL monitoring not consistently recorded (months on ART  bled  result)
+1660,1023,STI Register,QChkSti,Quality check attributes for STI Register
+1661,1660,STI Register completely filled,QChkStiReg,STI Register: not properly filled
+1662,147,ART - Outcomes complete  updated  dates specified,QChkRegOutCAll,ART register - Outcomes incomplete / dates missing / not updated every quarter
+1663,154,STI - reports for all 3 months complete  accurate,QChkRepSti,STI reports for all 3 months: not complete / accurate
+1664,362,Microgynon,SplyFpEthLev,Ethinylestradiol and levonorgestrel hormonal oral contraceptive
+1665,362,Levonorgestrel (oral),SplyFpLev,Levonorgestrel
+1666,362,Intrauterine device (Copper T),SplyFpIud,Copper intrauterine device
+1667,209,implant,SplyAttPresImplt,Implant  sub-dermal or intrauterine
+1668,362,Etonorgestrel (Implanon NXT),SplyFpEtono,Etonogestrel hormonal contraceptive Implanon NXT
+1669,362,Etonorgestrel (Implanon),SplyFpImplnon,Levonorgestrel Implanon classic
+1671,362,Levonorgestrel (Jadelle),SplyFpJadelle,Levonorgestrel implant (Jadelle)
+1672,187,17,Ver17,Reporting form version 17 (stock report modification from Q1 2016)
+1673,1137,Scheduled distribution from warehouse,SplyActDr,Scheduled distribution from warehouse to service delivery sites

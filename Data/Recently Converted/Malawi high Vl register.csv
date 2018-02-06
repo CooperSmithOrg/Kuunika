@@ -1,0 +1,44 @@
+ID,Element
+1,Register No
+2,District
+3,Site Name / Location
+4,Date Register Started
+5,Date Register Closed
+6,Date Client Entered
+7,Client Name
+8,Primary ART Site
+9,For clients referred for VL review from other facility 
+10,ART Number
+11,Gender
+12,Male
+13,Female
+14,Initial high value details
+15,Routine
+16,Targeted
+17,Repeat(rej/lost/missing)
+18,Intensive Adherence Counselling
+19,Date 1
+20,Date 2
+21,Date 3
+22,Follow-up VL Details
+23,Collection Date
+24,Sample Log Number
+25,Result
+26,Date Result given to Client
+27,Initial Decision
+28,Continue Cur.  Regimen
+29,Certified 2nd Line Provider Assessment / Decision
+30,Assessment Date
+31,Final Decision
+32,Site Name
+33,Day
+34,Month
+35,Year
+36,2nd line provider id
+37,Current ART Regimen
+38,Continue cur. Regimen
+39,Switch
+40,Refer to HIV Specialist
+41,New ART Regimen 
+42,Date referred back to Primary ART Site
+43,Comments

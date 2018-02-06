@@ -1,0 +1,37 @@
+ID,Element
+1,Register No
+2,Clinic Name
+3,District
+4,Date Register Started
+5,Date Register Closed
+6,Registration Details
+7,HCC Registration Number
+8,Registration Date
+9,Name
+10,Physical Address / Phone Number 
+11,Status at HIV Care Clinic Enrolment
+12,Sex / Pregnancy
+13,Male
+14,Female Non Pregnant
+15,Female Pregnant start ART
+16,Age
+17,At HCC  enrolment
+18,Age Group
+19,Below 2 months
+20,2 to below 24 moths
+21,24 mths –below 15 yrs
+22,15 years or older
+23,Reg. Type
+24,First time enrolment
+25,Re-enrolment
+26,Transfer in
+27,Reason
+28,"Exposed infant, unk. infection status "
+29,Confirmed infected (any age) pre-ART 
+30,FUP outcomes
+31,Discharged uninfected 
+32,Started ART 
+33,Transferred out 
+34,Defaulted
+35,Died
+36,Outcome date

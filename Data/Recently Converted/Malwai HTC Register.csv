@@ -1,0 +1,105 @@
+ID,Element
+1,Register No
+2,District
+3,HTC Site Name / Location
+4,Location Type (circle one)
+5,Health  Facility 
+6,Stand-alone  HTC
+7,Community
+8,Date Register Started
+9,Date Register Closed
+10,Serial No
+11,Date
+12,HTC Provider ID
+13,Client Name
+14,Phone / Physical Address
+15,Sex / Pregnancy
+16,Male
+17,Female Non-Preg
+18,Female Pregnant 
+19,Age
+20,Age Group
+21,0-11 months 
+22,1-14 years 
+23,15-24 years
+24,25+ years 
+25,HTC Access Type
+26,Routine HTC within Health Service 
+27,Comes with HTC Family Ref. Slip 
+28,"Other (VCT, etc.) "
+29,Last HIV Test
+30,Never Tested 
+31,Last Negative 
+32,Last Positive 
+33,Last Expos. Infant 
+34,Last Inconclusive 
+35,Time Since Last Test
+36,No. of Days Weeks Months or Years
+37,Partner Present at this session
+38,HIV Rapid Test Outcomes
+39,Kit
+40,Lot
+41,Expiry
+42,Test 1
+43,Test 2
+44,First Pass
+45,Immediate Repeat
+46,Outcome Summary
+47,Only Test 1 used
+48,Single Neg 
+49,Single Pos 
+50,Test 1 & Test 2 used ± Repeat 
+51,Test 1&2 Neg 
+52,Test 1&2 Pos 
+53,Test 1&2 disc
+54,Result Given to Client
+55,Confirmatory Results for Clients Last + 
+56,New Negative 
+57,New Positive 
+58,New Exp. Infant 
+59,New Inconclusive 
+60,Conf. Positive 
+61,Inconclusive
+62,Partner HIV Status
+63,Client has Partner
+64,No Partner 
+65,HIV Unknown 
+66,Partner Neg
+67,Partner Pos
+68,Client Risk Category
+69,Low Risk 
+70,On-going Risk 
+71,High Risk Event in last 3 months 
+72,Risk assessment Not done
+73,Referral for Re-Testing
+74,No Re-Test needed 
+75,Re- Test 
+76,Confirmatory Test at HIV Clinic 
+77,Appointment Date Given 
+78,Number of Items Given 
+79,HTC Family Ref Slips
+80,1 Slip for each partner+ each U5 child with unk. Status
+81,Condoms
+82,Female
+83,Comments 
+84,"Specimen ID for DBS samples sent to lab, Follow-up outcome for clients referred, etc ."
+85,HTC Provider ID 
+86,Control Serum
+87,Lot No
+88,Expiry Date
+89,Type
+90,Negative
+91,Positive 
+92,Test Kit Evaluated
+93,Kit Name
+94,Control Line seen
+95,Result
+96,Negative 
+97,Weak Positive 
+98,Strong Positive 
+99,Outcome
+100,Acceptable
+101,Not Acceptable 
+102,Interpretation
+103,Reviewed by Supervisor
+104,Sign

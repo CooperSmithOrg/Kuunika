@@ -1,0 +1,35 @@
+Data Element,Description
+Monthly Serial,Monthly Serial Serial number starting from 1 at the beginning of each month
+Registration number,Serial number of new patient starting from 1 at the beginning of July each year
+Revisit,Patient’s registration number
+Name,first name and the family name of each patient
+Address,name of the village or part of the town/city where the patient is currently resident
+Age,age in completed years Indicate infant’s age in fraction eg 6/12
+Sex,M for male patients and F for female patients
+Diagnosis,Name of Diagnosis
+Disease Code,This is the disease code of the diagnosis as indicated on the morbidity reporting form at the back cover of this register
+Fee,the total amount paid for services rendered
+OPD,OPD utilisation rate per 1000 population
+27,Percentage of population treated for sexually transmitted infections (STI)
+69,Percentage of under five population treated for malaria
+70,Percentage of five and over population treated for malaria
+71,Percentage of population (all ages) treated for malaria
+75,Percentage of malaria cases over the total OPD attendance
+78,Neonatal tetanus incidence rate
+79,"Cholera incidence rate per 1,000 population"
+81,"Measles incidence rate per 100,000 population"
+82,"Acute Flaccid Paralysis (AFP) incidence rate per 100,000 population"
+83,Ebola incidence rate per 1000 population
+84,Meningococcal Meningitis incidence rate per 1000 population
+85,Plague incidence rate per 1000 population
+86,Rabies incidence rate per 1000 population
+87,"Yellow fever incidence rate per 100,000 population"
+88,Percentage of population treated for dysentery
+90,Percentage of population treated for eye infections
+91,Percentage of population treated for ear infections
+92,Population treated for skin infections
+93,Population treated for oral conditions
+94,Population treated for schistosomiasis
+95,Leprosy cases per 100000 population
+96,Percentage of population treated for common injuries and wounds (excluding road accidents)
+97,"Number of road traffic accident cases per 100,000 population"

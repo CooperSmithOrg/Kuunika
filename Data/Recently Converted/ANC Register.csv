@@ -1,0 +1,68 @@
+ID,Element
+1,Register No
+2,Facility Name
+3,District
+4,First Registration Cohort
+5,First Registration Cohort Year
+6,First Registration Cohort Month
+7,First Reg. Cohort No
+8,Last Registration Cohort
+9,Last Registration Cohort Year
+10,Last Registration Cohort Month
+11,Last Reg. Cohort No
+12,Registration Cohort
+13,Visit
+14,Visit Date
+15,Gestation Weeks
+16,Fetal heart
+17,Weight(kg)
+18,BP
+19,Urine protein
+20,TTV
+21,Total previous doses
+22,new doses given
+23,Preventive Meds
+24,SP
+25,FeFo
+26,Alben dazole
+27,Bed net given
+28,Hb(g/dl)
+29,syphilis test result
+30,Hiv Test result
+31,Previous test status
+32,Neg in last 3 months
+33,pos ever
+34,New test at ANC
+35,Neg
+36,Pos
+37,Not done
+38,PMTCT Management
+39,on CPT
+40,NVP Syrup dispensed
+41,On ART Confirm adherence
+42,Comments
+43,Provider name
+44,Year
+45,Month
+46,Registration No.
+47,Name
+48,Place of residence/phone
+49,Age
+50,Gravida
+51,Para
+52,LMP
+53,EDD
+54,Final status for the woman
+55,Total visits
+56,week of 1st visit
+57,pre eclampsia
+58,tot TTV doses
+59,total sp doses
+60,tot Fefo tabs
+61,alb doses
+62,ITN Given
+63,syphilis given
+64,Hiv status
+65,NVP baby
+66,Final Art status mother
+67,Art clinic Reg. no

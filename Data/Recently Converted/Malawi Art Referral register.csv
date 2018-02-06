@@ -1,0 +1,48 @@
+ID,Element
+1,Register No
+2,District
+3,Site Name / Location
+4,Date Register Started
+5,Date Register Closed
+6,Reg No
+7,Continuous running no. (no-restart)
+8,ART Referral
+9,Day
+10,Month
+11,Year
+12,Intended ART Site 
+13,Referring Provider ID
+14,Patient
+15,Name
+16,Phone / Physical Address
+17,Females
+18,Non-preg
+19,Pregnant
+20,Breastf
+21,Age
+22,Age Group (years)
+23,<1 
+24,1-4.
+25,5-9.
+26,10-14.
+27,15-19.
+28,20-24.
+29,25-49.
+30,50+
+31,First Diagnosis Details
+32,Time since first diagnosed
+33,Number
+34,Place of first diagnosis
+35,HTS Serial No.
+36,Confirmatory Test 
+37,Referral Outcome
+38,Started ART
+39,Refused
+40,Died
+41,Unknown
+42,Outcome Date
+43,Actual ART Site
+44,ART Reg No
+45,Occupation / Comments
+46,males
+47,Date
